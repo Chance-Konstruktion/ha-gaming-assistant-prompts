@@ -17,9 +17,23 @@ Prompt packs are **automatically downloaded** by the Gaming Assistant integratio
 
 The integration fetches the latest packs on startup and caches them locally.
 
-## Available Games
+## Directory Structure
 
-See the [`packs/`](packs/) directory for all available prompt packs.
+```
+packs/
+├── base/           # General coaching and tips
+├── cheats/         # Cheat codes, console commands, exploits
+├── secrets/        # Hidden content, easter eggs, collectibles
+├── completion/     # 100% completion guides
+└── _template.json  # Template for new packs
+```
+
+| Folder | Purpose | Example |
+|--------|---------|---------|
+| `base/` | General game coaching and strategy tips | `elden_ring.json` |
+| `cheats/` | Cheat codes, console commands, trainers | `elden_ring_cheats.json` |
+| `secrets/` | Hidden content, easter eggs, secret areas | `elden_ring_secrets.json` |
+| `completion/` | 100% completion guides, all collectibles | `elden_ring_completion.json` |
 
 ## Contributing
 
@@ -48,24 +62,22 @@ Copy [`packs/_template.json`](packs/_template.json) and fill in your game's deta
 }
 ```
 
-### 2. Naming Convention
+### 2. Place in the Right Folder
+
+- **Base pack** (general coaching): `packs/base/your_game.json`
+- **Cheats pack**: `packs/cheats/your_game_cheats.json`
+- **Secrets pack**: `packs/secrets/your_game_secrets.json`
+- **Completion pack**: `packs/completion/your_game_completion.json`
+
+### 3. Naming Convention
 
 - File name: `your_game_id.json` (lowercase, underscores)
-- Variant packs use suffixes: `your_game_id_cheats.json`, `your_game_id_secrets.json`, `your_game_id_completion.json`
-
-### 3. Pack Types
-
-| Suffix | Purpose |
-|--------|---------|
-| *(base)* | General coaching and tips |
-| `_cheats` | Cheat codes and exploits |
-| `_secrets` | Hidden content and easter eggs |
-| `_completion` | 100% completion guides |
+- Use suffixes matching the folder: `_cheats`, `_secrets`, `_completion`
 
 ### 4. Submit a Pull Request
 
 1. Fork this repository
-2. Add your pack to the `packs/` directory
+2. Add your pack to the correct `packs/` subfolder
 3. Validate your JSON (no trailing commas!)
 4. Submit a PR with a brief description
 
