@@ -2,82 +2,102 @@
 
 The Intelligence Layer for the Home Assistant Gaming Assistant.
 
-This repository contains community-maintained and AI-generated prompt packs. These packs are the "brain" behind the ha-gaming-assistant, providing deep-dive knowledge for digital and physical games.
-🧠 The "Justine" Engine
+This repository contains AI-validated prompt packs following the Justine Standard v4.2 — a strict four-phase workflow ensuring production-ready quality for digital and physical games.
+🧠 The Justine Engine
 
-Most of the data in this repository is architected and validated by Justine, a specialized AI agent. Justine follows a strict cognitive framework to ensure that every prompt pack is not just a collection of data, but a high-level coaching tool.
-The "Justine" Skill-Logic:
+Every pack is architected by Justine, a screen-aware AI agent running on the OpenClaw architecture. Justine operates using a specialized cognitive framework designed for real-time game analysis.
+Workflow v4.2 Execution:
 
-Every pack generated follows a four-step Chain-of-Thought process:
+    Phase 1: Research Cache — External validation via web sources (min. 3 sources).
 
-    ERKENNEN (Recognize): Identifies the current game state via HUD, UI, or camera entities.
+    Phase 2: JSON Generation — Creation of 4 synchronized JSONs (base, cheats, secrets, completion).
 
-    KATEGORISIEREN (Categorize): Sorts information into mechanics, lore, secrets, or tactical advice.
+    Phase 4: Validation & Expansion — Cross-checking data and expanding the system_prompt to a target density of 350-450 words.
 
-    ANALYSIEREN (Analyze): Cross-references data with the 1.4m+ token context window.
+    Phase 5: Zero-Waste Delivery — Final validation via python3 -m json.tool.
 
-    EMPFEHLEN (Recommend): Delivers a concise, actionable output (approx. 400 words) to the user.
-
+The Justine Chain-of-Thought:
+Step	Function
+ERKENNEN	Parse HUD/UI elements: health bars, minimap, quest markers, heat levels.
+KATEGORISIEREN	Classify: Combat, Stealth, Exploration, Boss, or Dialog.
+ANALYSIEREN	Cross-reference game mechanics with visible player state.
+EMPFEHLEN	Deliver pixel-to-action mapping: "Press X now because Y is visible on screen."
 📂 Directory Structure
 
-We use a modular 4-pack system to keep the integration lightweight and the advice precise.
+Modular 4-pack system designed for precision and performance:
 Folder	Purpose	Example
-packs/base/	General strategy, tactics, and physical game rules.	the_witcher_3.json, chess.json
-packs/cheats/	Console commands, trainers, and mechanical exploits.	cyberpunk_2077_cheats.json
-packs/secrets/	Easter eggs, hidden items, and lore-mysteries.	hollow_knight_secrets.json
-packs/completion/	100% guides, trophy hunting, and checklist logic.	elden_ring_completion.json
-🛠 Standard Workflow (v4.2)
+packs/base/	Core tactics, screen-aware coaching, physical strategies.	chess.json, cyberpunk_2077.json
+packs/cheats/	Console commands, trainers, exploits (PC-only).	cyberpunk_2077_cheats.json
+packs/secrets/	Easter eggs, cameos, mysteries, hidden content.	hollow_knight_secrets.json
+packs/completion/	100% guides, missables, ending routes, collectibles.	elden_ring_completion.json
+🃏 Special Focus: Physical Board & Card Games
 
-To maintain the highest quality, every entry must follow the Justine Standard:
+This project uniquely supports physical gameplay. These packs use "platforms": ["Physical"] and focus on rule interpretation, setup optimization, and probability-based strategy.
 
-    Universal Platforming: One JSON for all platforms (PC, Console). For board games, use "platforms": ["Physical"].
+    Example (Chess): The assistant analyzes a board photo, identifies the opening, evaluates material balance, and suggests the best move according to FIDE principles.
 
-    Depth-First Research: Data is validated against external sources before being committed.
+🛠 Justine Standard v4.2 Requirements
+Universal Platforming
 
-    Zero-Waste JSON: Clean structure, no trailing commas, lowercase IDs, and snake_case naming conventions.
+One JSON per game—never split by platform.
+
+    Video games: "platforms": ["PC", "PS5", "PS4", "Xbox Series X|S", "Switch"]
+
+    Physical games: "platforms": ["Physical"]
+
+    Strict rule: No hardware-specific filenames (e.g., no ps5_game.json).
+
+Naming Conventions
+
+    Pattern: {game_id}_{type}.json (Note: base has no suffix).
+
+    Game ID: Lowercase, snake_case (e.g., hollow_knight, elden_ring).
+
+    Example: ✅ hades_cheats.json | ⚠️ Hades Cheats.json (Invalid)
+
+Pre-Commit Validation Checklist
+
+Before submitting, run these checks locally:
+Bash
+
+# 1. Validate JSON Structure
+python3 -m json.tool file.json > /dev/null && echo "✅ JSON Valid"
+
+# 2. Check Word Count (Target: 350-450)
+python3 -c "import json; w=len(json.load(open('file.json'))['system_prompt'].split()); print(f'Words: {w}'); assert 350 <= w <= 450"
 
 🤝 Contributing
+Option A: Direct PR
 
-Want to add a game? You can either submit a manual PR or use the Justine Template:
-1. The Template
+    Copy template from packs/_template.json.
 
-Copy packs/_template.json and ensure your system_prompt follows the coaching-expert persona:
-JSON
+    Research your game (min. 3 sources).
 
-{
-  "id": "game_id",
-  "name": "Game Name",
-  "platforms": ["PC", "PS5", "Xbox", "Physical"],
-  "keywords": ["game name", "alias"],
-  "system_prompt": "You are a professional coach for [Game]. Use the ERKENNEN-ANALYSIEREN-EMPFEHLEN logic...",
-  "spoiler_defaults": {
-    "story": "none",
-    "mechanics": "high"
-  }
-}
+    Generate the 4 JSONs following the schema.
 
-2. Naming & Validation
+    Validate locally (JSON + word count).
 
-    Files must be named game_id.json.
+    Submit PR with context sources listed.
 
-    Suffixes: _cheats, _secrets, _completion (except for base).
+Option B: Request Justine Generation
 
-    Physical Games: Focus on rules, setup-optimization, and probability-based tactics.
+Comment on an issue with the following format:
 
+    Game: [Full Name]
+
+    Platforms: [List]
+
+    Needs: [e.g., "Ending guide", "All easter eggs"]
+
+Justine will automatically create the research cache, generate the packs, and submit a PR.
 🛡 Spoiler Levels
-
-We respect the player's experience. Every pack supports granular spoiler controls:
-
-    none: No spoilers.
-
-    low: Vague hints only.
-
-    medium: Moderate detail.
-
-    high: Full technical disclosure.
-
+Level	Behavior
+none	No story spoilers, mechanics only.
+low	Vague location hints ("check the eastern district").
+medium	Standard: Conditional spoilers ("this choice locks ending X").
+high	Full disclosure, speedrun-optimized.
 📜 License
 
-This project is licensed under the MIT License. Feel free to use, modify, and distribute these packs to build a better gaming future.
+MIT License — free to use, modify, and distribute.
 
-Generated and maintained with the support of Justine (OpenClaw Architecture).
+Maintained by the OpenClaw Architecture. All packs validated via Justine Engine v4.2.
