@@ -1,95 +1,83 @@
-# Gaming Assistant - Prompt Packs
+🎮 Gaming Assistant - Prompt Packs
 
-Community-maintained prompt packs for the [Home Assistant Gaming Assistant](https://github.com/Chance-Konstruktion/ha-gaming-assistant) integration.
+The Intelligence Layer for the Home Assistant Gaming Assistant.
 
-## What are Prompt Packs?
+This repository contains community-maintained and AI-generated prompt packs. These packs are the "brain" behind the ha-gaming-assistant, providing deep-dive knowledge for digital and physical games.
+🧠 The "Justine" Engine
 
-Prompt packs are JSON files that provide game-specific AI coaching knowledge. Each pack contains:
+Most of the data in this repository is architected and validated by Justine, a specialized AI agent. Justine follows a strict cognitive framework to ensure that every prompt pack is not just a collection of data, but a high-level coaching tool.
+The "Justine" Skill-Logic:
 
-- **Keywords** for automatic game detection
-- **System prompts** with expert coaching instructions
-- **Spoiler defaults** to control hint detail levels
-- **State schemas** for real-time game state analysis
+Every pack generated follows a four-step Chain-of-Thought process:
 
-## Installation
+    ERKENNEN (Recognize): Identifies the current game state via HUD, UI, or camera entities.
 
-Prompt packs are **automatically downloaded** by the Gaming Assistant integration. No manual setup required.
+    KATEGORISIEREN (Categorize): Sorts information into mechanics, lore, secrets, or tactical advice.
 
-The integration fetches the latest packs on startup and caches them locally.
+    ANALYSIEREN (Analyze): Cross-references data with the 1.4m+ token context window.
 
-## Directory Structure
+    EMPFEHLEN (Recommend): Delivers a concise, actionable output (approx. 400 words) to the user.
 
-```
-packs/
-├── base/           # General coaching and tips
-├── cheats/         # Cheat codes, console commands, exploits
-├── secrets/        # Hidden content, easter eggs, collectibles
-├── completion/     # 100% completion guides
-└── _template.json  # Template for new packs
-```
+📂 Directory Structure
 
-| Folder | Purpose | Example |
-|--------|---------|---------|
-| `base/` | General game coaching and strategy tips | `elden_ring.json` |
-| `cheats/` | Cheat codes, console commands, trainers | `elden_ring_cheats.json` |
-| `secrets/` | Hidden content, easter eggs, secret areas | `elden_ring_secrets.json` |
-| `completion/` | 100% completion guides, all collectibles | `elden_ring_completion.json` |
+We use a modular 4-pack system to keep the integration lightweight and the advice precise.
+Folder	Purpose	Example
+packs/base/	General strategy, tactics, and physical game rules.	the_witcher_3.json, chess.json
+packs/cheats/	Console commands, trainers, and mechanical exploits.	cyberpunk_2077_cheats.json
+packs/secrets/	Easter eggs, hidden items, and lore-mysteries.	hollow_knight_secrets.json
+packs/completion/	100% guides, trophy hunting, and checklist logic.	elden_ring_completion.json
+🛠 Standard Workflow (v4.2)
 
-## Contributing
+To maintain the highest quality, every entry must follow the Justine Standard:
 
-Want to add a new game or improve an existing pack? Follow these steps:
+    Universal Platforming: One JSON for all platforms (PC, Console). For board games, use "platforms": ["Physical"].
 
-### 1. Use the Template
+    Depth-First Research: Data is validated against external sources before being committed.
 
-Copy [`packs/_template.json`](packs/_template.json) and fill in your game's details:
+    Zero-Waste JSON: Clean structure, no trailing commas, lowercase IDs, and snake_case naming conventions.
 
-```json
+🤝 Contributing
+
+Want to add a game? You can either submit a manual PR or use the Justine Template:
+1. The Template
+
+Copy packs/_template.json and ensure your system_prompt follows the coaching-expert persona:
+JSON
+
 {
-  "id": "your_game_id",
-  "name": "Your Game Name",
-  "keywords": ["game name", "alternate name"],
-  "system_prompt": "You are an expert coach for Your Game...",
+  "id": "game_id",
+  "name": "Game Name",
+  "platforms": ["PC", "PS5", "Xbox", "Physical"],
+  "keywords": ["game name", "alias"],
+  "system_prompt": "You are a professional coach for [Game]. Use the ERKENNEN-ANALYSIEREN-EMPFEHLEN logic...",
   "spoiler_defaults": {
     "story": "none",
-    "items": "medium",
-    "enemies": "medium",
-    "bosses": "low",
-    "locations": "medium",
-    "lore": "none",
     "mechanics": "high"
-  },
-  "additional_context": "Extra context about the game."
+  }
 }
-```
 
-### 2. Place in the Right Folder
+2. Naming & Validation
 
-- **Base pack** (general coaching): `packs/base/your_game.json`
-- **Cheats pack**: `packs/cheats/your_game_cheats.json`
-- **Secrets pack**: `packs/secrets/your_game_secrets.json`
-- **Completion pack**: `packs/completion/your_game_completion.json`
+    Files must be named game_id.json.
 
-### 3. Naming Convention
+    Suffixes: _cheats, _secrets, _completion (except for base).
 
-- File name: `your_game_id.json` (lowercase, underscores)
-- Use suffixes matching the folder: `_cheats`, `_secrets`, `_completion`
+    Physical Games: Focus on rules, setup-optimization, and probability-based tactics.
 
-### 4. Submit a Pull Request
+🛡 Spoiler Levels
 
-1. Fork this repository
-2. Add your pack to the correct `packs/` subfolder
-3. Validate your JSON (no trailing commas!)
-4. Submit a PR with a brief description
+We respect the player's experience. Every pack supports granular spoiler controls:
 
-## Spoiler Levels
+    none: No spoilers.
 
-| Level | Description |
-|-------|-------------|
-| `none` | No spoilers at all |
-| `low` | Vague hints only |
-| `medium` | Moderate detail |
-| `high` | Full information |
+    low: Vague hints only.
 
-## License
+    medium: Moderate detail.
 
-MIT License - see [LICENSE](LICENSE) for details.
+    high: Full technical disclosure.
+
+📜 License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute these packs to build a better gaming future.
+
+Generated and maintained with the support of Justine (OpenClaw Architecture).
