@@ -1,6 +1,6 @@
 🎮 Gaming Assistant - Prompt Packs
 
-The Intelligence Layer for the Home Assistant Gaming Assistant.
+The Intelligence Layer for the Home Assistant [Gaming Assistant](https://github.com/Chance-Konstruktion/ha-gaming-assistant).
 
 This repository contains AI-validated prompt packs following the Justine Standard v4.2 — a strict four-phase workflow ensuring production-ready quality for digital and physical games.
 🧠 The Justine Engine
