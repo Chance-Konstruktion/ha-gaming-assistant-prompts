@@ -1,0 +1,227 @@
+{
+  "id": "stardew_valley_cheats",
+  "name": "Stardew Valley - Cheats",
+  "type": "cheats",
+  "keywords": ["stardew valley", "cheats", "smapi", "item spawn", "money", "mods"],
+  "system_prompt": "DU BIST STARDEW VALLEY CHEAT-EXPERTE. Der Spieler zeigt dir einen Screenshot aus Stardew Valley. Analysiere: Welche Jahreszeit? Welcher Tag? Uhrzeit? Energie-Level? Geld? Inventar? Beziehungen? Dann gib die passenden SMAPI-Cheats oder Tipps. Nutze DIESES JSON als Cheat-Datenbank.",
+  "platforms": ["PC", "Mac", "Linux"],
+  "notes": "Cheats require SMAPI (Stardew Modding API). Console versions (Switch/PS4/Xbox) have limited/no cheat support.",
+  "smapi_required": true,
+  "cheats": [
+    {
+      "name": "Spawn Item (player_add)",
+      "code": "player_add [item_id] [amount]",
+      "description": "Spawns any item in the game",
+      "example": "player_add 74 999",
+      "item": "Legend (74) - Legendary Fish",
+      "risk": "Low",
+      "category": "Items",
+      "verified": true
+    },
+    {
+      "name": "Set Money",
+      "code": "player_add money 999999",
+      "description": "Sets player money to amount",
+      "example": "player_add money 999999",
+      "risk": "Low",
+      "category": "Money",
+      "verified": true
+    },
+    {
+      "name": "Infinite Energy/Stamina",
+      "code": "player_add stamina 9999",
+      "description": "Restores full energy",
+      "risk": "Low",
+      "category": "Stats",
+      "verified": true
+    },
+    {
+      "name": "Set Health (Combat)",
+      "code": "player_add health 999",
+      "description": "Restores full health in mines",
+      "risk": "Low",
+      "category": "Combat",
+      "verified": true
+    },
+    {
+      "name": "Teleport to Location",
+      "code": "warp [location]",
+      "description": "Instant travel to any location",
+      "locations": ["Farm", "Town", "Beach", "Mountain", "Railroad", "Desert", "Island", "Backwoods", "BusStop", "WizardHouse"],
+      "example": "warp Town",
+      "risk": "Medium - May cause events to break",
+      "category": "Teleport",
+      "verified": true
+    },
+    {
+      "name": "Advance Time",
+      "code": "time set [hour]",
+      "description": "Sets game time (6am-2am)",
+      "example": "time set 1200",
+      "risk": "Medium - Can skip events",
+      "category": "Time",
+      "verified": true
+    },
+    {
+      "name": "Freeze Time",
+      "code": "world_freeze",
+      "description": "Stops game time",
+      "toggle_off": "world_unfreeze",
+      "risk": "Medium - May break event triggers",
+      "category": "Time",
+      "verified": true
+    },
+    {
+      "name": "Fast Forward Time",
+      "code": "world_setTickInterval 100",
+      "description": "Speeds up game time",
+      "risk": "Medium",
+      "category": "Time",
+      "verified": true
+    },
+    {
+      "name": "Set Season",
+      "code": "world_setseason [season]",
+      "description": "Changes current season",
+      "options": ["spring", "summer", "fall", "winter"],
+      "example": "world_setseason summer",
+      "risk": "Medium - Affects crops",
+      "category": "World",
+      "verified": true
+    },
+    {
+      "name": "Set Day",
+      "code": "world_setday [number]",
+      "description": "Sets day of month (1-28)",
+      "example": "world_setday 1",
+      "risk": "Medium - Skips events/festivals",
+      "category": "World",
+      "verified": true
+    },
+    {
+      "name": "Set Year",
+      "code": "world_setyear [number]",
+      "description": "Sets game year",
+      "example": "world_setyear 3",
+      "risk": "Low",
+      "category": "World",
+      "verified": true
+    },
+    {
+      "name": "God Mode (No Damage)",
+      "code": "player_add invincible",
+      "description": "Take no damage in combat",
+      "risk": "Low",
+      "category": "Combat",
+      "verified": true
+    },
+    {
+      "name": "Max Skills",
+      "code": "player_add all_professions",
+      "description": "Unlocks all skill professions",
+      "risk": "Low",
+      "category": "Skills",
+      "verified": true
+    },
+    {
+      "name": "Max Friendship with All",
+      "code": "npc_addfriendship all 2500",
+      "description": "Max hearts with all NPCs",
+      "risk": "Low",
+      "category": "Relationships",
+      "verified": true
+    },
+    {
+      "name": "Unlock Community Center",
+      "code": "cc_complete",
+      "description": "Completes all Community Center bundles",
+      "risk": "Medium - Skips major content",
+      "category": "Progression",
+      "verified": true
+    },
+    {
+      "name": "Unlock Joja Warehouse",
+      "code": "joja_complete",
+      "description": "Complete Joja route",
+      "risk": "Medium - Skips major content",
+      "category": "Progression",
+      "verified": true
+    },
+    {
+      "name": "Grow Crops Instantly",
+      "code": "crop_grow",
+      "description": "Instantly grows all crops on farm",
+      "risk": "Low",
+      "category": "Farming",
+      "verified": true
+    },
+    {
+      "name": "Water All Crops",
+      "code": "crop_water",
+      "description": "Waters all crops automatically",
+      "risk": "Low",
+      "category": "Farming",
+      "verified": true
+    },
+    {
+      "name": "Harvest All Crops",
+      "code": "crop_harvest",
+      "description": "Harvests all ready crops",
+      "risk": "Low",
+      "category": "Farming",
+      "verified": true
+    },
+    {
+      "name": "Clear Debris on Farm",
+      "code": "world_clearfarm",
+      "description": "Removes all weeds, stones, twigs",
+      "risk": "Low",
+      "category": "Farming",
+      "verified": true
+    },
+    {
+      "name": "Repair Farm Buildings",
+      "code": "building_repair",
+      "description": "Fixes all farm buildings instantly",
+      "risk": "Low",
+      "category": "Buildings",
+      "verified": true
+    },
+    {
+      "name": "Unlock All Recipes",
+      "code": "player_add recipe all",
+      "description": "Learns all cooking/crafting recipes",
+      "risk": "Low",
+      "category": "Knowledge",
+      "verified": true
+    },
+    {
+      "name": "Give Prismatic Shard",
+      "code": "player_add 74 1",
+      "description": "Spawns 1 Prismatic Shard (rare item)",
+      "risk": "Low",
+      "category": "Items",
+      "verified": true
+    },
+    {
+      "name": "Teleport to Mine Level",
+      "code": "minelevel [number]",
+      "description": "Warp to specific mine level",
+      "range": "1-120",
+      "example": "minelevel 120",
+      "risk": "Medium",
+      "category": "Teleport",
+      "verified": true
+    }
+  ],
+  "popular_items": [
+    {"name": "Prismatic Shard", "id": 74, "category": "Rare"},
+    {"name": "Ancient Seed", "id": 114, "category": "Artifact"},
+    {"name": "Diamond", "id": 72, "category": "Gem"},
+    {"name": "Legendary Fish", "id": 159, "category": "Fish"},
+    {"name": "Stardrop", "id": 434, "category": "Permanent"},
+    {"name": "Iridium Bar", "id": 337, "category": "Resource"},
+    {"name": "Rain Totem", "id": 681, "category": "Crafting"},
+    {"name": "Galaxy Sword", "id": 62, "category": "Weapon"}
+  ],
+  "installation": [

@@ -1,0 +1,91 @@
+{
+  "game": "Stardew Valley",
+  "version": "1.5+",
+  "last_updated": "2026-04-13",
+  "source": "Stardew Valley Wiki, Steam Community",
+  "verified": true,
+  "completion_guide": {
+    "collectibles": {
+      "community_center_bundles": {
+        "total_rooms": 6,
+        "rooms": ["Pantry", "Crafts Room", "Fish Tank", "Boiler Room", "Bulletin Board", "Vault"],
+        "reward": "Community Center restoration"
+      },
+      "museum_donations": {
+        "total_items": 95
+      },
+      "golden_walnuts_ginger_island": {
+        "total": 130
+      },
+      "fish_collection": {
+        "total_fish": 59,
+        "legendary_fish": 5
+      },
+      "cooking_recipes": {
+        "total": "80+"
+      },
+      "crafting_recipes": {
+        "total": "130+"
+      }
+    },
+    "missable_content": [
+      {
+        "content": "Season Crops",
+        "how_to_miss": "Season ends before harvest",
+        "prevention": "Plant before Winter"
+      },
+      {
+        "content": "Night Market",
+        "how_to_miss": "Only available Winter 15-17",
+        "prevention": "Annual recurring event"
+      },
+      {
+        "content": "Flower Dance",
+        "how_to_miss": "Spring 24 - invitation required",
+        "prevention": "Don't miss the dance invitation"
+      },
+      {
+        "content": "Festival Items",
+        "how_to_miss": "Annual festivals",
+        "prevention": "Can buy next year"
+      }
+    ],
+    "trophies_achievements": [
+      {"name": "Local Legend", "requirement": "Restore the Community Center"},
+      {"name": "Joja Member", "requirement": "Buy Joja Membership"},
+      {"name": "A New Friend", "requirement": "Reach 5-Heart friendship (5 NPCs)"},
+      {"name": "Best Friends", "requirement": "Reach 10-Heart friendship (someone)"},
+      {"name": "The Beloved Farmer", "requirement": "Reach 10-Heart friendship (8 NPCs)"},
+      {"name": "Cliques", "requirement": "Reach 5-Heart (4 NPCs) in each group"},
+      {"name": "Networking", "requirement": "Reach max hearts (all NPCs)"},
+      {"name": "Cook", "requirement": "Cook 10 recipes"},
+      {"name": "Sous Chef", "requirement": "Cook 25 recipes"},
+      {"name": "Gourmet Chef", "requirement": "Cook all recipes"},
+      {"name": "Moving Up", "requirement": "Upgrade house"},
+      {"name": "Living Large", "requirement": "Upgrade house to max"},
+      {"name": "A Distant Shore", "requirement": "Reach Ginger Island"},
+      {"name": "Well-Rested", "requirement": "Earn first profit"},
+      {"name": "Making Money", "requirement": "Earn 10k"},
+      {"name": "A Big Help", "requirement": "Complete 10 help wanted"}
+    ],
+    "challenges": [
+      {
+        "name": "Perfection Tracker",
+        "requirement": "100% Completion at Qi's Walnut Room"
+      },
+      {
+        "name": "Hard Mode",
+        "requirement": "No buying crops, limited money"
+      },
+      {
+        "name": "10-Heart Challenge",
+        "requirement": "All villagers at 10 hearts"
+      },
+      {
+        "name": "Ginger Island Mastery",
+        "requirement": "All walnuts, all unlocks"
+      }
+    ]
+  }
+}
+</invoke

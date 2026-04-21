@@ -1,0 +1,58 @@
+{
+  "id": "fifa_2025_completion",
+  "name": "EA Sports FC 25 - Completion",
+  "type": "completion",
+  "keywords": ["100%", "trophies", "achievements", "completion", "roadmap", "platinum"],
+  "system_prompt": "DU BIST EIN SCREEN-AWARE COMPLETION-COACH FÜR EA SPORTS FC 25. Analysiere SICHTBARE Elemente auf dem Screenshot in dieser PRIORITÄTSREIHENFOLGE: Erst ZENTRALE FOKUS-ELEMENTE wie Trophäen-Fortschritt, Erfolgs-Anzeige oder Modus-Indikator, dann PERIPHERE HUD-ELEMENTE wie Statistiken, Sammelstatus oder Prozent-Anzeigen, daraufhin UMGEBUNGS-HINWEISE wie Menü-Navigation, verfügbare Modi, schließlich GAME-STATE wie aktiver Fortschritt in verschiedenen Bereichen. Ordne PIXEL-ZU-AKTION zu: Sichtbarer Fortschritt ergibt nächsten optimalen Schritt. Verwende GENRE-SPEZIFISCHE HUD-SPRACHE für Sportsimulation: Trophäen-Tracker, Season-Pass-Level, Karriere-Fortschritt, Ultimate Team-Ziele. Durchlaufe CHAIN-OF-THOUGHT in 4 Schritten: ERKENNEN welche Trophäe oder welches Ziel aktiv ist, KATEGORISIEREN welcher Modus oder welche Aktion nötig ist, ANALYSIEREN ob Offline oder Online erforderlich, EMPFEHLEN des effizientesten nächsten Schritts. Behalte CONSTRAINTS im Blick: Keine Pay-to-Win Empfehlungen, keine unnötigen Zeitverschwendungen, respektiere die Zeitaufwände. Gib Antworten IMMER in diesem FORMAT: ERKENNT den aktuellen Fortschritt, EMPFEHLUNG mit konkretem Modus und Zeitaufwand, GRUND warum das die beste nächste Aktion ist. Sei präzise, hilfreich und direkt. FC 25 Platin benötigt ca. 80+ Stunden mit Fokus auf Online-Modi.",
+  "platforms": ["PC", "PS5", "PS4", "Xbox Series X/S", "Xbox One", "Nintendo Switch"],
+  "total_collectibles": 40,
+  "missables": [],
+  "chapters": [
+    {
+      "name": "Career Mode",
+      "description": "Karriere als Spieler oder Manager",
+      "estimated_time": "5 Stunden",
+      "trophies": ["Silverware Legacy", "From Origins to Legacy", "European Glory", "Perfect Fit", "Tactical Sync", "Rising Talent", "Scouting Network"]
+    },
+    {
+      "name": "Pro Clubs",
+      "description": "Online-Club Modus mit menschlichen Mitspielern",
+      "estimated_time": "20 Stunden",
+      "trophies": ["Campeones", "We're Going Up", "Top of the Pyramid", "First of Many", "Walk the Walk", "Make the Grade", "Shop till you drop", "That's One", "Gold Rush", "For the Club"]
+    },
+    {
+      "name": "Ultimate Team",
+      "description": "FUT mit Squad Building und Online-Spielen",
+      "estimated_time": "20 Stunden",
+      "trophies": ["Squad Building Composer", "Equal Footing", "Chemistry Degree", "Tactically Savvy", "You Shall Not Score!", "Final Form", "Play-Off Passport", "The Myth, the Legend!", "Social Kickabout", "In the Gaffer We Trust"]
+    },
+    {
+      "name": "Sonstige",
+      "description": "Verschiedene Offline- und Online-Trophäen",
+      "estimated_time": "2 Stunden",
+      "trophies": ["Dead-ball specialist", "Intuition and Execution", "Power Shot", "Bring it on", "Surgical Aim", "Bullseye", "PlayStyles+", "Tactical Mastermind", "European Legend", "Best of Five", "Football is Everything"]
+    },
+    {
+      "name": "Season Pass",
+      "description": "Langfristiger Season-Pass Fortschritt",
+      "estimated_time": "33+ Stunden",
+      "trophies": []
+    }
+  ],
+  "trophies": [
+    {"name": "Top of the Pyramid", "type": "Platin", "difficulty": "hardest", "online_required": true},
+    {"name": "Silverware Legacy", "type": "Gold", "difficulty": "medium", "online_required": false},
+    {"name": "From Origins to Legacy", "type": "Gold", "difficulty": "medium", "online_required": false},
+    {"name": "European Glory", "type": "Gold", "difficulty": "medium", "online_required": false},
+    {"name": "Tactical Mastermind", "type": "Gold", "difficulty": "easy", "online_required": false},
+    {"name": "Campeones", "type": "Silber", "difficulty": "medium", "online_required": true},
+    {"name": "We're Going Up", "type": "Silber", "difficulty": "medium", "online_required": true},
+    {"name": "The Myth, The Legend!", "type": "Silber", "difficulty": "hard", "online_required": true},
+    {"name": "Final Form", "type": "Silber", "difficulty": "medium", "online_required": true}
+  ],
+  "notes": [
+    "Schwierigkeit: 5/10",
+    "Zeit bis Platin: 80+ Stunden",
+    "22 von 40 Trophäen erfordern Online-Verbindung",
+    "Keine verpassbaren Trophäen - alles nachholbar",
+    

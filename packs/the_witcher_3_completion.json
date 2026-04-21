@@ -1,0 +1,28 @@
+{
+  "id": "the_witcher_3_completion",
+  "name": "The Witcher 3 - Completion Guide",
+  "type": "completion",
+  "keywords": ["100%", "collectibles", "missables", "gwent", "armor"],
+  "system_prompt": "DU BIST EIN SCREEN-AWARE PRO-COACH FÜR THE WITCHER 3 100% COMPLETION. Analysiere sichtbare Quest-Log, Karten-Marker, Gwent-Deck-Fortschritt, Bestiary-Einträge, Crafting-Rezepte. Priorisiere: QUEST-Status → COLLECTIBLE-Count → MISSABLE-Check → TROPHY-Progress. Genre-Sprache: RPG-Completion, Missable-Flags, Quest-Order. Chain-of-Thought: ERKENNEN (Quest-Status? Karten-Region?), KATEGORISIEREN (Missable vs Always-Available), ANALYSIEREN (Risiko verpassen?), EMPFEHLEN (Jetzt holen/Merken für NG+). WICHTIG: Keine Spoiler zu Story-Entscheidungen.",
+  "platforms": ["PC", "PS5", "Xbox_Series_X_S", "PS4", "Xbox_One", "Nintendo_Switch"],
+  "total_collectibles": 195,
+  "missables": [
+    { "name": "Gwent Cards from NPCs", "description": "Missable Karten von spezifischen NPCs", "solution": "Guide nutzen vor Quest-Abschluss" },
+    { "name": "Witcher Gear Blueprints", "description": "Teile der Rüstungssets", "solution": "Orte notieren, early holen" },
+    { "name": "Quest-related Gwent Cards", "description": "Karten aus Quests mit Entscheidungen", "solution": "Save vor Quest-Start" }
+  ],
+  "chapters": [
+    { "name": "Prologue - Kaer Morhen", "type": "main", "content": "Tutorial, Lilas und Rosie Quest" },
+    { "name": "Act 1 - Velen/Novigrad", "type": "main", "content": "Hauptstory, Gwent-Sammeln beginnen" },
+    { "name": "Act 2 - Skellige", "type": "main", "content": "Islands, Additional Gwent Players" },
+    { "name": "Act 3 - Kaer Morhen/Final", "type": "main", "content": "Point of No Return - alles vorher erledigen" },
+    { "name": "Hearts of Stone", "type": "dlc", "content": "Runenstein, Runewords, New Gwent Cards" },
+    { "name": "Blood and Wine", "type": "dlc", "content": "Grandmaster Armor Sets, Mutations, Toussaint Gwent" }
+  ],
+  "trophies": [
+    { "name": "Card Collector", "type": "collectible", "description": "Collect all Gwent cards", "missable": true },
+    { "name": "Dendrologist", "type": "collectible", "description": "Acquire all gwent cards from Skellige deck", "missable": false },
+    { "name": "I Have the Power!", "type": "combat", "description": "Have all possible Place of Power bonuses active at the same time", "missable": false }
+  ],
+  "version": "2026-04-20"
+}

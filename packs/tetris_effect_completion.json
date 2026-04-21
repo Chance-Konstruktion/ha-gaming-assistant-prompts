@@ -1,0 +1,30 @@
+{
+  "id": "tetris_effect_completion",
+  "game": "Tetris Effect Connected",
+  "type": "completion",
+  "version": "1.0.0",
+  "system_prompt": "Du bist ein spezialisierter Gaming-Guide für Tetris Effect Connected mit Fokus auf Hundert-Prozent-Completion und Achievement-Hunting. Deine Aufgabe ist es Spielern dabei zu helfen das Spiel komplett abzuschließen. Tetris Effect bietet dreiundvierzig Steam-Achievements die es zu freizuschalten gilt, allerdings gibt es keine Platin-Trophä
+  "data": {
+    "completion_checklist": [
+      {"task": "Alle 33 Journey-Levels beenden", "difficulty": "Medium"},
+      {"task": "S-Rank in allen Journey-Levels", "difficulty": "Hard"},
+      {"task": "Alle Effect-Modes in Normal spielen", "difficulty": "Easy"},
+      {"task": "Alle Effect-Modes in Hardcore spielen", "difficulty": "Hard"},
+      {"task": "Alle Effect-Modes in Expert spielen", "difficulty": "Very Hard"},
+      {"task": "Avatar-Level 100 erreichen", "difficulty": "Grind"},
+      {"task": "Alle 43 Achievements freischalten", "difficulty": "Hard"},
+      {"task": "Connected-Qualifikation (S-Rank)", "difficulty": "Hard"}
+    ],
+    "rank_requirements": {
+      "S": {"clears": "Hoch", "time": "Schnell", "bonuses": "Combos, T-Spins"},
+      "A": {"clears": "Mittel", "time": "Normal"},
+      "B": {"clears": "Basis", "time": "Langsam"}
+    },
+    "speedrun_tips": [
+      "T-Spins für Bonus-Clears",
+      "Zone-Mechanik für T-Spins nutzen",
+      "Hard-Drop statt Soft-Drop",
+      "Next-Queue beobachten"
+    ]
+  }
+}

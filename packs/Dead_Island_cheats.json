@@ -1,0 +1,59 @@
+{
+  "id": "dead_island_cheats",
+  "name": "Dead Island - Cheats",
+  "type": "cheats",
+  "keywords": ["cheats", "codes", "duplication", "glitches", "infinite"],
+  "system_prompt": "DU BIST EIN SCREEN-AWARE PRO-COACH FÜR DEAD ISLAND CHEATS UND GLITCHES. Analysiere SICHTBARE Elemente auf dem Screenshot in dieser PRIORITÄTSREIHENFOLGE: Erst INVENTAR-ZUSTAND (Waffen, Items, Munition), dann HUD-ELEMENTE (Leben, Level, Cash), daraufhin SPIEL-ORT (Labor, Resort, Stadt), schließlich FEIND-DICHTE. Ordne PIXEL-ZU-AKTION zu: Sichtbare Ressourcen → Cheat-Ausführung. Verwende GENRE-SPEZIFISCHE CHEAT-HINWEISE: Duplication-Methoden, Farming-Spots, Animation-Cancels. Durchlaufe CHAIN-OF-THOUGHT in 4 Schritten: ERKENNEN (was sehe ich - Waffen, Items, Location), KATEGORISIEREN (welche Cheat passt - Duplication, Infinite Money, Ammo), ANALYSIEREN (Bedeutung für Spieler - Ressourcen-Mangel, Farming-Opportunität), EMPFEHLEN (Cheat ausführen oder regulär spielen). Behalte CONSTRAINTS im Blick: Keine Online-Spoiler, keine irreversiblen Glitch-Warnungen über dramatisieren, keine vagen Cheat-Beschreibungen. Gib Antworten IMMER in diesem FORMAT: ERKENNT gefolgt von Situationsbeschreibung, EMPFEHLUNG mit konkretem Cheat-Schritt, GRUND mit Risiko-Abschätzung. Beachte: Item Duplication via Checkpoint-Exploit, Weapon Duplication via LT+RT+DROP, Infinite Money im Laboratory oder Mayor's Diamond, Skip Animation via Kick-Button. Sei präzise mit Controller-Inputs und spezifischen Locations.",
+  "platforms": ["PC", "PS3", "PS4", "Xbox_360", "Xbox_One"],
+  "cheats": [
+    {
+      "name": "Item Duplication",
+      "code": "Checkpoint exploit: Drop items → Kill self → Reload checkpoint",
+      "platform": "All",
+      "effect": "Dupliziert komplettes Inventar",
+      "risks": "Keine bekannten Risiken",
+      "input_method": "Gameplay"
+    },
+    {
+      "name": "Weapon Duplication",
+      "code": "Hold LT (aim) + RT (throw) + DROP (Y/Triangle) simultan",
+      "platform": "All",
+      "effect": "Dupliziert ausgerüstete Waffe",
+      "risks": "Kann Spielstand beschädigen",
+      "input_method": "Controller"
+    },
+    {
+      "name": "Infinite Money - Laboratory",
+      "code": "Farming: Öffne 3 Safes im Laboratory → Schnellreise → Wiederholen",
+      "platform": "All",
+      "effect": "3-5000$ pro Durchlauf",
+      "risks": "Keine",
+      "input_method": "Gameplay"
+    },
+    {
+      "name": "Infinite Money - Mayor Diamond",
+      "code": "Kapitel 7: Nimm Diamant aus Safe → Zurück zu Kanalisation → Wiederholen",
+      "platform": "All",
+      "effect": "1500$ pro Diamant",
+      "risks": "Keine",
+      "input_method": "Gameplay"
+    },
+    {
+      "name": "Infinite Shotgun Ammo",
+      "code": "Schließe Will's Nebenquest im Laboratory → Munition respawnt auf Tisch",
+      "platform": "All",
+      "effect": "Unendlich Schrotmunition",
+      "risks": "Keine",
+      "input_method": "Gameplay"
+    },
+    {
+      "name": "Skip Eating Animation",
+      "code": "Drücke KICK direkt nach erstem Bissen/Schluck",
+      "platform": "All",
+      "effect": "Heilung sofort wirksam",
+      "risks": "Keine",
+      "input_method": "Controller"
+    }
+  ],
+  "version": "2026-04-12"
+}

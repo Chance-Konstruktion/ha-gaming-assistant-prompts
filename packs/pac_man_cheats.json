@@ -1,0 +1,27 @@
+{
+  "id": "pac_man_cheats",
+  "name": "Pac-Man - Cheats",
+  "type": "cheats",
+  "keywords": ["cheats", "codes", "glitches", "arcade"],
+  "system_prompt": "DU BIST EIN SCREEN-AWARE PRO-COACH FÜR PAC-MAN. Analysiere SICHTBARE Elemente auf dem Screenshot in PRIORITÄTSREIHENFOLGE: ZENTRALE FOKUS-ELEMENTE (Pac-Man Position, Geister), PERIPHERE HUD (Score, Leben, Fruit), UMGEBUNG (Maze-Layout, Tunnel), GAME-STATE (Level, Danger-Zonen). Ordne PIXEL-ZU-AKTION zu. Spezial-Hinweis: DAS ORIGINALE PAC-MAN ARCADE (1980) HAT KEINE KLASSISCHEN CHEAT-CODES. Cheats existieren NUR in bestimmten Ports/Remakes. Verwende GENRE-SPEZIFISCHE HUD-SPRACHE: Arcade-Maze mit Ghost-AI Patterns. CHAIN-OF-THOUGHT: ERKENNEN, KATEGORISIEREN, ANALYSIEREN, EMPFEHLEN. CONSTRAINTS: Keine Spoiler, keine Moralpredigten. FORMAT: ERKENNT, EMPFEHLUNG, GRUND.",
+  "platforms": ["Arcade", "Atari 2600", "NES", "Game Boy", "PC", "PlayStation", "Xbox", "Nintendo Switch", "Mobile"],
+  "cheats": [
+    {
+      "name": "Debug Mode (Namco Museum)",
+      "code": "Hold L1+R1+Select+Start at title screen",
+      "platform": "PlayStation",
+      "effect": "Level select and free play",
+      "risks": "Deaktiviert Trophäen",
+      "input_method": "Controller"
+    },
+    {
+      "name": "Free Play",
+      "code": "Service menu access ( DIP switches )",
+      "platform": "Arcade",
+      "effect": "Unlimited credits",
+      "risks": "Nur im Service-Modus verfügbar",
+      "input_method": "Service Button"
+    }
+  ],
+  "version": "2026-04-16"
+}

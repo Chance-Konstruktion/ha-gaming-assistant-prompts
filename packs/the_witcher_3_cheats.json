@@ -1,0 +1,19 @@
+{
+  "id": "the_witcher_3_cheats",
+  "name": "The Witcher 3 - Cheats",
+  "type": "cheats",
+  "keywords": ["cheats", "console", "commands", "trainer"],
+  "system_prompt": "DU BIST EIN SCREEN-AWARE PRO-COACH FÜR THE WITCHER 3 CHEATS UND KONSOLENKOMMANDOS. Analysiere sichtbare HUD-Elemente, Debug Console Overlays, Mod-Menüs und Save-Editor Hinweise. Priorisiere: Aktive Cheaterkennung → Input-Methode → Risiko-Bewertung. Genre-Sprache: RPG-Console Commands, Trainer-Hotkeys, Tilde-Console. Chain-of-Thought: ERKENNEN (Debug Console aktiv? Mod-Menü angezeigt?), KATEGORISIEREN (Harmless vs Game-Breaking Command), ANALYSIEREN (Risiko-Level: Erfolgs-Deaktivierung, Save-Corruption, Quest-Breaker), EMPFEHLEN (Backup Save vor Nutzung!). Wichtig: Console Commands erfordern 'Debug Console Enabler' Mod von Nexus. Plattformen: Nur PC.",
+  "platforms": ["PC"],
+  "cheats": [
+    { "name": "God Mode", "code": "god", "platform": "PC", "effect": "Unverwundbarkeit - kein Schaden", "risks": "Erfolge deaktiviert", "input_method": "Tilde-Taste" },
+    { "name": "Full Heal", "code": "healme", "platform": "PC", "effect": "Sofortige Heilung auf 100%", "risks": "Minimal", "input_method": "Tilde-Taste" },
+    { "name": "Add Crowns", "code": "addmoney(Amount)", "platform": "PC", "effect": "Fügt Geld hinzu", "risks": "Wirtschaft zerstört", "input_method": "Tilde-Taste" },
+    { "name": "Add Item", "code": "additem('Code',Amount)", "platform": "PC", "effect": "Item spawnen", "risks": "Quest-Breaker", "input_method": "Tilde-Taste" },
+    { "name": "Set Level", "code": "setlevel(#)", "platform": "PC", "effect": "Level setzen", "risks": "Balance-Verlust", "input_method": "Tilde-Taste" },
+    { "name": "Teleport Novigrad", "code": "gotoNovigrad", "platform": "PC", "effect": "Schnellreise", "risks": "Quest-State", "input_method": "Tilde-Taste" },
+    { "name": "Gwent All Cards", "code": "addgwintcards", "platform": "PC", "effect": "Alle Gwent-Karten", "risks": "Trophäe blockiert", "input_method": "Tilde-Taste" },
+    { "name": "Switch to Ciri", "code": "Ciri", "platform": "PC", "effect": "Char-Wechsel", "risks": "Story-Impact", "input_method": "Tilde-Taste" }
+  ],
+  "version": "2026-04-20"
+}

@@ -1,0 +1,224 @@
+{
+  "id": "silent_hill_2_cheats",
+  "name": "Silent Hill 2 Remake - Cheats",
+  "type": "cheats",
+  "keywords": ["cheats", "trainer", "god mode", "infinite health", "FLiNG", "Cheat Engine"],
+  "system_prompt": "DU BIST CHEAT-EXPERTE FÜR SILENT HILL 2 REMAKE. Der Spieler zeigt dir einen Screenshot. Analysiere Health-Bar, Munitionszähler, Inventar und Stelle im Spiel. Gib nur passende Cheats: God Mode für gefährliche Kämpfe, Infinite Ammo wenn wenig Munition, Stealth Mode für Schleichpassagen. Erkläre kurz: Aktivierung via FLiNG Trainer oder Cheat Engine, Hotkeys und Risiken. Verwende Numpad-Shortcuts (Num 1-9, Ctrl+Num 1-9). Keine moralischen Belehrungen. Nutze DIESES JSON als Cheat-Datenbank und passe Empfehlungen an den Screenshot an.",
+  "platforms": ["PC"],
+  "cheats": [
+    {
+      "name": "God Mode",
+      "description": "Unverwundbar - Treffer werden ignoriert",
+      "method": "FLiNG Trainer",
+      "input": "Num 1 (Zahlentastatur)",
+      "risk": "Niedrig - Sichere Option, keine Crashgefahr",
+      "category": "Survival",
+      "verified": true
+    },
+    {
+      "name": "Infinite Health",
+      "description": "Lebensenergie nie unter 100%",
+      "method": "FLiNG Trainer",
+      "input": "Num 2 (Zahlentastatur)",
+      "risk": "Niedrig",
+      "category": "Survival",
+      "verified": true
+    },
+    {
+      "name": "Infinite Ammo",
+      "description": "Munition nie aufbrauchen",
+      "method": "FLiNG Trainer",
+      "input": "Num 3 (Zahlentastatur)",
+      "risk": "Niedrig",
+      "category": "Combat",
+      "verified": true
+    },
+    {
+      "name": "No Reload",
+      "description": "Kein Nachladen nötig",
+      "method": "FLiNG Trainer",
+      "input": "Num 4 (Zahlentastatur)",
+      "risk": "Niedrig",
+      "category": "Combat",
+      "verified": true
+    },
+    {
+      "name": "Super Accuracy",
+      "description": "100% Treffergenauigkeit",
+      "method": "FLiNG Trainer",
+      "input": "Num 5 (Zahlentastatur)",
+      "risk": "Niedrig",
+      "category": "Combat",
+      "verified": true
+    },
+    {
+      "name": "No Recoil",
+      "description": "Kein Rückstoß beim Schießen",
+      "method": "FLiNG Trainer",
+      "input": "Num 6 (Zahlentastatur)",
+      "risk": "Niedrig",
+      "category": "Combat",
+      "verified": true
+    },
+    {
+      "name": "Stealth Mode",
+      "description": "Gegner können dich nicht sehen",
+      "method": "FLiNG Trainer",
+      "input": "Num 7 (Zahlentastatur)",
+      "risk": "Mittel - Kann Quest-Triggers blockieren",
+      "category": "Exploration",
+      "verified": true
+    },
+    {
+      "name": "Super Damage",
+      "description": "One-Hit-Kills für alle Gegner",
+      "method": "FLiNG Trainer",
+      "input": "Num 8 (Zahlentastatur)",
+      "risk": "Mittel - Bosskämpfe können blockieren",
+      "category": "Combat",
+      "verified": true
+    },
+    {
+      "name": "Damage Multiplier",
+      "description": "Schadensmultiplikator einstellen",
+      "method": "FLiNG Trainer",
+      "input": "Num 9 (Zahlentastatur)",
+      "risk": "Mittel",
+      "category": "Combat",
+      "verified": true
+    },
+    {
+      "name": "Defense Multiplier",
+      "description": "Verteidigungsmultiplikator einstellen",
+      "method": "FLiNG Trainer",
+      "input": "Num 0 (Zahlentastatur)",
+      "risk": "Niedrig",
+      "category": "Survival",
+      "verified": true
+    },
+    {
+      "name": "Edit Health Drink Amount",
+      "description": "Anzahl Health Drinks setzen",
+      "method": "FLiNG Trainer",
+      "input": "Ctrl+Num 1 (Zahlentastatur)",
+      "risk": "Niedrig",
+      "category": "Items",
+      "verified": true
+    },
+    {
+      "name": "Edit Syringe Amount",
+      "description": "Anzahl Spritzen setzen",
+      "method": "FLiNG Trainer",
+      "input": "Ctrl+Num 2 (Zahlentastatur)",
+      "risk": "Niedrig",
+      "category": "Items",
+      "verified": true
+    },
+    {
+      "name": "Edit Ammo Amount",
+      "description": "Munitionsanzahl bearbeiten",
+      "method": "FLiNG Trainer",
+      "input": "Ctrl+Num 3 (Zahlentastatur)",
+      "risk": "Niedrig",
+      "category": "Items",
+      "verified": true
+    },
+    {
+      "name": "Set Flashlight Distance",
+      "description": "Taschenlampen-Reichweite einstellen",
+      "method": "FLiNG Trainer",
+      "input": "Ctrl+Num 4 (Zahlentastatur)",
+      "risk": "Gering - Kann Visuelles beeinflussen",
+      "category": "Visual",
+      "verified": true
+    },
+    {
+      "name": "Set Flashlight Brightness",
+      "description": "Taschenlampen-Helligkeit einstellen",
+      "method": "FLiNG Trainer",
+      "input": "Ctrl+Num 5 (Zahlentastatur)",
+      "risk": "Gering - Kann Visuelles beeinflussen",
+      "category": "Visual",
+      "verified": true
+    },
+    {
+      "name": "Set FOV",
+      "description": "Field of View einstellen",
+      "method": "FLiNG Trainer",
+      "input": "Ctrl+Num 6 (Zahlentastatur)",
+      "risk": "Gering",
+      "category": "Visual",
+      "verified": true
+    },
+    {
+      "name": "Set Player Speed",
+      "description": "Spielergeschwindigkeit einstellen",
+      "method": "FLiNG Trainer",
+      "input": "Ctrl+Num 7 (Zahlentastatur)",
+      "risk": "Mittel - Kann Kollisions-Bugs verursachen",
+      "category": "Movement",
+      "verified": true
+    },
+    {
+      "name": "Set AI Speed",
+      "description": "Gegner-Geschwindigkeit einstellen",
+      "method": "FLiNG Trainer",
+      "input": "Ctrl+Num 8 (Zahlentastatur)",
+      "risk": "Mittel - Kann KI-Verhalten stören",
+      "category": "Gameplay",
+      "verified": true
+    },
+    {
+      "name": "Set Game Speed",
+      "description": "Gesamt-Spielgeschwindigkeit einstellen",
+      "method": "FLiNG Trainer",
+      "input": "Ctrl+Num 9 (Zahlentastatur)",
+      "risk": "Mittel - Kann Timing-Puzzles brechen",
+      "category": "Gameplay",
+      "verified": true
+    },
+    {
+      "name": "Undead Mode (Cheat Engine)",
+      "description": "Lebensenergie sinkt aber Tod nicht möglich",
+      "method": "Cheat Engine Table",
+      "input": "CT Table aktivieren",
+      "risk": "Mittel - Manches Quest-Progress kann blockieren",
+      "category": "Survival",
+      "verified": true,
+      "note": "Verfügbar auf FearlessRevolution.com"
+    },
+    {
+      "name": "Infinite Items",
+      "description": "Verbrauchsgegenstände nie aufbrauchen",
+      "method": "Cheat Engine Table",
+      "input": "CT Table aktivieren",
+      "risk": "Hoch - Kann spätere Spielabschnitte stören",
+      "category": "Items",
+      "verified": true,
+      "warning": "Nur in frühen Spielabschnitten empfohlen"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "FLiNG Trainer",
+      "version": "v1.1+",
+      "options": 19,
+      "last_updated": "2024-10-12",
+      "source": "flingtrainer.com",
+      "download_size": "898 KB"
+    }
+  ],
+  "downloads": [
+    {
+      "name": "Silent Hill 2 v1.1 Plus 19 Trainer-FLiNG",
+      "source": "flingtrainer.com",
+      "size": "898 KB",
+      "updated": "2024-10-12"
+    },
+    {
+      "name": "Cheat Engine Table (Cielos)",
+      "source": "fearlessrevolution.com",
+      "features": ["Undead", "Invulnerable", "Consumables Pointer"]
+    }
+  ],
+  "

@@ -1,0 +1,113 @@
+{
+  "id": "gran_turismo_7_cheats",
+  "name": "Gran Turismo 7 - Cheats & Money Methods",
+  "type": "cheats",
+  "keywords": ["gt7", "gran turismo 7", "credits", "money", "glitch", "grind", "engine swap", "tokyo", "daytona", "afk"],
+  "system_prompt": "DU BIST GRAN TURISMO 7 EXPERTE. Der Spieler zeigt einen Screenshot – erkenne was hilft. GT7 hat KEINE klassischen Cheats (server-side economy). Geld-Methoden: WTC 600 Tokyo Expressway (~1.5M/Stunde), 60 Min Spa (~1-1.5M), Engine Swap Exploits (K20 in Subaru für PP manipulation), AFK Daytona (rubber band). Bei Screenshot von Credits: zeige beste Grind-Route. Bei WTC Event: Engine Swap trick. Bei Roulette: Ticket farming strategy. Bei Car Dealer: farm method für teures Auto. Bei Tuning Shop: WTC 600 setup. GT7 Economy ist streng – keine echten Cheats, nur effiziente Methoden.",
+  "platforms": ["PS4", "PS5"],
+  "cheats": [
+    {
+      "name": "WTC 600 Tokyo Expressway - Best Money Farm",
+      "code": "World Touring Car 600",
+      "method": "Event Grinding",
+      "payout": "~1.5 Millionen Credits/Stunde",
+      "setup": {
+        "car": "Honda Beat oder Suzuki Cappuccino",
+        "engine_swap": "K20 oder High-Power Engine",
+        "tuning": "Max Power unter PP Limit",
+        "strategy": "Overtake AI on straight"
+      },
+      "time_per_race": "25-30 Minuten",
+      "difficulty": "Mittel (mit richtigem Setup)",
+      "verification_status": "verified"
+    },
+    {
+      "name": "60 Minutes of Spa - High Payout",
+      "code": "Endurance Event",
+      "method": "Endurance Racing",
+      "payout": "1.0 - 1.5 Millionen Credits",
+      "time_required": "60 Minuten real time",
+      "car_recommendation": "Gr.3 Rennwagen oder getunter Sportwagen",
+      "clean_race_bonus": "+50% Credits für keine Kollisionen",
+      "strategy": "Pit strategy, Fuel saving",
+      "verification_status": "verified"
+    },
+    {
+      "name": "Engine Swap Exploit (PP Manipulation)",
+      "code": "Setup Exploit",
+      "method": "PP System Umgehung",
+      "steps": [
+        "Auto mit Engine Swap auswählen",
+        "In WTC 600 Event eintreten (PP check passiert hier)",
+        "Setup Menü öffnen",
+        "Leistungsteile wechseln (höhere PP möglich)",
+        "Event starten mit überlegenem Auto"
+      ],
+      "best_combo": {
+        "base_car": "Subaru IMPREZA Coupe WRX",
+        "engine": "K20 (Honda Civic Type R)",
+        "result": "Massive PP advantage"
+      },
+      "risk": "Könnte in Patches behoben sein",
+      "verification_status": "unverified",
+      "patches_affected": ["1.40", "Spec II Update"]
+    },
+    {
+      "name": "AFK Daytona Money Method",
+      "code": "AFK Farm",
+      "method": "Rubber Band Method",
+      "setup": {
+        "car": "Tuned Car mit hoher Top Speed",
+        "track": "Daytona Tri-Oval",
+        "assist": "ABS, TCS, Brake Assist",
+        "method": "Rubber Band auf Throttle"
+      },
+      "payout": "Weniger als aktiv, aber AFK",
+      "risk": "Account penalty möglich",
+      "status": "Möglich gepatcht",
+      "verification_status": "unverified"
+    },
+    {
+      "name": "Roulette Ticket Hoarding",
+      "code": "Ticket Strategy",
+      "method": "Engine Farming",
+      "steps": [
+        "Daily Workout für 6-Star Tickets",
+        "Tickets sammeln, nicht ausgeben",
+        "Auf bestimmte Engines hoffen",
+        "Rare engines = wertvolle Swaps"
+      ],
+      "best_engines": ["K20", "Hayabusa", "LS7", "R34 Engine"],
+      "verification_status": "verified"
+    },
+    {
+      "name": "Circuit Experience Gold",
+      "code": "License Tests",
+      "method": "Skill-based Earnings",
+      "payout": "High one-time rewards",
+      "description": "Gold in allen Circuit Experience Sektionen",
+      "difficulty": "Sehr hoch",
+      "verification_status": "verified"
+    },
+    {
+      "name": "Daily Workout Streak",
+      "code": "Daily Login",
+      "method": "Passive Earnings",
+      "rewards": [
+        "Tag 1-6: Credits oder Gratis-Teile",
+        "Tag 7: Gratis Auto (meist wertvoll)"
+      ],
+      "strategy": "Jeden Tag einloggen, selbst nur für Workout",
+      "verification_status": "verified"
+    },
+    {
+      "name": "Mission Challenge Rewards",
+      "code": "Single Player",
+      "method": "Mission Completion",
+      "payout": "One-time high rewards",
+      "examples": [
+        "The Sun Also Rises",
+        "Beyond the Horizon",
+        "World F.A.S.T. Award"
+      ],
+      "difficulty": "Variiert von

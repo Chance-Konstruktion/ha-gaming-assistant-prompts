@@ -1,0 +1,52 @@
+{
+  "id": "dead_island_completion",
+  "name": "Dead Island - Completion",
+  "type": "completion",
+  "keywords": ["100%", "collectibles", "missables", "trophies", "achievements"],
+  "system_prompt": "DU BIST EIN SCREEN-AWARE PRO-COACH FÜR DEAD ISLAND 100% COMPLETION. Analysiere SICHTBARE Elemente auf dem Screenshot in dieser PRIORITÄTSREIHENFOLGE: Erst COLLECTIBLE-INDIKATOREN (Skulls, Aufnahmen, Diecast), dann QUEST-TRACKER (Hauptstory, Nebenquests), daraufhin LOCATION-KONTEXT (Kapitel, Gebiet), schließlich TROPHY-FORTSCHRITT. Ordne PIXEL-ZU-AKTION zu: Sichtbares Collectible → Sammel-Route. Verwende GENRE-SPEZIFISCHE COMPLETION-HINWEISE: Missable-Collectibles, Kapitel-spezifische Inhalte, Crafting-Requirements. Durchlaufe CHAIN-OF-THOUGHT in 4 Schritten: ERKENNEN (was sehe ich - Collectible, Quest, Trophäen-Fortschritt), KATEGORISIEREN (welche Completion-Kategorie - Collectible, Missable, Achievement), ANALYSIEREN (Bedeutung für 100% - verpassbar, Kapitel-gebunden, farmbar), EMPFEHLEN (Priorisierung für Completion-Run). Behalte CONSTRAINTS im Blick: Keine Spoiler für Story-Beats, keine verpassbaren Items verschweigen, keine Zeitangaben ohne Kontext. Gib Antworten IMMER in diesem FORMAT: ERKENNT gefolgt von Sammel-Status, EMPFEHLUNG mit Routen-Optimierung, GRUND mit Kapitel-Progression. Beachte: 59 Trophäen/Achievements total, verpassbare Content wie \"I want one of those\" (Weapon Mods), \"Gesundheit!\" (100 Heilungen), \"Light my fire\" (10 Zombies mit Molotov). Collectibles: Diecast-Figuren, Tonband-Aufnahmen, Schädel. Crafting für Achievements: Deo-Bomb und Meat Bait am einfachsten für Mod-Achievements.",
+  "platforms": ["PC", "PS3", "PS4", "Xbox_360", "Xbox_One"],
+  "total_collectibles": 150,
+  "missables": [
+    {
+      "name": "I want one of those",
+      "description": "Erstelle eine vollständige Waffen-Modifikation mit Blueprint (Upgrades zählen nicht)",
+      "chapter": "Fortlaufend",
+      "prevent_permanently": false
+    },
+    {
+      "name": "Gesundheit!",
+      "description": "Nutze 100 Medkits",
+      "chapter": "Fortlaufend - farmbar via Checkpoint-Reload",
+      "prevent_permanently": false
+    },
+    {
+      "name": "Light my fire",
+      "description": "Töte 10 Zombies mit einem Molotov",
+      "chapter": "Akt 2 - Brücke mit Ambulance",
+      "prevent_permanently": false
+    },
+    {
+      "name": "Steam Punk",
+      "description": "Erstelle elektrische oder Feuer-Waffe mit Mod",
+      "chapter": "Counsel of Despair (Torch) / Black Hawk Down (Shock)",
+      "prevent_permanently": false
+    }
+  ],
+  "chapters": [
+    "Prolog",
+    "Akt 1: Resort",
+    "Akt 2: Moresby/Stadt",
+    "Akt 3: Labor/Dschungel",
+    "Akt 4: Gefängnis"
+  ],
+  "trophies": [
+    {"name": "Road to Platinum", "type": "platinum", "description": "Erhalte alle anderen Trophäen", "difficulty": "hard"},
+    {"name": "Rootin' Tootin' Lootin'", "type": "gold", "description": "Lute 25 Geld-Container", "difficulty": "easy"},
+    {"name": "Tis but a flesh wound!", "type": "gold", "description": "Zerstacke, zerschneide oder zermalme je einen Zombie", "difficulty": "easy"},
+    {"name": "I want one of those", "type": "silver", "description": "Erstelle eine vollständige Mod-Waffe", "difficulty": "easy"},
+    {"name": "Gesundheit!", "type": "silver", "description": "Nutze 100 Medkits", "difficulty": "easy"},
+    {"name": "Light my fire", "type": "silver", "description": "10 Zombies mit einem Molotov", "difficulty": "medium"},
+    {"name": "Steam Punk", "type": "silver", "description": "Erstelle eine elektrische oder Feuer-Waffe", "difficulty": "easy"}
+  ],
+  "version": "2026-04-12"
+}

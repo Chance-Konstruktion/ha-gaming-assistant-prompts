@@ -1,0 +1,88 @@
+{
+  "game": "Hogwarts Legacy",
+  "slug": "hogwarts_legacy",
+  "platforms": ["PC"],
+  "cheats": [
+    {
+      "type": "trainer",
+      "name": "FearlessRevolution Cheat Table",
+      "source": "https://fearlessrevolution.com/viewtopic.php?t=28682",
+      "author": "DrummerIX",
+      "version": "EDIT 2.75",
+      "last_updated": "2025-04-27",
+      "status": "active",
+      "tool": "Cheat Engine",
+      "features": [
+        {
+          "name": "Activate Trainer",
+          "description": "3 Slots verfügbar",
+          "safe": true
+        },
+        {
+          "name": "Infinite HP",
+          "description": "Unverwundbarkeit",
+          "safe": true,
+          "note": "Frühere Bugs behoben in v2.75"
+        },
+        {
+          "name": "Hero Damage Multiplier",
+          "description": "Schadensmodifikator",
+          "safe": true
+        },
+        {
+          "name": "Vendor Price Multiplier",
+          "description": "0 für Gratis-Items",
+          "safe": true
+        },
+        {
+          "name": "Infinite Potion Use",
+          "description": "Unbegrenzte Tränke",
+          "safe": true
+        },
+        {
+          "name": "Always Critical Hit",
+          "description": "Immer kritische Treffer",
+          "safe": true
+        },
+        {
+          "name": "No Spell Cooldown",
+          "description": "Keine Zauber-Abklingzeit",
+          "safe": true,
+          "note": "In v2.75 gefixt"
+        },
+        {
+          "name": "Infinite Ancient Magic / Focus",
+          "description": "Unbegrenzte Antike Magie",
+          "safe": true
+        },
+        {
+          "name": "Infinite Vendor Stock",
+          "description": "Unbegrenztes Händler-Sortiment",
+          "safe": true,
+          "warning": "Bei Hogsmeade-Troll ausschalten"
+        },
+        {
+          "name": "Set Money",
+          "description": "Geld setzen (hoch/niedrig)",
+          "safe": true
+        },
+        {
+          "name": "Set Player Inventory Items",
+          "description": "Inventar-Items modifizieren",
+          "safe": true
+        },
+        {
+          "name": "Add 4 Talent Points / Set to 80",
+          "description": "Talentpunkte hinzufügen",
+          "safe": true
+        },
+        {
+          "name": "EXP Multiplier",
+          "description": "Erfahrungspunkte multiplizieren",
+          "safe": true
+        }
+      ]
+    }
+  ],
+  "last_updated": "2026-04-20"
+}

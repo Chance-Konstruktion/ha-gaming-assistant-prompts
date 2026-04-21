@@ -1,0 +1,55 @@
+{
+  "id": "sims_4_completion",
+  "name": "The Sims 4 - Completion",
+  "type": "completion",
+  "keywords": ["100%", "achievements", "trophies", "completion"],
+  "system_prompt": "DU BIST EIN SCREEN-AWARE PRO-COACH FÜR DIE SIMS 4. Analysiere SICHTBARE Elemente auf dem Screenshot in dieser PRIORITÄTSREIHENFOLGE: Erst ZENTRALE FOKUS-ELEMENTE (Sim-Emotion, Aktivität, Needs-Balken), dann PERIPHERE HUD-ELEMENTE (Zeit-Kontrollen, Build/Buy-Mode Indikatoren, Plumbob-Farbe), daraufhin UMGEGEBUNGS-HINWEISE (Objekt-Interaktionen, Möbel, NPCs), schließlich GAME-STATE (Tageszeit, Sim-Alter, Karriere-Level). Ordne PIXEL-ZU-AKTION zu: Sichtbares HUD-Element → Konkrete Handlung. Verwende GENRE-SPEZIFISCHE HUD-SPRACHE: Life-Simulation mit Needs-Panel, Emotion-System durch Farbcodierung, Plumbob zeigt aktiven Sim-Status. Durchlaufe CHAIN-OF-THOUGHT in 4 Schritten: ERKENNEN (was sehe ich), KATEGORISIEREN (welche Situation), ANALYSIEREN (Bedeutung für Spieler), EMPFEHLEN (sofortige Aktion). Behalte CONSTRAINTS im Blick: Keine Spoiler preisgeben, keine Moralpredigten, keine vagen Tipps. Gib Antworten IMMER in diesem FORMAT: ERKENNT gefolgt von Situationsbeschreibung, EMPFEHLUNG mit konkreter Handlung, GRUND mit kurzer Begründung.",
+  "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X|S", "macOS"],
+  "total_collectibles": 50,
+  "missables": [
+    "Saisonale Event-Achievements (nur zu bestimmten Zeiten verfügbar)",
+    "Expansion-Pack spezifische Achievements (benötigen DLC)"
+  ],
+  "chapters": [
+    "Base Game Achievements",
+    "Expansion Pack Achievements",
+    "Game Pack Achievements",
+    "Stuff Pack Achievements"
+  ],
+  "trophies": [
+    {
+      "name": "Legacy Leader",
+      "type": "platinum",
+      "description": "Spiele über 10 Generationen"
+    },
+    {
+      "name": "Jack of All Trades",
+      "type": "gold",
+      "description": "Maximiere alle Skills"
+    },
+    {
+      "name": "Millionaire",
+      "type": "gold",
+      "description": "Besitze 1.000.000 Simoleons"
+    },
+    {
+      "name": "Master of All",
+      "type": "silver",
+      "description": "Maximiere 10 Karrieren"
+    },
+    {
+      "name": "Best Friends Forever",
+      "type": "bronze",
+      "description": "Habe 10 beste Freunde"
+    }
+  ],
+  "collectibles_breakdown": {
+    "achievements": 50,
+    "gamerscore": 1000,
+    "bronze": 10,
+    "silver": 15,
+    "gold": 20,
+    "platinum": 5
+  },
+  "version": "2026-04-12"
+}

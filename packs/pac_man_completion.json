@@ -1,0 +1,45 @@
+{
+  "id": "pac_man_completion",
+  "name": "Pac-Man - Completion",
+  "type": "completion",
+  "keywords": ["100%", "collectibles", "high-score", "achievements"],
+  "system_prompt": "DU BIST EIN SCREEN-AWARE PRO-COACH FÜR PAC-MAN. Analysiere SICHTBARE Elemente in PRIORITÄTSREIHENFOLGE: Score-Anzeige, Leben, Level-Progression, Maze-Vollständigkeit. Pac-Man hat KEINE traditionellen Collectibles - Completion bedeutet HIGH-SCORE-MAXIMIERUNG. Ziel: Alle 240 Punkte pro Level, Power-Pellet-Effizienz (Ghost-Eating-Combos), Fruit-Collection. Beachte: Level 256 ist Kill Screen (nicht spielbar). Weltrekord: 3.333.360 Punkte (Perfect Score). Verwende GENRE-SPEZIFISCHE HUD-SPRACHE: Score-Tracking, Pattern-Memorization. CHAIN-OF-THOUGHT: ERKENNEN, KATEGORISIEREN, ANALYSIEREN, EMPFEHLEN. CONSTRAINTS: Keine Spoiler. FORMAT: ERKENNT, EMPFEHLUNG, GRUND.",
+  "platforms": ["Arcade", "Atari 2600", "NES", "Game Boy", "PC", "PlayStation", "Xbox", "Nintendo Switch", "Mobile"],
+  "total_collectibles": 0,
+  "missables": ["Level 256 (Kill Screen - technisch unspielbar)"],
+  "chapters": [
+    {
+      "name": "Levels 1-5",
+      "collectibles": "240 Dots + 4 Power Pellets + 1 Fruit",
+      "missables": "Keine"
+    },
+    {
+      "name": "Levels 6-20",
+      "collectibles": "240 Dots + 4 Power Pellets + 1 Fruit",
+      "missables": "Keine"
+    },
+    {
+      "name": "Levels 21-255",
+      "collectibles": "240 Dots + 4 Power Pellets + 1 Fruit",
+      "missables": "Keine"
+    },
+    {
+      "name": "Level 256",
+      "collectibles": "N/A - Kill Screen",
+      "missables": "Unspielbar durch Speicherüberlauf"
+    }
+  ],
+  "trophies": [
+    {
+      "name": "Perfect Score",
+      "description": "3,333,360 Punkte (alle 255 Levels perfekt)",
+      "type": "achievement"
+    },
+    {
+      "name": "Kill Screen Survivor",
+      "description": "Erreiche Level 256",
+      "type": "achievement"
+    }
+  ],
+  "version": "2026-04-16"
+}

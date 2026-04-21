@@ -1,0 +1,75 @@
+{
+  "id": "cyberpunk_2077_cheats",
+  "name": "Cyberpunk 2077 - Cheats",
+  "type": "cheats",
+  "keywords": ["cheats", "codes", "console", "cyberpunk", "commands"],
+  "system_prompt": "DU BIST EIN SCREEN-AWARE PRO-COACH FÜR CYBERPUNK 2077 MIT CHEAT-INTEGRATION. Analysiere SICHTBARE Elemente auf dem Screenshot in dieser PRIORITÄTSREIHENFOLGE: Erst ZENTRALE FOKUS-ELEMENTE (HP, Stanza, Ziel-Reticle), dann PERIPHERE HUD-ELEMENTE (Minimap, Quest-Tracker, Quickhack-Menü), daraufhin UMGEBUNGS-HINWEISE (Deckung, Feind-Icons, Tech-Scannen-Highlights), schließlich GAME-STATE (Takt-Modus, Scan-Modus, Dialog). Ordne PIXEL-ZU-AKTION zu: Sichtbares HUD-Element → Konkrete Handlung. Verwende GENRE-SPEZIFISCHE HUD-SPRACHE: Action-RPG mit FPS-Elementen, Cyberware-Integration, Netrunner-Builds. Durchlaufe CHAIN-OF-THOUGHT in 4 Schritten: ERKENNEN, KATEGORISIEREN, ANALYSIEREN, EMPFEHLEN. Behalte CONSTRAINTS im Blick: Keine Spoiler, keine Moralpredikte, keine vagen Tipps. Gib Antworten IMMER in diesem FORMAT: ERKENNT, EMPFEHLUNG, GRUND. Sei präzise, taktisch und direkt. HINWEIS ZU CHEATS: Für PC-Konsole-Commands wird CyberEngineTweaks Mod benötigt. Warnung: Cheats deaktivieren Achievements/Erfolge. Console öffnen mit ~ (Tilde).",
+  "platforms": ["PC"],
+  "cheats": [
+    {
+      "name": "Unendlich Geld",
+      "code": "Game.AddToInventory('Items.money', 500000)",
+      "platform": "PC",
+      "effect": "Fügt 500.000 Eddies (Ingame-Währung) zum Inventar hinzu",
+      "risks": "Deaktiviert Erfolge/Achievements",
+      "input_method": "CyberEngineTweaks Console (~ Taste)"
+    },
+    {
+      "name": "Medizin V0",
+      "code": "Game.AddToInventory('Items.FirstAidWhiffV0')",
+      "platform": "PC",
+      "effect": "Erste Hilfe-Regenerator (schwach)",
+      "risks": "Deaktiviert Erfolge/Achievements",
+      "input_method": "CyberEngineTweaks Console (~ Taste)"
+    },
+    {
+      "name": "Medizin V1",
+      "code": "Game.AddToInventory('Items.FirstAidWhiffV1')",
+      "platform": "PC",
+      "effect": "Erste Hilfe-Regenerator (mittel)",
+      "risks": "Deaktiviert Erfolge/Achievements",
+      "input_method": "CyberEngineTweaks Console (~ Taste)"
+    },
+    {
+      "name": "Medizin V2",
+      "code": "Game.AddToInventory('Items.FirstAidWhiffV2')",
+      "platform": "PC",
+      "effect": "Erste Hilfe-Regenerator (stark)",
+      "risks": "Deaktiviert Erfolge/Achievements",
+      "input_method": "CyberEngineTweaks Console (~ Taste)"
+    },
+    {
+      "name": "Unendlich Ausdauer",
+      "code": "Game.InfiniteStamina(true)",
+      "platform": "PC",
+      "effect": "Unendliche Ausdauer - Springen, Schießen, Sprinten ohne Ausdauerverlust",
+      "risks": "Deaktiviert Erfolge/Achievements",
+      "input_method": "CyberEngineTweaks Console (~ Taste)"
+    },
+    {
+      "name": "Cyberware Kapazität erhöhen",
+      "code": "Game.AddToInventory('Items.CWCapacityPermaReward_Legendary', x)",
+      "platform": "PC",
+      "effect": "Erhöht maximale Cyberware-Kapazität um x Slots",
+      "risks": "Deaktiviert Erfolge/Achievements",
+      "input_method": "CyberEngineTweaks Console (~ Taste)"
+    },
+    {
+      "name": "Spawn Item",
+      "code": "Game.AddToInventory('Items.x', 1)",
+      "platform": "PC",
+      "effect": "Spawnt beliebiges Item - x durch Item-ID ersetzen",
+      "risks": "Deaktiviert Erfolge/Achievements",
+      "input_method": "CyberEngineTweaks Console (~ Taste)"
+    },
+    {
+      "name": "Teleport zu Koordinaten",
+      "code": "Game.TeleportPlayerToPosition(x, y, z)",
+      "platform": "PC",
+      "effect": "Teleportiert Spieler zu bestimmten Koordinaten",
+      "risks": "Kann Spieler in unzugängliche Bereiche bringen. Verwende Game.LogPlayerPositionAndName() vorher",
+      "input_method": "CyberEngineTweaks Console (~ Taste)"
+    }
+  ],
+  "version": "2026-04-19"
+}

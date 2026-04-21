@@ -1,0 +1,52 @@
+{
+  "id": "cyberpunk_2077_completion",
+  "name": "Cyberpunk 2077 - Completion",
+  "type": "completion",
+  "keywords": ["100%", "collectibles", "missables", "cyberpunk", "endings", "ncpd", "gigs"],
+  "system_prompt": "DU BIST EIN SCREEN-AWARE PRO-COACH FÜR CYBERPUNK 2077. Analysiere SICHTBARE Elemente auf dem Screenshot in dieser PRIORITÄTSREIHENFOLGE: Erst ZENTRALE FOKUS-ELEMENTE (HP, Stanza, Ziel-Reticle), dann PERIPHERE HUD-ELEMENTE (Minimap, Quest-Tracker, Quickhack-Menü), daraufhin UMGEBUNGS-HINWEISE (Deckung, Feind-Icons, Tech-Scannen-Highlights), schließlich GAME-STATE (Takt-Modus, Scan-Modus, Dialog). Ordne PIXEL-ZU-AKTION zu: Sichtbares HUD-Element → Konkrete Handlung. Verwende GENRE-SPEZIFISCHE HUD-SPRACHE: Action-RPG mit FPS-Elementen, Cyberware-Integration, Netrunner-Builds. Durchlaufe CHAIN-OF-THOUGHT in 4 Schritten: ERKENNEN, KATEGORISIEREN, ANALYSIEREN, EMPFEHLEN. Behalte CONSTRAINTS im Blick: Keine Spoiler über Hauptcharakter-Endings, keine Moralpredikte, keine vagen Tipps. Gib Antworten IMMER in diesem FORMAT: ERKENNT, EMPFEHLUNG, GRUND. Sei präzise, taktisch und direkt.",
+  "platforms": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X|S"],
+  "total_collectibles": 520,
+  "missables": [
+    "Verschiedene Endings (je nach Entscheidungen in Hauptstory)",
+    "Bestimmte Gigs mit Zeitlimit (z.B. Sinnerman)",
+    "Tarot-Karten (einige nur in bestimmten Quests erreichbar)",
+    "Companion-Beziehungen (Judy, Panam, River, Kerry Questlines)"
+  ],
+  "chapters": [
+    {
+      "name": "Prolog",
+      "collectibles": ["Tarot-Karte: The Fool", "Einige schnellreisepunkte"],
+      "missable_warning": "Lifepath-Wahl beeinflusst frühen Content"
+    },
+    {
+      "name": "Hauptstory",
+      "collectibles": ["Tarot-Karten", "Fast Travel Points"],
+      "missable_warning": "Verschiedene Endings je nach Beziehungs- und Dialog-Entscheidungen"
+    },
+    {
+      "name": "NCPD Scanner Hustles",
+      "collectibles": ["~300 NCPD Events (Reported Crimes, Suspected Organized Crime, Assault in Progress)"],
+      "missable_warning": "Keine, respawn nicht, aber können später abgeschlossen werden"
+    },
+    {
+      "name": "Fixer Gigs",
+      "collectibles": ["~80+ Gigs (von Dakota Smith, Dino Dinovic, El Capitan, etc.)"],
+      "missable_warning": "Manche Gigs nur verfügbar bei bestimmten Street Cred Leveln"
+    }
+  ],
+  "trophies": [
+    "City Center (alle Gigs + NCPD in City Center abschließen)",
+    "Watson (alle Gigs + NCPD in Watson abschließen)",
+    "Heywood (alle Gigs + NCPD in Heywood abschließen)",
+    "Santo Domingo (alle Gigs + NCPD in Santo Domingo abschließen)",
+    "Pacifica (alle Gigs + NCPD in Pacifica abschließen)",
+    "Badlands (alle Gigs + NCPD in Badlands abschließen)",
+    "The Sun (Path of Glory Ending erreichen)",
+    "The Star (All Along the Watchtower Ending erreichen)",
+    "The Devil (Where is My Mind? Ending erreichen)",
+    "The Temperance (New Dawn Fades Ending erreichen)",
+    "The Tower (Phantom Liberty DLC Ending)",
+    "Don't Fear the Reaper (Secret Ending erreichen)"
+  ],
+  "version": "2026-04-19"
+}

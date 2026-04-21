@@ -1,0 +1,88 @@
+{
+  "game": "Dead Island",
+  "task": "cheats.json",
+  "phase": 1,
+  "status": "Phase 1 Complete",
+  "completed_at": "2026-04-10",
+  "next_phase": 2,
+  "cheats_found": [
+    {
+      "type": "Trainer",
+      "name": "FLiNG Trainer",
+      "features": [
+        "God Mode / Unzerstörbar",
+        "Unendlich Gesundheit",
+        "Unendlich Ausdauer",
+        "Unendlich Munition",
+        "Kein Nachladen",
+        "Unendlich Gegenständehaltbarkeit",
+        "Unendlich Geld",
+        "Super Geschwindigkeit",
+        "Zeitlupe",
+        "Teleportation",
+        "Speicherpunkte freischalten"
+      ],
+      "source": "FLiNG / WeMod"
+    },
+    {
+      "type": "Trainer",
+      "name": "MrAntiFun Trainer",
+      "features": [
+        "F1 - Unendlich Gesundheit",
+        "F2 - Unendlich Ausdauer",
+        "F3 - Unendlich Munition",
+        "F4 - Kein Nachladen",
+        "F5 - Unendlich Gegenstände",
+        "F6 - Unendlich Geld",
+        "F7 - Schnelles Level-Up",
+        "F8 - Unendlich Waffenhaltbarkeit",
+        "F9 - Super Geschwindigkeit",
+        "F10 - Zeitlupe"
+      ],
+      "source": "MrAntiFun"
+    },
+    {
+      "type": "Konsole",
+      "name": "Developer Console (aktivieren)",
+      "method": "Desktop-Verknüpfung bearbeiten, Ziel-Feld: \"C:\\Program Files\\Dead Island\\DeadIslandGame.exe\" -console",
+      "commands": [
+        "god - God Mode an/aus",
+        "noclip - Durch Wände fliegen",
+        "sv_cheats 1 - Cheats aktivieren",
+        "giveitem - Gegenstand spawnen",
+        "map - Karte wechseln",
+        "kill - Selbst töten",
+        "teleport - Zu Spieler teleportieren"
+      ],
+      "note": "Konsole funktioniert nicht in allen Versionen/Plattformen"
+    },
+    {
+      "type": "Manuell",
+      "name": "Speicherstands-Editor (Save-Game Editor)",
+      "features": [
+        "Geld editieren",
+        "Level ändern",
+        "Fähigkeiten modifizieren",
+        "Inventar bearbeiten",
+        "Waffen-Stats modifizieren"
+      ],
+      "tools": [
+        "Dead Island Save Editor",
+        "Gibbed's Dead Island Tools",
+        "Cheat Engine (manuelle Suche)"
+      ]
+    },
+    {
+      "type": "Glitch",
+      "name": "Duplizier-Glitch",
+      "method": "Waffen und Gegenstände duplizieren durch Inventar-Manipulation im Ko-Op",
+      "platform": "Alle Plattformen"
+    }
+  ],
+  "platforms": ["PC", "PS3", "Xbox 360"],
+  "sources": [
+    "https://www.gamepressure.com/dead-island/cheats/z1262",
+    "https://www.cheatcc.com/dead-island/cheats/",
+    "https://www.ign.com/wikis/dead-island/Cheats_and_Glitches"
+  ]
+}

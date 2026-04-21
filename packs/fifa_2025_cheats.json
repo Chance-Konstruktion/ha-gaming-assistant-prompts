@@ -1,0 +1,91 @@
+{
+  "id": "fifa_2025_cheats",
+  "name": "EA Sports FC 25 - Tactics Codes",
+  "type": "cheats",
+  "keywords": ["tactics-codes", "formation-codes", "custom-tactics", "pro-codes", "meta-tactics"],
+  "system_prompt": "DU BIST EIN SCREEN-AWARE TAKTIK-COACH FÜR EA SPORTS FC 25. Analysiere SICHTBARE Elemente auf dem Screenshot in dieser PRIORITÄTSREIHENFOLGE: Erst ZENTRALE FOKUS-ELEMENTE wie aktive Formation, Spielerrollen-Anzeige und Taktik-Setup, dann PERIPHERE HUD-ELEMENTE wie Defensive- und Offensiv-Einstellungen, daraufhin UMGEBUNGS-HINWEISE wie Score, Zeitdruck und Spielstand, schließlich GAME-STATE wie Momentum und Spielerverfassung. Ordne PIXEL-ZU-AKTION zu: Sichtbarer Taktik-Bildschirm ergibt Code-Eingabe oder Anpassung. Verwende GENRE-SPEZIFISCHE HUD-SPRACHE für Sportsimulation: Formationen wie 4-3-2-1 oder 5-2-1-2, Rollen wie False 9, Wingback oder Half-Winger, Breite und Tiefe, Build-Up-Styles. Durchlaufe CHAIN-OF-THOUGHT in 4 Schritten: ERKENNEN der aktuellen Formation und Einstellungen, KATEGORISIEREN welcher Spielstil am besten passt, ANALYSIEREN welcher Pro-Code oder welche Anpassung nötig ist, EMPFEHLEN des konkreten Codes oder der Änderung. Behalte CONSTRAINTS im Blick: Keine Garantien für Siege, Codes können veraltet sein, immer anpassen an eigene Spieler. Gib Antworten IMMER in diesem FORMAT: ERKENNT die aktuelle Formation, EMPFEHLUNG mit konkretem Code und Eingabeweg, GRUND warum diese Taktik passt. Sei präzise, taktisch und direkt. FC 25 Tactics Codes werden im Squad-Menü über L3 und Use Code eingegeben.",
+  "platforms": ["PC", "PS5", "PS4", "Xbox Series X/S", "Xbox One", "Nintendo Switch"],
+  "cheats": [
+    {
+      "name": "Team Gullit Meta",
+      "code": "E#d4vJsK%io",
+      "platform": "Alle",
+      "effect": "4-5-1 Formation - Balanced mit starkem Mittelfeld",
+      "risks": "Keine - Meta-Setup von Pro",
+      "input_method": "Squad-Menü > L3 > Use Code"
+    },
+    {
+      "name": "NealGuides Aggressiv",
+      "code": "hs5$M6Gprfj",
+      "platform": "Alle",
+      "effect": "4-2-2-2 - Pressing und schnelle Angriffe",
+      "risks": "Benötigt schnelle Spieler",
+      "input_method": "Squad-Menü > L3 > Use Code"
+    },
+    {
+      "name": "BorasLegend Defensiv",
+      "code": "3HPspCY9Bzf",
+      "platform": "Alle",
+      "effect": "4-2-3-1 - Solide Defensive mit Counter",
+      "risks": "Anpassung bei schwachen Stürmern",
+      "input_method": "Squad-Menü > L3 > Use Code"
+    },
+    {
+      "name": "Yagi Balanced",
+      "code": "@#YzuTUFJ7T",
+      "platform": "Alle",
+      "effect": "4-3-2-1 - Kompakt mit Flügelspiel",
+      "risks": "Flügelspieler sollten schnell sein",
+      "input_method": "Squad-Menü > L3 > Use Code"
+    },
+    {
+      "name": "Fuji 5-Back",
+      "code": "aszM8&?g$Y6",
+      "platform": "Alle",
+      "effect": "5-2-1-2 - Defensive mit Flügelaufbau",
+      "risks": "Offensiv limitiert",
+      "input_method": "Squad-Menü > L3 > Use Code"
+    },
+    {
+      "name": "MattHDGamer Midfield",
+      "code": "QApk?k44i%g",
+      "platform": "Alle",
+      "effect": "4-4-1-1 - Stabiles Mittelfeld-Control",
+      "risks": "Benötigt guten Zehner",
+      "input_method": "Squad-Menü > L3 > Use Code"
+    },
+    {
+      "name": "Krasi Classic",
+      "code": "9UVvfRhFH7d",
+      "platform": "Alle",
+      "effect": "4-3-2-1 - Traditionelle FIFA-Taktik",
+      "risks": "Standard ohne Spezialisierung",
+      "input_method": "Squad-Menü > L3 > Use Code"
+    },
+    {
+      "name": "Pep Guardiola Man City",
+      "code": "1#P5MKK8#Vp",
+      "platform": "Alle",
+      "effect": "4-2-1-3 - Positionswechsel-System",
+      "risks": "Komplex - Übung nötig",
+      "input_method": "Mit Pep Manager oder Code"
+    },
+    {
+      "name": "Arteta Arsenal",
+      "code": "Gce&cabtYk6",
+      "platform": "Alle",
+      "effect": "4-3-3 - Breites Spiel mit Überladung",
+      "risks": "Seitenspitzen in Halbräume",
+      "input_method": "Mit Arteta Manager oder Code"
+    },
+    {
+      "name": "Ancelotti Real Madrid",
+      "code": "QcoxzE$YiuE",
+      "platform": "Alle",
+      "effect": "4-3-3 - Flexibles Angriffssystem",
+      "risks": "Balance von Offensive und Defensive",
+      "input_method": "Mit Ancelotti Manager oder Code"
+    }
+  ],
+  "version": "2026-04-13"
+}

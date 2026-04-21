@@ -1,0 +1,191 @@
+{
+  "id": "sims_4_cheats",
+  "name": "The Sims 4 - Cheats",
+  "type": "cheats",
+  "keywords": ["sims 4", "cheats", "motherlode", "testingcheats", "build mode", "skills", "money", "career"],
+  "system_prompt": "DU BIST CHEAT-EXPERTE FÜR DIE SIMS 4. Der Spieler zeigt dir einen Screenshot des Spiels. Analysiere zuerst: Bedürfnisse der Sims, Simoleons-Kontostand, aktueller Spiel-Modus (Live/Build/Buy), aktivierte Cheats, aktive Events/Arbeitszeiten. Gib dann nur die passenden Cheats zurück. Für jeden Cheat: exakter Code, Eingabemethode (Tastenkombination), Effekt und Risiken. Wichtig: Erst 'testingcheats true' aktivieren, dann spezifische Cheats nutzen. // CHEAT-MODE aktiv.",
+  "platforms": ["PC", "Mac", "PS4", "PS5", "Xbox One", "Xbox Series X|S"],
+  "activation": {
+    "pc": "Strg + Shift + C",
+    "mac": "Cmd + Shift + C",
+    "console": "Alle vier Schultertasten gleichzeitig (L1+L2+R1+R2 / LB+LT+RB+RT)"
+  },
+  "cheats": [
+    {
+      "name": "testingcheats true",
+      "code": "testingcheats true",
+      "description": "Aktiviert erweiterte Cheats und Shift-Click-Menüs",
+      "platforms": ["Alle"],
+      "required_for": ["Bedürfnisse ändern", "Objekte debuggen", "Beziehungen", "Traits"],
+      "risk": "Niedrig - Basis-Activate",
+      "verified": true
+    },
+    {
+      "name": "Motherlode",
+      "code": "motherlode",
+      "description": "+50.000 Simoleons zum Haushalt",
+      "platforms": ["Alle"],
+      "risk": "Niedrig",
+      "category": "Money",
+      "verified": true
+    },
+    {
+      "name": "kaching",
+      "code": "kaching",
+      "description": "+1.000 Simoleons zum Haushalt",
+      "platforms": ["Alle"],
+      "risk": "Niedrig",
+      "category": "Money",
+      "verified": true
+    },
+    {
+      "name": "rosebud",
+      "code": "rosebud",
+      "description": "+1.000 Simoleons (alternate zu kaching)",
+      "platforms": ["Alle"],
+      "risk": "Niedrig",
+      "category": "Money",
+      "verified": true
+    },
+    {
+      "name": "Money [Betrag]",
+      "code": "money 999999",
+      "description": "Setzt Haushalt auf exakten Betrag (ersetzt motherlode/kaching)",
+      "platforms": ["PC", "Mac"],
+      "risk": "Niedrig",
+      "category": "Money",
+      "verified": true,
+      "example": "money 50000"
+    },
+    {
+      "name": "Freerealestate on",
+      "code": "freerealestate on",
+      "description": "Alle Häuser kostenlos kaufen",
+      "platforms": ["Alle"],
+      "requires": "Aktivieren vor Hauskauf",
+      "risk": "Niedrig",
+      "category": "Money",
+      "verified": true
+    },
+    {
+      "name": "household.autopay_bills false",
+      "code": "household.autopay_bills false",
+      "description": "Automatische Rechnungszahlung deaktivieren",
+      "platforms": ["PC", "Mac"],
+      "risk": "Mittel - Kann Schulden verursachen",
+      "category": "Money",
+      "verified": true
+    },
+    {
+      "name": "stats.set_skill_level [Skill] [1-10]",
+      "code": "stats.set_skill_level major_gourmet_cooking 10",
+      "description": "Skill-Level direkt setzen (1=Anfänger, 10=Meister)",
+      "platforms": ["PC", "Mac"],
+      "common_skills": [
+        "Major_Logic", "Major_Charisma", "Major_Fitness", "Major_Gardening",
+        "Major_Handiness", "Major_Painting", "Major_Guitar", "Major_Piano",
+        "Major_Writing", "Major_Programming", "Major_Gourmet_Cooking",
+        "Major_Homestyle_Cooking", "Major_Mischief", "Major_Comedy",
+        "Major_Photography", "Major_Video_Gaming", "Major_Rocket_Science"
+      ],
+      "risk": "Niedrig - Sicher Skill-Farming",
+      "category": "Skills",
+      "verified": true,
+      "example": "stats.set_skill_level major_gourmet_cooking 10"
+    },
+    {
+      "name": "careers.promote [Karriere]",
+      "code": "careers.promote astronaut",
+      "description": "Sofortiger Aufstieg in Karriere",
+      "platforms": ["PC", "Mac"],
+      "careers": ["Astronaut", "Athletic", "Business", "Criminal", "Culinary", "Entertainer", "Painter", "Secret_Agent", "Style_Influencer", "TechGuru", "Writer", "Detective", "Doctor", "Scientist"],
+      "risk": "Niedrig",
+      "category": "Career",
+      "verified": true,
+      "example": "careers.promote astronaut"
+    },
+    {
+      "name": "careers.demote [Karriere]",
+      "code": "careers.demote astronaut",
+      "description": "Degradierung in Karriere",
+      "platforms": ["PC", "Mac"],
+      "risk": "Niedrig",
+      "category": "Career",
+      "verified": true
+    },
+    {
+      "name": "careers.remove_career",
+      "code": "careers.remove_career",
+      "description": "Aktive Karriere entfernen",
+      "platforms": ["PC", "Mac"],
+      "risk": "Mittel",
+      "category": "Career",
+      "verified": true
+    },
+    {
+      "name": "traits.equip_trait [Trait]",
+      "code": "traits.equip_trait genius",
+      "description": "Trait zum aktiven Sim hinzufügen",
+      "platforms": ["PC", "Mac"],
+      "common_traits": ["genius", "creative", "active", "lazy", "glutton", "jealous", "evil", "good", "kleptomaniac", "materialistic", "romantic", "unflirty", "ambitious", "childish", "clumsy", "gloomy", "hotheaded", "perfectionist", "selfassured", "gregarious"],
+      "requires": "testingcheats true",
+      "risk": "Niedrig - Verändert Sim-Persönlichkeit",
+      "category": "Traits",
+      "verified": true,
+      "example": "traits.equip_trait genius"
+    },
+    {
+      "name": "traits.remove_trait [Trait]",
+      "code": "traits.remove_trait lazy",
+      "description": "Trait vom aktiven Sim entfernen",
+      "platforms": ["PC", "Mac"],
+      "requires": "testingcheats true",
+      "risk": "Niedrig",
+      "category": "Traits",
+      "verified": true
+    },
+    {
+      "name": "bb.moveobjects",
+      "code": "bb.moveobjects",
+      "description": "Objekte frei platzieren (überlappen, höhenversetzen)",
+      "platforms": ["Alle"],
+      "nach_aktivierung": "9 = höher, 0 = niedriger (Objekt ausgewählt)",
+      "risk": "Niedrig - Build Mode",
+      "category": "Build",
+      "verified": true
+    },
+    {
+      "name": "bb.showhiddenobjects",
+      "code": "bb.showhiddenobjects",
+      "description": "Debug-Objekte im Kauf-Modus anzeigen",
+      "platforms": ["Alle"],
+      "risk": "Niedrig - Mehr Baumöglichkeiten",
+      "category": "Build",
+      "verified": true
+    },
+    {
+      "name": "bb.showliveeditobjects",
+      "code": "bb.showliveeditobjects",
+      "description": "Welt-Objekte (wie in der Nachbarschaft) kaufen",
+      "platforms": ["Alle"],
+      "risk": "Niedrig",
+      "category": "Build",
+      "verified": true
+    },
+    {
+      "name": "bb.ignoregameplayunlocksentitlement",
+      "code": "bb.ignoregameplayunlocksentitlement",
+      "description": "Karriere-belohnungen im Kauf-Modus freischalten",
+      "platforms": ["Alle"],
+      "requires": "Build/Buy Modus",
+      "risk": "Niedrig",
+      "category": "Build",
+      "verified": true
+    },
+    {
+      "name": "sims.fill_all_commodities",
+      "code": "sims.fill_all_commodities",
+      "description": "Alle Bedürfnisse des aktiven Sims maxieren",
+      "platforms": ["PC", "Mac"],
+      "requires": "testingcheats true + Sim ausgewählt",
+      "alternative

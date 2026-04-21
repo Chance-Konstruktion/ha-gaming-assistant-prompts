@@ -1,0 +1,58 @@
+{
+  "game": "Hogwarts Legacy",
+  "slug": "hogwarts_legacy",
+  "completion_time": {
+    "main_story": "15-20 Stunden",
+    "main_plus_sides": "30-35 Stunden",
+    "completionist": "60-80 Stunden"
+  },
+  "collectibles": [
+    {
+      "name": "Field Guide Pages",
+      "total": 242,
+      "description": "Sammelobjekte für alle Häuser",
+      "missable": false
+    },
+    {
+      "name": "Astronomy Tables",
+      "total": 15,
+      "description": "Sternenbeobachtung",
+      "missable": false
+    },
+    {
+      "name": "Demiguise Statues",
+      "total": 30,
+      "description": "Für Alohomora Level 2&3",
+      "missable": true
+    },
+    {
+      "name": "Merlin Trials",
+      "total": 95,
+      "description": "Maximiert Inventar-Slots",
+      "missable": false
+    },
+    {
+      "name": "Ancient Magic Hotspots",
+      "total": 20,
+      "description": "Antike Magie Orte",
+      "missable": false
+    }
+  ],
+  "house_specific_quests": {
+    "gryffindor": ["The Path of Gryffindor", "House-specific NPC: Nearly Headless Nick"],
+    "slytherin": ["The Path of Slytherin", "House-specific NPC: Scrope"],
+    "ravenclaw": ["The Path of Ravenclaw", "House-specific NPC: Amit Thakkar"],
+    "hufflepuff": ["The Path of Hufflepuff", "House-specific NPC: Eldritch Diggory"]
+  },
+  "missable_content": [
+    "Demiguise Statues (nachts)",
+    "Certain Field Guide Pages (seasonal)"
+  ],
+  "100_percent_tips": [
+    "Complete all Merlin Trials early for inventory space",
+    "Catch Demiguise at night, use Disillusionment",
+    "Focus on one house playthrough first",
+    "Use map filters for collectibles"
+  ],
+  "last_updated": "2026-04-20"
+}
