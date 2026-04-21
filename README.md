@@ -1,5 +1,7 @@
 # 🎮 Gaming Assistant – Prompt Packs
 
+[English version](./README.en.md)
+
 Der **Intelligence Layer** für den Home Assistant [Gaming Assistant](https://github.com/Chance-Konstruktion/ha-gaming-assistant).
 
 Dieses Repository enthält AI-validierte Prompt-Packs nach dem **Justine Standard v4.2**.
