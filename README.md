@@ -82,6 +82,10 @@ Aus einem Brettfoto erkennt der Assistent die Eröffnung, bewertet Materialbalan
 ## ✅ Pre-Commit Checks
 
 ```bash
+# 0) Pack-Validator (Naming Pflicht, Strict empfohlen)
+python3 scripts/validate_packs.py
+python3 scripts/validate_packs.py --strict
+
 # 1) JSON validieren
 python3 -m json.tool file.json > /dev/null && echo "✅ JSON Valid"
 
@@ -90,6 +94,8 @@ python3 -c "import json; w=len(json.load(open('file.json'))['system_prompt'].spl
 ```
 
 ---
+
+Beitragsrichtlinien: [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## 🤝 Contributing
 

@@ -82,6 +82,10 @@ From a board photo, the assistant identifies the opening, evaluates material bal
 ## ✅ Pre-Commit Checks
 
 ```bash
+# 0) Pack validator (naming required, strict recommended)
+python3 scripts/validate_packs.py
+python3 scripts/validate_packs.py --strict
+
 # 1) Validate JSON
 python3 -m json.tool file.json > /dev/null && echo "✅ JSON Valid"
 
@@ -90,6 +94,8 @@ python3 -c "import json; w=len(json.load(open('file.json'))['system_prompt'].spl
 ```
 
 ---
+
+Contribution guide: [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## 🤝 Contributing
 
