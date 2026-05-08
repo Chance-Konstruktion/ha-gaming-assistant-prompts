@@ -4,13 +4,13 @@
 
 The **intelligence layer** for the Home Assistant [Gaming Assistant](https://github.com/Chance-Konstruktion/ha-gaming-assistant).
 
-This repository contains AI-validated prompt packs following the **Justine Standard v4.2**.
+This repository contains AI-validated prompt packs following the **Pack Standard v4.2**.
 
 ---
 
-## 🧠 Justine Engine
+## 🧠 Pack Engine
 
-Each pack is built by **Justine**: a screen-aware AI agent on the OpenClaw architecture for real-time gameplay analysis.
+Each pack is a screen-aware AI prompt on the OpenClaw architecture for real-time gameplay analysis.
 
 ### Workflow v4.2
 
@@ -23,7 +23,7 @@ Each pack is built by **Justine**: a screen-aware AI agent on the OpenClaw archi
 4. **Phase 5 – Zero-Waste Delivery**
    * Final validation via `python3 -m json.tool`.
 
-### Justine Chain-of-Thought
+### Chain-of-Thought
 
 | Step | Function |
 |---|---|
@@ -107,7 +107,7 @@ Contribution guide: [CONTRIBUTING.md](./CONTRIBUTING.md)
 4. Validate locally (JSON + word count).
 5. Open a PR and list your research sources.
 
-### Option B: Request Justine Generation
+### Option B: Request Pack Generation
 
 Use this issue-comment format:
 
@@ -115,7 +115,7 @@ Use this issue-comment format:
 * `Platforms: [List]`
 * `Needs: [e.g. "Ending guide", "All easter eggs"]`
 
-Justine will then generate the research cache, prompt packs, and PR.
+The research cache, prompt packs, and PR will then be generated automatically.
 
 ---
 
@@ -134,4 +134,4 @@ Justine will then generate the research cache, prompt packs, and PR.
 
 MIT License — free to use, modify, and distribute.
 
-Maintained by OpenClaw Architecture. All packs validated via Justine Engine v4.2.
+Maintained by OpenClaw Architecture. All packs validated via Pack Standard v4.2.
