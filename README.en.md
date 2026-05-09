@@ -18,9 +18,11 @@ Each pack is a screen-aware AI prompt on the OpenClaw architecture for real-time
    * External validation using web sources (minimum 3 sources).
 2. **Phase 2 – JSON Generation**
    * Build 4 synchronized JSONs: `base`, `cheats`, `secrets`, `completion`.
-3. **Phase 4 – Validation & Expansion**
+3. **Phase 3 – Prompt Construction**
+   * Write the `system_prompt` — gameplay mechanics only, **never include sources in the system prompt**.
+4. **Phase 4 – Validation & Expansion**
    * Cross-check data and expand `system_prompt` to 350–450 words.
-4. **Phase 5 – Zero-Waste Delivery**
+5. **Phase 5 – Zero-Waste Delivery**
    * Final validation via `python3 -m json.tool`.
 
 ### Chain-of-Thought
@@ -76,6 +78,13 @@ These packs use `"platforms": ["Physical"]` and focus on rule interpretation, se
 
 **Example (Chess):**
 From a board photo, the assistant identifies the opening, evaluates material balance, and recommends the best move based on FIDE principles.
+
+---
+
+## 🚫 Core Rules
+
+* **Never include sources in the system prompt.** External sources belong exclusively in the PR description, not in the `system_prompt` fields of JSON packs.
+* `system_prompt` contains only gameplay mechanics — no URLs, no citations, no reference blocks.
 
 ---
 
