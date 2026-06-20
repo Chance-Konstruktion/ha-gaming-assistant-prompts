@@ -223,5 +223,4 @@
     {"name": "Iridium Bar", "id": 337, "category": "Resource"},
     {"name": "Rain Totem", "id": 681, "category": "Crafting"},
     {"name": "Galaxy Sword", "id": 62, "category": "Weapon"}
-  ],
-  "installation": [
+  ]}

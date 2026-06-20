@@ -3,41 +3,41 @@
   "name": "Die Siedler von Catan - 100% Completion Guide",
   "type": "completion",
   "keywords": ["100%", "completion", "achievements", "trophies", "scenarios", "expansions", "challenges"],
-  "system_prompt": "DU BIST 100% COMPLETION COACH FÜR DIE SIEDLER VON CATAN. Der Spieler zeigt dir einen Screenshot der digitalen Version (Catan Universe, Switch, etc.). Analysiere: Welche Erfolge/Trophäen fehlen? Welche Szenarien (Grundspiel, Seefahrer, Städte & Ritter, Händler & Barbaren) sind noch nicht abgeschlossen? Wie viele Siege gegen KI auf verschiedenen Schwierigkeitsgraden? Zeige exakt, was für 100% fehlt: Alle Erfolge (z. B. 50 Siege, längste Handelsstraße, größte Ritterarmee), alle Szenarien mit Gold-Medaille, alle KI-Level besiegt, alle Erweiterungen komplett. Prioritäten: Szenarien-Medaillen > Erfolge mit Mengenzielen > KI-Herausforderungen > Sammelerfolge. Missables: Keine – alles kann nachgeholt werden. Sei präzise mit Zahlen (z. B. 'Du hast 12/20 Szenarien auf Gold'). // 100% TRACKING AKTIVIERT.",
+  "system_prompt": "DU BIST 100% COMPLETION COACH FÃœR DIE SIEDLER VON CATAN. Der Spieler zeigt dir einen Screenshot der digitalen Version (Catan Universe, Switch, etc.). Analysiere: Welche Erfolge/TrophÃ¤en fehlen? Welche Szenarien (Grundspiel, Seefahrer, StÃ¤dte & Ritter, HÃ¤ndler & Barbaren) sind noch nicht abgeschlossen? Wie viele Siege gegen KI auf verschiedenen Schwierigkeitsgraden? Zeige exakt, was fÃ¼r 100% fehlt: Alle Erfolge (z.Â B. 50 Siege, lÃ¤ngste HandelsstraÃŸe, grÃ¶ÃŸte Ritterarmee), alle Szenarien mit Gold-Medaille, alle KI-Level besiegt, alle Erweiterungen komplett. PrioritÃ¤ten: Szenarien-Medaillen > Erfolge mit Mengenzielen > KI-Herausforderungen > Sammelerfolge. Missables: Keine â€“ alles kann nachgeholt werden. Sei prÃ¤zise mit Zahlen (z.Â B. 'Du hast 12/20 Szenarien auf Gold'). // 100% TRACKING AKTIVIERT.",
   "platforms": ["PC", "iOS", "Android", "Nintendo Switch"],
   "completion_categories": {
     "achievements": {
       "total": 45,
       "list": [
         {"name": "First Settlement", "requirement": "Baue deine erste Siedlung", "points": 10},
-        {"name": "City Builder", "requirement": "Baue 10 Städte (kumulativ)", "points": 20},
-        {"name": "Longest Road", "requirement": "Erhalte die längste Handelsstraße (2 Siegpunkte)", "points": 30},
-        {"name": "Largest Army", "requirement": "Erhalte die größte Ritterarmee (2 Siegpunkte)", "points": 30},
+        {"name": "City Builder", "requirement": "Baue 10 StÃ¤dte (kumulativ)", "points": 20},
+        {"name": "Longest Road", "requirement": "Erhalte die lÃ¤ngste HandelsstraÃŸe (2 Siegpunkte)", "points": 30},
+        {"name": "Largest Army", "requirement": "Erhalte die grÃ¶ÃŸte Ritterarmee (2 Siegpunkte)", "points": 30},
         {"name": "Victory Master", "requirement": "Gewinne 50 Spiele insgesamt", "points": 50},
-        {"name": "Scenario Champion", "requirement": "Schließe alle Szenarien des Grundspiels ab", "points": 40},
-        {"name": "Expansion Expert", "requirement": "Schließe alle Szenarien aller Erweiterungen ab", "points": 50},
+        {"name": "Scenario Champion", "requirement": "SchlieÃŸe alle Szenarien des Grundspiels ab", "points": 40},
+        {"name": "Expansion Expert", "requirement": "SchlieÃŸe alle Szenarien aller Erweiterungen ab", "points": 50},
         {"name": "Monopoly", "requirement": "Spiele eine Monopol-Karte und sammle 5+ Rohstoffe", "points": 20},
-        {"name": "Road Builder", "requirement": "Baue 5 Straßen in einem Zug", "points": 15},
+        {"name": "Road Builder", "requirement": "Baue 5 StraÃŸen in einem Zug", "points": 15},
         {"name": "Resource King", "requirement": "Besitze 20+ Rohstoffkarten auf einmal", "points": 25},
-        {"name": "Trade Master", "requirement": "Führe 100 Handel mit anderen Spielern durch", "points": 35},
-        {"name": "Robber Baron", "requirement": "Verschiebe den Räuber 50 Mal", "points": 30},
+        {"name": "Trade Master", "requirement": "FÃ¼hre 100 Handel mit anderen Spielern durch", "points": 35},
+        {"name": "Robber Baron", "requirement": "Verschiebe den RÃ¤uber 50 Mal", "points": 30},
         {"name": "Perfect Victory", "requirement": "Gewinne ein Spiel mit 10 Siegpunkten, ohne dass ein Gegner 5 erreicht", "points": 45}
       ]
     },
     "scenarios": {
       "base_game": {
         "total": 4,
-        "list": ["Einfaches Spiel", "Große Karte", "Wüstenraub", "Die großen Flüsse"],
+        "list": ["Einfaches Spiel", "GroÃŸe Karte", "WÃ¼stenraub", "Die groÃŸen FlÃ¼sse"],
         "gold_medal_requirement": "Sieg in unter 45 Minuten (gegen KI auf schwer)"
       },
       "seafarers": {
         "total": 9,
-        "list": ["Neue Ufer", "Die vier Inseln", "Der Fog Islands", "Die Kreuzfahrt", "Die Große Seefahrt", "Die Wüsteninseln", "Die Goldinsel", "Die Piraten", "Die Karawane"],
+        "list": ["Neue Ufer", "Die vier Inseln", "Der Fog Islands", "Die Kreuzfahrt", "Die GroÃŸe Seefahrt", "Die WÃ¼steninseln", "Die Goldinsel", "Die Piraten", "Die Karawane"],
         "gold_medal_requirement": "Sieg mit mindestens 4 Inseln besiedelt"
       },
       "cities_and_knights": {
         "total": 8,
-        "list": ["Der Barbarenangriff", "Der Handelskonvoi", "Die Große Mauer", "Die Klosterinsel", "Die Metropolen", "Der Heilige Krieg", "Das Turnier", "Die letzte Schlacht"],
+        "list": ["Der Barbarenangriff", "Der Handelskonvoi", "Die GroÃŸe Mauer", "Die Klosterinsel", "Die Metropolen", "Der Heilige Krieg", "Das Turnier", "Die letzte Schlacht"],
         "gold_medal_requirement": "Baue mindestens eine Metropole und besiege die Barbaren"
       },
       "traders_and_barbarians": {
@@ -52,14 +52,14 @@
     },
     "multiplayer": {
       "ranked_online": {
-        "requirement": "Erreiche Rang 'Gold' (oder höher) im Online-Ranking",
-        "points": 1000+
+        "requirement": "Erreiche Rang 'Gold' (oder hÃ¶her) im Online-Ranking",
+        "points": 1000
       }
     },
     "dlc": {
       "catan_universe_pass": {
         "scenarios": "Alle 26 Szenarien abgeschlossen",
-        "achievements": "10 zusätzliche Erfolge"
+        "achievements": "10 zusÃ¤tzliche Erfolge"
       }
     }
   },
@@ -73,15 +73,15 @@
     "online_rank": "Gold+"
   },
   "missables": [
-    "Keine – alle Erfolge, Szenarien und KI-Siege können jederzeit nachgeholt werden.",
-    "Einige zeitlich limitierte Events (z. B. Weihnachts-Szenarien) sind nur saisonal verfügbar. Für 100% Completion warte auf das nächste Event."
+    "Keine â€“ alle Erfolge, Szenarien und KI-Siege kÃ¶nnen jederzeit nachgeholt werden.",
+    "Einige zeitlich limitierte Events (z.Â B. Weihnachts-Szenarien) sind nur saisonal verfÃ¼gbar. FÃ¼r 100% Completion warte auf das nÃ¤chste Event."
   ],
   "tips": [
-    "Für 'Perfect Victory' (Gegner unter 5 Punkten): Spiele gegen Easy-KI und baue schnell Straßen in Richtung neuer Siedlungen.",
-    "Für 'Resource King' (20 Karten): Konzentriere dich auf zwei Rohstoffarten und halte sie, bis der Räuber kommt – dann tausche um.",
-    "Szenarien auf Gold: Nutze Pausenfunktion (digital), um optimale Züge zu planen.",
-    "KI auf Expert: Blockiere ihre besten Felder früh mit dem Räuber."
+    "FÃ¼r 'Perfect Victory' (Gegner unter 5 Punkten): Spiele gegen Easy-KI und baue schnell StraÃŸen in Richtung neuer Siedlungen.",
+    "FÃ¼r 'Resource King' (20 Karten): Konzentriere dich auf zwei Rohstoffarten und halte sie, bis der RÃ¤uber kommt â€“ dann tausche um.",
+    "Szenarien auf Gold: Nutze Pausenfunktion (digital), um optimale ZÃ¼ge zu planen.",
+    "KI auf Expert: Blockiere ihre besten Felder frÃ¼h mit dem RÃ¤uber."
   ],
-  "completion_time_estimate": "80-150 Stunden (je nach Glück und Online-Rang)",
+  "completion_time_estimate": "80-150 Stunden (je nach GlÃ¼ck und Online-Rang)",
   "version": "2026-04-08"
 }

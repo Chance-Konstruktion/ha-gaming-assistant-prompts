@@ -3,44 +3,44 @@
   "name": "Die Siedler von Catan - Cheats & Exploits",
   "type": "cheats",
   "keywords": ["cheats", "exploits", "resources", "unlimited", "trading", "glitch", "trainer"],
-  "system_prompt": "DU BIST CHEAT-EXPERTE FÜR DIE SIEDLER VON CATAN. Der User fragt nach Cheats für das physische Brettspiel oder die digitalen Versionen (PC, Mobile, Switch). Analysiere den Screenshot: Siehst du eine digitale UI (Ressourcenanzeige, Würfel, Handkarten) oder ein echtes Brett? Für das PHYSISCHE SPIEL: Es gibt KEINE echten Cheat-Codes. Du kannst aber Hausregeln, psychologische Tricks (Bluffen, Handelsmanipulation) und strategische Kniffe nennen. Für DIGITALE VERSIONEN (Catan Universe, Switch, etc.): Auch hier keine offiziellen Cheat-Codes, aber es existieren Glitches (z. B. Netzwerk-Lag beim Würfeln, Speicherstand-Manipulation) und PC-Trainer (Cheat Engine). Warne vor Account-Bann bei Online-Spielen. Gib immer an, ob eine Methode auf der aktuellen Version noch funktioniert. Prioritäten: 1) Digitale Glitches/Exploits (mit Patch-Status), 2) PC-Trainer/Mods (Offline only), 3) Hausregeln/Strategien (nur als solche gekennzeichnet). Sei präzise und unterscheide strikt zwischen echten Cheats und Spielertaktiken. // CHEAT-MODE: Keine offiziellen Codes – nur Exploits und Hausregeln.",
+  "system_prompt": "DU BIST CHEAT-EXPERTE FÃœR DIE SIEDLER VON CATAN. Der User fragt nach Cheats fÃ¼r das physische Brettspiel oder die digitalen Versionen (PC, Mobile, Switch). Analysiere den Screenshot: Siehst du eine digitale UI (Ressourcenanzeige, WÃ¼rfel, Handkarten) oder ein echtes Brett? FÃ¼r das PHYSISCHE SPIEL: Es gibt KEINE echten Cheat-Codes. Du kannst aber Hausregeln, psychologische Tricks (Bluffen, Handelsmanipulation) und strategische Kniffe nennen. FÃ¼r DIGITALE VERSIONEN (Catan Universe, Switch, etc.): Auch hier keine offiziellen Cheat-Codes, aber es existieren Glitches (z.Â B. Netzwerk-Lag beim WÃ¼rfeln, Speicherstand-Manipulation) und PC-Trainer (Cheat Engine). Warne vor Account-Bann bei Online-Spielen. Gib immer an, ob eine Methode auf der aktuellen Version noch funktioniert. PrioritÃ¤ten: 1) Digitale Glitches/Exploits (mit Patch-Status), 2) PC-Trainer/Mods (Offline only), 3) Hausregeln/Strategien (nur als solche gekennzeichnet). Sei prÃ¤zise und unterscheide strikt zwischen echten Cheats und Spielertaktiken. // CHEAT-MODE: Keine offiziellen Codes â€“ nur Exploits und Hausregeln.",
   "platforms": ["PC", "iOS", "Android", "Nintendo Switch", "Physical"],
   "cheats": [
     {
       "name": "Keine offiziellen Cheat-Codes",
-      "description": "Weder die physische noch die digitale Version von Catan enthält eingebaute Cheat-Codes (wie unendliche Rohstoffe oder Gottmodus). Die Entwickler bieten keine offiziellen Cheats.",
-      "note": "Alle folgenden Einträge sind entweder Hausregeln, strategische Tricks oder digitale Exploits/Glitches."
+      "description": "Weder die physische noch die digitale Version von Catan enthÃ¤lt eingebaute Cheat-Codes (wie unendliche Rohstoffe oder Gottmodus). Die Entwickler bieten keine offiziellen Cheats.",
+      "note": "Alle folgenden EintrÃ¤ge sind entweder Hausregeln, strategische Tricks oder digitale Exploits/Glitches."
     },
     {
       "name": "Digitale Version: Netzwerk-Lag Exploit (Catan Universe)",
       "type": "digital_glitch",
-      "description": "Bei schlechter Internetverbindung kannst du während des Würfelns die App schließen, bevor das Ergebnis übertragen wird. Beim Neustart wird oft der gleiche Rohstoff-Wurf wiederholt – du kannst so mehrmals hintereinander von einer guten Zahl profitieren.",
-      "status": "Patch abhängig – in neueren Versionen möglicherweise gefixt",
-      "risk": "Mittel – kann zu Verbindungsabbrüchen führen",
+      "description": "Bei schlechter Internetverbindung kannst du wÃ¤hrend des WÃ¼rfelns die App schlieÃŸen, bevor das Ergebnis Ã¼bertragen wird. Beim Neustart wird oft der gleiche Rohstoff-Wurf wiederholt â€“ du kannst so mehrmals hintereinander von einer guten Zahl profitieren.",
+      "status": "Patch abhÃ¤ngig â€“ in neueren Versionen mÃ¶glicherweise gefixt",
+      "risk": "Mittel â€“ kann zu VerbindungsabbrÃ¼chen fÃ¼hren",
       "platforms": ["PC", "iOS", "Android"],
-      "warning": "Nicht im Ranglisten-Modus verwenden (kann zu temporären Sperren führen)."
+      "warning": "Nicht im Ranglisten-Modus verwenden (kann zu temporÃ¤ren Sperren fÃ¼hren)."
     },
     {
       "name": "Speicherstand-Manipulation (PC/Mobile)",
       "type": "digital_exploit",
-      "description": "Bei einigen digitalen Versionen (z. B. Catan Universe offline) kannst du den lokalen Speicherstand sichern, einen Zug durchführen und bei Misserfolg den alten Stand wiederherstellen. So kannst du z. B. eine 7 vermeiden oder einen vorteilhaften Handel wiederholen.",
+      "description": "Bei einigen digitalen Versionen (z.Â B. Catan Universe offline) kannst du den lokalen Speicherstand sichern, einen Zug durchfÃ¼hren und bei Misserfolg den alten Stand wiederherstellen. So kannst du z.Â B. eine 7 vermeiden oder einen vorteilhaften Handel wiederholen.",
       "status": "Funktioniert nur in Offline-Modi oder gegen KI",
-      "risk": "Niedrig (offline), hoch (online – Banngefahr)",
+      "risk": "Niedrig (offline), hoch (online â€“ Banngefahr)",
       "platforms": ["PC", "Android"]
     },
     {
       "name": "PC-Trainer (Cheat Engine)",
       "type": "external_tool",
-      "description": "Mit Cheat Engine können Ressourcenwerte, Siegpunkte oder die Würfelwahrscheinlichkeit manipuliert werden. Dazu muss der Wert im Arbeitsspeicher gesucht und geändert werden.",
+      "description": "Mit Cheat Engine kÃ¶nnen Ressourcenwerte, Siegpunkte oder die WÃ¼rfelwahrscheinlichkeit manipuliert werden. Dazu muss der Wert im Arbeitsspeicher gesucht und geÃ¤ndert werden.",
       "status": "Funktioniert in Offline-Partien gegen KI",
-      "risk": "Hoch – Online-Bann sofort, Save-Corruption möglich",
+      "risk": "Hoch â€“ Online-Bann sofort, Save-Corruption mÃ¶glich",
       "platforms": ["PC"],
       "warning": "Nur im reinen Einzelspieler-Modus ohne Internetverbindung verwenden."
     },
     {
       "name": "Hausregel: Chaos-Catan",
       "type": "house_rule",
-      "description": "Die Zahlenchips werden zufällig auf die Felder verteilt (statt nach Wahrscheinlichkeit). Dadurch entstehen unberechenbare Ressourcenverteilungen – kann als ‚Cheat‘ für erfahrene Spieler genutzt werden, die sich schnell anpassen.",
+      "description": "Die Zahlenchips werden zufÃ¤llig auf die Felder verteilt (statt nach Wahrscheinlichkeit). Dadurch entstehen unberechenbare Ressourcenverteilungen â€“ kann als â€šCheatâ€˜ fÃ¼r erfahrene Spieler genutzt werden, die sich schnell anpassen.",
       "official": false,
       "platforms": ["Physical"]
     },
@@ -54,10 +54,10 @@
     {
       "name": "Strategischer Trick: Rohstoff-Monopol",
       "type": "strategy",
-      "description": "Sobald du eine Monopol-Entwicklungskarte hast, sammle so viele Rohstoffe einer Sorte wie möglich (z. B. durch Handel), spiele die Monopol-Karte und nimm allen anderen Spielern genau diesen Rohstoff weg. Kein Cheat, aber extrem mächtig.",
+      "description": "Sobald du eine Monopol-Entwicklungskarte hast, sammle so viele Rohstoffe einer Sorte wie mÃ¶glich (z.Â B. durch Handel), spiele die Monopol-Karte und nimm allen anderen Spielern genau diesen Rohstoff weg. Kein Cheat, aber extrem mÃ¤chtig.",
       "platforms": ["Physical", "Digital"]
     }
   ],
-  "online_warning": "Cheat-Engine, Speicherstands-Manipulation oder Netzwerk-Exploits im Online-Multiplayer führen zu permanentem Account-Bann (Ubisoft, Playdek). Verwende solche Methoden NUR im Offline-Modus gegen KI.",
+  "online_warning": "Cheat-Engine, Speicherstands-Manipulation oder Netzwerk-Exploits im Online-Multiplayer fÃ¼hren zu permanentem Account-Bann (Ubisoft, Playdek). Verwende solche Methoden NUR im Offline-Modus gegen KI.",
   "version": "2026-04-08"
 }
