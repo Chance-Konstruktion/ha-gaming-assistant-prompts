@@ -17,9 +17,8 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Enforce naming convention
-        run: python3 scripts/validate_packs.py
-
-      - name: Advisory strict validation
+      - name: Enforce naming, UTF-8 encoding and JSON validity
+        # --strict fails the build on any non-UTF-8 or unparseable pack.
+        # Previously this ran advisory-only (continue-on-error), which let
+        # 13 Latin-1 files and 28 broken-JSON packs ship undetected.
         run: python3 scripts/validate_packs.py --strict
-        continue-on-error: true

@@ -43,7 +43,7 @@
         {"name": "Plasma Rifle", "challenges": ["25 Heat Blast eliminations", "25 Heat Blast supercharged"]},
         {"name": "Rocket Launcher", "challenges": ["25 Lock-On Burst eliminations", "20 Flak eliminations"]},
         {"name": "Super Shotgun", "challenges": ["25 Ballista eliminations", "25 Meathook eliminations"]},
-        {"name": "Ballista", "challenges": ["25 Arbalest eliminations", "25 Destroyer Blade eliminations",  "chaingun": {"name": "Chaingun", "challenges": ["25 Energy Shield eliminations", "25 Mobile Turret eliminations"]},
+        {"name": "Ballista", "challenges": ["25 Arbalest eliminations", "25 Destroyer Blade eliminations"]},
         {"name": "Chaingun", "challenges": ["25 Energy Shield eliminations", "25 Mobile Turret eliminations"]},
         {"name": "BFG-9000", "challenges": ["Keine Mastery - seltene Munition"]},
         {"name": "Unmaykr", "challenges": ["Keine Mastery - Secret Weapon"]}

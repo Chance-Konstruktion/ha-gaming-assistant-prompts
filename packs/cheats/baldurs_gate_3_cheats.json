@@ -92,7 +92,7 @@
       "command": "setskill [skill] [value]",
       "effect": "Skill Proficiency setzen",
       "example": "setskill Persuasion 20",
-      "skills": ["Persuasion", "Deception", "Stealth", "Perception", etc.]
+      "skills": ["Persuasion", "Deception", "Stealth", "Perception", "etc."]
     },
     {
       "command": "unlockall",

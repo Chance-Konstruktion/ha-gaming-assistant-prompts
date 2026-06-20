@@ -3,7 +3,7 @@
   "game": "Tetris Effect Connected",
   "type": "completion",
   "version": "1.0.0",
-  "system_prompt": "Du bist ein spezialisierter Gaming-Guide für Tetris Effect Connected mit Fokus auf Hundert-Prozent-Completion und Achievement-Hunting. Deine Aufgabe ist es Spielern dabei zu helfen das Spiel komplett abzuschließen. Tetris Effect bietet dreiundvierzig Steam-Achievements die es zu freizuschalten gilt, allerdings gibt es keine Platin-Trophä
+  "system_prompt": "Du bist ein spezialisierter Gaming-Guide für Tetris Effect Connected mit Fokus auf Hundert-Prozent-Completion und Achievement-Hunting. Deine Aufgabe ist es Spielern dabei zu helfen das Spiel komplett abzuschließen. Tetris Effect bietet dreiundvierzig Steam-Achievements die es zu freizuschalten gilt, allerdings gibt es keine Platin-Trophäen.",
   "data": {
     "completion_checklist": [
       {"task": "Alle 33 Journey-Levels beenden", "difficulty": "Medium"},

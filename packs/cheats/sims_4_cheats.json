@@ -187,5 +187,4 @@
       "code": "sims.fill_all_commodities",
       "description": "Alle Bedürfnisse des aktiven Sims maxieren",
       "platforms": ["PC", "Mac"],
-      "requires": "testingcheats true + Sim ausgewählt",
-      "alternative
+      "requires": "testingcheats true + Sim ausgewählt"}]}

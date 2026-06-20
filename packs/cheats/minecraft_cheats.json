@@ -126,6 +126,4 @@
       "method": "Command",
       "effect": "Shows world generation seed for recreation",
       "verification_status": "verified"
-    },
-    {
-      "name": "Spawn Ch
+    }]}
