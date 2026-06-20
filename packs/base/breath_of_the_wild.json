@@ -1,7 +1,13 @@
 {
   "id": "breath_of_the_wild",
   "name": "The Legend of Zelda: Breath of the Wild",
-  "keywords": ["breath of the wild", "botw", "zelda botw", "hyrule"],
+  "keywords": [
+    "breath of the wild",
+    "botw",
+    "zelda botw",
+    "hyrule",
+    "zelda breath of the wild"
+  ],
   "system_prompt": "You are an expert coach for The Legend of Zelda: Breath of the Wild. You know all about the Sheikah Slate runes, weapon durability, cooking effects, shrine solutions, and the four Divine Beasts. Give the player practical hints for exploration, combat, and puzzle solving. If you see a shrine, help with the puzzle. If you see a camp of monsters, suggest a stealth approach or a way to use the environment. Reference specific armor sets, materials, and recipes when useful.",
   "spoiler_defaults": {
     "story": "none",
@@ -12,13 +18,22 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "Breath of the Wild is an open-world adventure with a huge map. The player can tackle content in any order. Many secrets are hidden in the environment. Cooking and elixirs are essential for survival. The game has 120+ shrines and 900 Korok seeds.",
+  "additional_context": "Breath of the Wild is an open-world adventure with a huge map. The player can tackle content in any order. Many secrets are hidden in the environment. Cooking and elixirs are essential for survival. The game has 120+ shrines and 900 Korok seeds.\n\nGame knowledge (base):\n{\n  \"rank\": 1,\n  \"title\": \"The Legend of Zelda: Breath of the Wild\",\n  \"platform\": [\n    \"Switch\"\n  ],\n  \"year\": 2017,\n  \"sections\": {\n    \"cheats\": [\n      \"No official cheats - game designed for exploration.\",\n      \"Infinite Items glitch: Duplicate valuable items using save transfers.\",\n      \"Moon Jump: Place a torch on frozen enemy and jump onto it.\"\n    ],\n    \"builds/guides\": [\n      \"Early game: Gather materials, complete Great Plateau shrines.\",\n      \"Armor upgrade priority: Upgrade one set fully before mixing.\",\n      \"Best weapons: Savage Lynel weapons (30-60 damage) from defeating Lynels.\",\n      \"Endgame build: Barbarian armor + attack up + fierce deity armor.\"\n    ],\n    \"bosses\": [\n      \"Vah Ruta (Water Elephant) - Use Cryonis to freeze blue barriers.\",\n      \"Vah Rudiana (Fire Camel) - Ground-mounted cannon shots.\",\n      \"Vah Medoh (Flying Bird) - Use updrafts from broken pillars.\",\n      \"Vah Naboris (Camel) - Ground pound to protect from lightning.\",\n      \"Calamity Ganon - Four Divine Beasts must be completed first.\",\n      \"Dark Beast Ganon - Shoot eyes, use Urbosa's Fury at range.\"\n    ],\n    \"secrets\": [\n      \"Hidden shrine: Qua Raym (Bottom of lake near Great Plateau).\",\n      \"Mysterious stamp: Stand on shrine symbol at start for secret.\",\n      \"Korok seeds: 900 total, hidden under leaves, rocks, and patterns.\",\n      \"Hestu's Gift: Exceed 600 seeds for exclusive Korok mask.\",\n      \"Amiibo exclusives: Wolf Link, 8-bit Link, Archer Link gear.\"\n    ],\n    \"tips\": [\n      \"Cook 5 herbs or carrots for full hearts instantly.\",\n      \"Stasis+ freezes objects in time - great for combat puzzles.\",\n      \"Weapon durability: Use element weapons for bonus damage.\",\n      \"Lynel drops highest damage weapons - bring fireproof gear.\",\n      \"Climb anywhere: stamina management is key early game.\"\n    ]\n  }\n}",
   "state_schema": {
     "health": "heart containers remaining",
     "stamina": "stamina wheel status",
     "region": "current map region",
     "weather": "current weather condition",
-    "phase": ["exploration", "combat", "shrine", "boss"],
-    "momentum": ["winning", "losing", "neutral"]
+    "phase": [
+      "exploration",
+      "combat",
+      "shrine",
+      "boss"
+    ],
+    "momentum": [
+      "winning",
+      "losing",
+      "neutral"
+    ]
   }
 }
