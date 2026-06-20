@@ -1,42 +1,12 @@
 {
-  "rank": 2,
-  "title": "Metal Gear Solid",
-  "platform": ["PS1"],
-  "year": 1998,
-  "sections": {
-    "cheats": [
-      "Infinite codec frequency - hold L2 + R2 + Square at title screen",
-      "Big Boss Mode (extreme difficulty + alternate codec)",
-      "VR Training mode unlock via memory card data",
-      "Play as Meryl incodec frequency: 141.80"
-    ],
-    "builds/guides": [
-      "Stealth walkthrough guide (no kills/no alerts)",
-      "M1 Tank destruction guide (shoot treads, then main body)",
-      "Psychic gene walkthrough - codec frequency list",
-      "S-rank speedrun route",
-      "Controller vibration function unlock guide"
-    ],
-    "bosses": [
-      "M1 Tank - Shoot treads first, then main body",
-      "Psycho Mantis - Switch controller ports, use Controller 2",
-      "Vulcan Raven - Shoot the frozen missile, then the raven",
-      "Octopus (Revolver Ocelot) - Duck and shoot, use bullets",
-      "Metal Gear REX - Shoot warheads, then cockpit"
-    ],
-    "secrets": [
-      "Valkyrie spy cam easter egg",
-      "Naked Shenmue reference easter egg",
-      "Hidden Meryl codec frequency 141.80",
-      "Play as Otacon after completing game",
-      "Hidden ending with Meryl based on codec choice"
-    ],
-    "tips": [
-      "Use Cardboard Box for easy past guards",
-      "Chaff grenades disable all electronics briefly",
-      "Narrow hallways are safest for C4 placement",
-      "Talk to Otacon regularly for hints",
-      "Save on separate slots for each major event"
-    ]
-  }
+  "id": "ps1_metal_gear_solid",
+  "name": "Metal Gear Solid",
+  "type": "base",
+  "keywords": [
+    "metal gear solid",
+    "metal gear",
+    "mgs"
+  ],
+  "system_prompt": "You are an expert real-time coach for Metal Gear Solid. Analyze the screenshot (HUD, minimap, inventory, enemies, menus) and give one concrete, actionable tip for the current situation. Reference visible elements and state the next best action. Use the game knowledge provided below and respect spoiler settings – never reveal anything beyond the visible progress.",
+  "additional_context": "Game knowledge (base):\n{\n  \"rank\": 2,\n  \"title\": \"Metal Gear Solid\",\n  \"platform\": [\n    \"PS1\"\n  ],\n  \"year\": 1998,\n  \"sections\": {\n    \"cheats\": [\n      \"Infinite codec frequency - hold L2 + R2 + Square at title screen\",\n      \"Big Boss Mode (extreme difficulty + alternate codec)\",\n      \"VR Training mode unlock via memory card data\",\n      \"Play as Meryl incodec frequency: 141.80\"\n    ],\n    \"builds/guides\": [\n      \"Stealth walkthrough guide (no kills/no alerts)\",\n      \"M1 Tank destruction guide (shoot treads, then main body)\",\n      \"Psychic gene walkthrough - codec frequency list\",\n      \"S-rank speedrun route\",\n      \"Controller vibration function unlock guide\"\n    ],\n    \"bosses\": [\n      \"M1 Tank - Shoot treads first, then main body\",\n      \"Psycho Mantis - Switch controller ports, use Controller 2\",\n      \"Vulcan Raven - Shoot the frozen missile, then the raven\",\n      \"Octopus (Revolver Ocelot) - Duck and shoot, use bullets\",\n      \"Metal Gear REX - Shoot warheads, then cockpit\"\n    ],\n    \"secrets\": [\n      \"Valkyrie spy cam easter egg\",\n      \"Naked Shenmue reference easter egg\",\n      \"Hidden Meryl codec frequency 141.80\",\n      \"Play as Otacon after completing game\",\n      \"Hidden ending with Meryl based on codec choice\"\n    ],\n    \"tips\": [\n      \"Use Cardboard Box for easy past guards\",\n      \"Chaff grenades disable all electronics briefly\",\n      \"Narrow hallways are safest for C4 placement\",\n      \"Talk to Otacon regularly for hints\",\n      \"Save on separate slots for each major event\"\n    ]\n  }\n}"
 }

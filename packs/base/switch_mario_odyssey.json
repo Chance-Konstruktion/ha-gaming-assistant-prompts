@@ -1,40 +1,12 @@
 {
-  "rank": 2,
-  "title": "Super Mario Odyssey",
-  "platform": ["Switch"],
-  "year": 2017,
-  "sections": {
-    "cheats": [
-      "No official cheats - works with Cappy mechanic.",
-      "Multi-cap throw: Throw cap at multiple enemies in sequence.",
-      "Ground pound cancel: Jump immediately after ground pound input."
-    ],
-    "builds/guides": [
-      "Progression: Collect Power Moons to unlock new kingdoms.",
-      "Cappy combinations: Each capture has unique abilities.",
-      "Endgame: 999 Power Moons and 10000 purple coins for everything.",
-      "Best kingdom order: Cap, Cascade, Sand, Lake, Wood, Lost, Metro, Snow, Seaside, Luncheon, Bowser."
-    ],
-    "bosses": [
-      "Bowser (Metro Kingdom) - Use RC car to hit when he jumps.",
-      "Bowser (Moon Kingdom) - Multi-phase: fireballs, ground pound, final rush.",
-      "Torkdrift (Luncheon) - Grab and throw into volcano.",
-      "Mollusque-Lanceur (Sand Kingdom) - Capture and use drill attack.",
-      "Rango (Metro) - Stealth section, avoid spotlight."
-    ],
-    "secrets": [
-      "Dark Side: 500+ moons unlocks harder version of all kingdoms.",
-      "Moon Rock: 99 moons per kingdom required for Dark Side.",
-      "Hidden Luigi: Appears after collecting 500+ moons.",
-      "8-bit Mario: Hidden in every world, talk to him.",
-      "Forgotten items: Complete story for post-game bonus areas."
-    ],
-    "tips": [
-      "Capture anything: Enemies, objects, vehicles - all unique.",
-      "Purple coins: 100 per world, buy exclusive outfits.",
-      "Wall jumping: Essential for many hidden areas.",
-      "RC Parachute: Hold forward + jump in 2D sections.",
-      "Ground pound after long jump = height gain."
-    ]
-  }
+  "id": "switch_mario_odyssey",
+  "name": "Super Mario Odyssey",
+  "type": "base",
+  "keywords": [
+    "super mario odyssey",
+    "mario odyssey",
+    "odyssey"
+  ],
+  "system_prompt": "You are an expert real-time coach for Super Mario Odyssey. Analyze the screenshot (HUD, minimap, inventory, enemies, menus) and give one concrete, actionable tip for the current situation. Reference visible elements and state the next best action. Use the game knowledge provided below and respect spoiler settings – never reveal anything beyond the visible progress.",
+  "additional_context": "Game knowledge (base):\n{\n  \"rank\": 2,\n  \"title\": \"Super Mario Odyssey\",\n  \"platform\": [\n    \"Switch\"\n  ],\n  \"year\": 2017,\n  \"sections\": {\n    \"cheats\": [\n      \"No official cheats - works with Cappy mechanic.\",\n      \"Multi-cap throw: Throw cap at multiple enemies in sequence.\",\n      \"Ground pound cancel: Jump immediately after ground pound input.\"\n    ],\n    \"builds/guides\": [\n      \"Progression: Collect Power Moons to unlock new kingdoms.\",\n      \"Cappy combinations: Each capture has unique abilities.\",\n      \"Endgame: 999 Power Moons and 10000 purple coins for everything.\",\n      \"Best kingdom order: Cap, Cascade, Sand, Lake, Wood, Lost, Metro, Snow, Seaside, Luncheon, Bowser.\"\n    ],\n    \"bosses\": [\n      \"Bowser (Metro Kingdom) - Use RC car to hit when he jumps.\",\n      \"Bowser (Moon Kingdom) - Multi-phase: fireballs, ground pound, final rush.\",\n      \"Torkdrift (Luncheon) - Grab and throw into volcano.\",\n      \"Mollusque-Lanceur (Sand Kingdom) - Capture and use drill attack.\",\n      \"Rango (Metro) - Stealth section, avoid spotlight.\"\n    ],\n    \"secrets\": [\n      \"Dark Side: 500+ moons unlocks harder version of all kingdoms.\",\n      \"Moon Rock: 99 moons per kingdom required for Dark Side.\",\n      \"Hidden Luigi: Appears after collecting 500+ moons.\",\n      \"8-bit Mario: Hidden in every world, talk to him.\",\n      \"Forgotten items: Complete story for post-game bonus areas.\"\n    ],\n    \"tips\": [\n      \"Capture anything: Enemies, objects, vehicles - all unique.\",\n      \"Purple coins: 100 per world, buy exclusive outfits.\",\n      \"Wall jumping: Essential for many hidden areas.\",\n      \"RC Parachute: Hold forward + jump in 2D sections.\",\n      \"Ground pound after long jump = height gain.\"\n    ]\n  }\n}"
 }

@@ -1,42 +1,12 @@
 {
-  "rank": 1,
-  "title": "Shadow of the Colossus",
-  "platform": ["PS2"],
-  "year": 2005,
-  "sections": {
-    "cheats": [
-      "Under the map glitch (early game)",
-      "Low gravity glitch for faster travel",
-      "Hard mode unlock - beat game on Normal",
-      "Time attack mode unlock after first playthrough"
-    ],
-    "builds/guides": [
-      "16 Colossi complete walkthrough guide",
-      "Each colossus weak point locations and attack patterns",
-      "Stamina management guide",
-      "Time attack optimal routes",
-      "HD remaster collectibles guide"
-    ],
-    "bosses": [
-      "Quadrumanus (Colossus #1) - Shot in back while climbing",
-      "Phidias (#3) - Shoot glowing markings on legs",
-      "Chiron (#11) - Shoot back foot, avoid energy blast",
-      "Malus (#16, Final) - Use light arrows, climb and stab",
-      "All 16 colossi have unique patterns and weak spots"
-    ],
-    "secrets": [
-      "Hidden lizard at Shrine of Worship",
-      "Secret fruit locations for extra stamina",
-      "Hidden outfits in HD version",
-      "Unused colossus references in game files",
-      "True ending theories and Dormin's true identity"
-    ],
-    "tips": [
-      "Always aim for weak spots (glowing marks)",
-      "Use bow for distant colossi, melee up close",
-      "Conserve stamina - don't sprint unnecessarily",
-      "Look for landmarks to navigate the Forbidden Lands",
-      "Time of day affects some colossi behavior"
-    ]
-  }
+  "id": "ps2_shadow_of_the_colossus",
+  "name": "Shadow of the Colossus",
+  "type": "base",
+  "keywords": [
+    "shadow of the colossus",
+    "sotc",
+    "colossus"
+  ],
+  "system_prompt": "You are an expert real-time coach for Shadow of the Colossus. Analyze the screenshot (HUD, minimap, inventory, enemies, menus) and give one concrete, actionable tip for the current situation. Reference visible elements and state the next best action. Use the game knowledge provided below and respect spoiler settings – never reveal anything beyond the visible progress.",
+  "additional_context": "Game knowledge (base):\n{\n  \"rank\": 1,\n  \"title\": \"Shadow of the Colossus\",\n  \"platform\": [\n    \"PS2\"\n  ],\n  \"year\": 2005,\n  \"sections\": {\n    \"cheats\": [\n      \"Under the map glitch (early game)\",\n      \"Low gravity glitch for faster travel\",\n      \"Hard mode unlock - beat game on Normal\",\n      \"Time attack mode unlock after first playthrough\"\n    ],\n    \"builds/guides\": [\n      \"16 Colossi complete walkthrough guide\",\n      \"Each colossus weak point locations and attack patterns\",\n      \"Stamina management guide\",\n      \"Time attack optimal routes\",\n      \"HD remaster collectibles guide\"\n    ],\n    \"bosses\": [\n      \"Quadrumanus (Colossus #1) - Shot in back while climbing\",\n      \"Phidias (#3) - Shoot glowing markings on legs\",\n      \"Chiron (#11) - Shoot back foot, avoid energy blast\",\n      \"Malus (#16, Final) - Use light arrows, climb and stab\",\n      \"All 16 colossi have unique patterns and weak spots\"\n    ],\n    \"secrets\": [\n      \"Hidden lizard at Shrine of Worship\",\n      \"Secret fruit locations for extra stamina\",\n      \"Hidden outfits in HD version\",\n      \"Unused colossus references in game files\",\n      \"True ending theories and Dormin's true identity\"\n    ],\n    \"tips\": [\n      \"Always aim for weak spots (glowing marks)\",\n      \"Use bow for distant colossi, melee up close\",\n      \"Conserve stamina - don't sprint unnecessarily\",\n      \"Look for landmarks to navigate the Forbidden Lands\",\n      \"Time of day affects some colossi behavior\"\n    ]\n  }\n}"
 }
