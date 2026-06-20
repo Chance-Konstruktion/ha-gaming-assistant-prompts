@@ -1,88 +1,18 @@
 {
-  "game": "Hogwarts Legacy",
-  "slug": "hogwarts_legacy",
-  "platforms": ["PC"],
-  "cheats": [
-    {
-      "type": "trainer",
-      "name": "FearlessRevolution Cheat Table",
-      "source": "https://fearlessrevolution.com/viewtopic.php?t=28682",
-      "author": "DrummerIX",
-      "version": "EDIT 2.75",
-      "last_updated": "2025-04-27",
-      "status": "active",
-      "tool": "Cheat Engine",
-      "features": [
-        {
-          "name": "Activate Trainer",
-          "description": "3 Slots verfügbar",
-          "safe": true
-        },
-        {
-          "name": "Infinite HP",
-          "description": "Unverwundbarkeit",
-          "safe": true,
-          "note": "Frühere Bugs behoben in v2.75"
-        },
-        {
-          "name": "Hero Damage Multiplier",
-          "description": "Schadensmodifikator",
-          "safe": true
-        },
-        {
-          "name": "Vendor Price Multiplier",
-          "description": "0 für Gratis-Items",
-          "safe": true
-        },
-        {
-          "name": "Infinite Potion Use",
-          "description": "Unbegrenzte Tränke",
-          "safe": true
-        },
-        {
-          "name": "Always Critical Hit",
-          "description": "Immer kritische Treffer",
-          "safe": true
-        },
-        {
-          "name": "No Spell Cooldown",
-          "description": "Keine Zauber-Abklingzeit",
-          "safe": true,
-          "note": "In v2.75 gefixt"
-        },
-        {
-          "name": "Infinite Ancient Magic / Focus",
-          "description": "Unbegrenzte Antike Magie",
-          "safe": true
-        },
-        {
-          "name": "Infinite Vendor Stock",
-          "description": "Unbegrenztes Händler-Sortiment",
-          "safe": true,
-          "warning": "Bei Hogsmeade-Troll ausschalten"
-        },
-        {
-          "name": "Set Money",
-          "description": "Geld setzen (hoch/niedrig)",
-          "safe": true
-        },
-        {
-          "name": "Set Player Inventory Items",
-          "description": "Inventar-Items modifizieren",
-          "safe": true
-        },
-        {
-          "name": "Add 4 Talent Points / Set to 80",
-          "description": "Talentpunkte hinzufügen",
-          "safe": true
-        },
-        {
-          "name": "EXP Multiplier",
-          "description": "Erfahrungspunkte multiplizieren",
-          "safe": true
-        }
-      ]
-    }
+  "id": "hogwarts_legacy_cheats",
+  "name": "Hogwarts Legacy",
+  "type": "cheats",
+  "keywords": [
+    "cheats",
+    "codes",
+    "console",
+    "commands",
+    "trainer",
+    "hogwarts legacy"
   ],
-  "last_updated": "2026-04-20"
+  "system_prompt": "Du bist ein Cheat- und Trainer-Experte für Hogwarts Legacy (primär PC). Nenne zum sichtbaren Kontext passende Konsolenbefehle, Cheats oder Trainer-Optionen mit exakter Syntax. Weise darauf hin, wenn ein Cheat Erfolge/Trophäen deaktiviert oder Speicherstände gefährdet. Nutze das unten bereitgestellte Cheat-Wissen.",
+  "additional_context": "Spielwissen (cheats):\n{\n  \"game\": \"Hogwarts Legacy\",\n  \"slug\": \"hogwarts_legacy\",\n  \"cheats\": [\n    {\n      \"type\": \"trainer\",\n      \"name\": \"FearlessRevolution Cheat Table\",\n      \"source\": \"https://fearlessrevolution.com/viewtopic.php?t=28682\",\n      \"author\": \"DrummerIX\",\n      \"version\": \"EDIT 2.75\",\n      \"last_updated\": \"2025-04-27\",\n      \"status\": \"active\",\n      \"tool\": \"Cheat Engine\",\n      \"features\": [\n        {\n          \"name\": \"Activate Trainer\",\n          \"description\": \"3 Slots verfügbar\",\n          \"safe\": true\n        },\n        {\n          \"name\": \"Infinite HP\",\n          \"description\": \"Unverwundbarkeit\",\n          \"safe\": true,\n          \"note\": \"Frühere Bugs behoben in v2.75\"\n        },\n        {\n          \"name\": \"Hero Damage Multiplier\",\n          \"description\": \"Schadensmodifikator\",\n          \"safe\": true\n        },\n        {\n          \"name\": \"Vendor Price Multiplier\",\n          \"description\": \"0 für Gratis-Items\",\n          \"safe\": true\n        },\n        {\n          \"name\": \"Infinite Potion Use\",\n          \"description\": \"Unbegrenzte Tränke\",\n          \"safe\": true\n        },\n        {\n          \"name\": \"Always Critical Hit\",\n          \"description\": \"Immer kritische Treffer\",\n          \"safe\": true\n        },\n        {\n          \"name\": \"No Spell Cooldown\",\n          \"description\": \"Keine Zauber-Abklingzeit\",\n          \"safe\": true,\n          \"note\": \"In v2.75 gefixt\"\n        },\n        {\n          \"name\": \"Infinite Ancient Magic / Focus\",\n          \"description\": \"Unbegrenzte Antike Magie\",\n          \"safe\": true\n        },\n        {\n          \"name\": \"Infinite Vendor Stock\",\n          \"description\": \"Unbegrenztes Händler-Sortiment\",\n          \"safe\": true,\n          \"warning\": \"Bei Hogsmeade-Troll ausschalten\"\n        },\n        {\n          \"name\": \"Set Money\",\n          \"description\": \"Geld setzen (hoch/niedrig)\",\n          \"safe\": true\n        },\n        {\n          \"name\": \"Set Player Inventory Items\",\n          \"description\": \"Inventar-Items modifizieren\",\n          \"safe\": true\n        },\n        {\n          \"name\": \"Add 4 Talent Points / Set to 80\",\n          \"description\": \"Talentpunkte hinzufügen\",\n          \"safe\": true\n        },\n        {\n          \"name\": \"EXP Multiplier\",\n          \"description\": \"Erfahrungspunkte multiplizieren\",\n          \"safe\": true\n        }\n      ]\n    }\n  ],\n  \"last_updated\": \"2026-04-20\"\n}",
+  "platforms": [
+    "PC"
+  ]
 }

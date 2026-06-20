@@ -1,30 +1,17 @@
 {
   "id": "tetris_effect_completion",
-  "game": "Tetris Effect Connected",
+  "name": "Tetris Effect Connected",
   "type": "completion",
-  "version": "1.0.0",
+  "keywords": [
+    "100%",
+    "completion",
+    "achievements",
+    "trophies",
+    "collectibles",
+    "missables",
+    "tetris"
+  ],
   "system_prompt": "Du bist ein spezialisierter Gaming-Guide für Tetris Effect Connected mit Fokus auf Hundert-Prozent-Completion und Achievement-Hunting. Deine Aufgabe ist es Spielern dabei zu helfen das Spiel komplett abzuschließen. Tetris Effect bietet dreiundvierzig Steam-Achievements die es zu freizuschalten gilt, allerdings gibt es keine Platin-Trophäen.",
-  "data": {
-    "completion_checklist": [
-      {"task": "Alle 33 Journey-Levels beenden", "difficulty": "Medium"},
-      {"task": "S-Rank in allen Journey-Levels", "difficulty": "Hard"},
-      {"task": "Alle Effect-Modes in Normal spielen", "difficulty": "Easy"},
-      {"task": "Alle Effect-Modes in Hardcore spielen", "difficulty": "Hard"},
-      {"task": "Alle Effect-Modes in Expert spielen", "difficulty": "Very Hard"},
-      {"task": "Avatar-Level 100 erreichen", "difficulty": "Grind"},
-      {"task": "Alle 43 Achievements freischalten", "difficulty": "Hard"},
-      {"task": "Connected-Qualifikation (S-Rank)", "difficulty": "Hard"}
-    ],
-    "rank_requirements": {
-      "S": {"clears": "Hoch", "time": "Schnell", "bonuses": "Combos, T-Spins"},
-      "A": {"clears": "Mittel", "time": "Normal"},
-      "B": {"clears": "Basis", "time": "Langsam"}
-    },
-    "speedrun_tips": [
-      "T-Spins für Bonus-Clears",
-      "Zone-Mechanik für T-Spins nutzen",
-      "Hard-Drop statt Soft-Drop",
-      "Next-Queue beobachten"
-    ]
-  }
+  "additional_context": "Spielwissen (completion):\n{\n  \"game\": \"Tetris Effect Connected\",\n  \"data\": {\n    \"completion_checklist\": [\n      {\n        \"task\": \"Alle 33 Journey-Levels beenden\",\n        \"difficulty\": \"Medium\"\n      },\n      {\n        \"task\": \"S-Rank in allen Journey-Levels\",\n        \"difficulty\": \"Hard\"\n      },\n      {\n        \"task\": \"Alle Effect-Modes in Normal spielen\",\n        \"difficulty\": \"Easy\"\n      },\n      {\n        \"task\": \"Alle Effect-Modes in Hardcore spielen\",\n        \"difficulty\": \"Hard\"\n      },\n      {\n        \"task\": \"Alle Effect-Modes in Expert spielen\",\n        \"difficulty\": \"Very Hard\"\n      },\n      {\n        \"task\": \"Avatar-Level 100 erreichen\",\n        \"difficulty\": \"Grind\"\n      },\n      {\n        \"task\": \"Alle 43 Achievements freischalten\",\n        \"difficulty\": \"Hard\"\n      },\n      {\n        \"task\": \"Connected-Qualifikation (S-Rank)\",\n        \"difficulty\": \"Hard\"\n      }\n    ],\n    \"rank_requirements\": {\n      \"S\": {\n        \"clears\": \"Hoch\",\n        \"time\": \"Schnell\",\n        \"bonuses\": \"Combos, T-Spins\"\n      },\n      \"A\": {\n        \"clears\": \"Mittel\",\n        \"time\": \"Normal\"\n      },\n      \"B\": {\n        \"clears\": \"Basis\",\n        \"time\": \"Langsam\"\n      }\n    },\n    \"speedrun_tips\": [\n      \"T-Spins für Bonus-Clears\",\n      \"Zone-Mechanik für T-Spins nutzen\",\n      \"Hard-Drop statt Soft-Drop\",\n      \"Next-Queue beobachten\"\n    ]\n  }\n}",
+  "version": "1.0.0"
 }
