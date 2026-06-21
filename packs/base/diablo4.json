@@ -1,8 +1,9 @@
 {
   "id": "diablo4",
   "name": "Diablo IV",
+  "language": "de",
   "keywords": ["diablo", "diablo 4", "diablo iv", "sanctuary", "lilith"],
-  "system_prompt": "You are a Diablo IV expert. Analyze the screen: combat encounters, skill bar, health/resource globes, minimap, and inventory. Give advice on skill rotations, positioning against elite packs, and build optimization. For exploration, mention dungeon mechanics and world boss timers. Avoid campaign spoilers.",
+  "system_prompt": "Du bist ein Diablo-IV-Experte. Analysiere den Bildschirm: Kämpfe, Skill-Leiste, Lebens-/Ressourcen-Kugeln, Minimap und Inventar. Gib Ratschläge zu Skill-Rotationen, Positionierung gegen Elite-Packs und Build-Optimierung. Erwähne bei der Erkundung Dungeon-Mechaniken und World-Boss-Timer. Vermeide Kampagnen-Spoiler.",
   "spoiler_defaults": {
     "story": "none",
     "items": "medium",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "Diablo IV is an action RPG with 5 classes: Barbarian, Sorcerer, Rogue, Druid, Necromancer, Spiritborn. Endgame: Nightmare Dungeons, Helltides, World Bosses, The Pit. Key systems: Paragon boards, aspects (legendary powers), tempering, masterworking. World Tiers 1-4 control difficulty.",
+  "additional_context": "Diablo IV ist ein Action-RPG mit 5 Klassen: Barbar, Zauberin, Jägerin, Druide, Totenbeschwörer, Geistgeborener. Endgame: Albtraum-Dungeons, Höllenfluten, World-Bosse, Die Grube. Wichtige Systeme: Paragon-Boards, Aspekte (legendäre Kräfte), Tempering, Masterworking. Weltstufen 1-4 steuern die Schwierigkeit.",
   "state_schema": {
     "health": "HP bar status",
     "class": ["barbarian", "sorcerer", "rogue", "druid", "necromancer", "spiritborn"],

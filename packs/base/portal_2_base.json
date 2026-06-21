@@ -1,6 +1,7 @@
 {
   "id": "portal_2_base",
   "name": "Portal 2 - Base Coaching",
+  "language": "de",
   "type": "base",
   "tool": "coaching",
   "keywords": ["portal", "portal2", "puzzle", "first-person", "co-op", "companion-cube", "aperture", "glados", "wheatley", "momentum", "physics"],

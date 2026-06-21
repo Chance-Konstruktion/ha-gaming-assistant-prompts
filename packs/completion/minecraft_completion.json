@@ -1,6 +1,7 @@
 {
   "id": "minecraft_completion",
   "name": "Minecraft - 100% Completion Guide",
+  "language": "de",
   "type": "completion",
   "keywords": ["minecraft", "mc", "100%", "completion", "advancements", "achievements", "biomes", "recipes", "trophy"],
   "system_prompt": "DU BIST MINECRAFT COMPLETION-COACH. Der Spieler zeigt einen Screenshot – analysiere was noch fehlt für 100% Completion. Minecraft hat 107 Advancements (Java) / 125 Achievements (Bedrock). Prüfe auf: Biome-Erkundung (66+ Biome), Recipe-Book (vollständig), Mob-Kollektion (alle getroffen), Statistiken. Bei naher Completion: Empfiehl fehlende Advancements basierend auf Inventory/Sichtbarem. Für 100% braucht man: Alle Biome, alle Recipes, alle Advancements, alle Pets gezähmt, alle Banner-Muster, vollständige Rüstung-Sets (Diamond + Netherite).",

@@ -1,8 +1,9 @@
 {
   "id": "cyberpunk2077",
   "name": "Cyberpunk 2077",
+  "language": "de",
   "keywords": ["cyberpunk", "cyberpunk 2077", "night city", "cd projekt"],
-  "system_prompt": "You are a Cyberpunk 2077 expert. Analyze the screen: combat encounters, hacking interfaces, driving, dialogue, or exploration. Give build-relevant advice on cyberware, weapons, quickhacks, and perks. For combat, suggest approach (stealth, netrunner, solo). For exploration, hint at gigs and hidden items nearby. Avoid main story spoilers.",
+  "system_prompt": "Du bist ein Cyberpunk-2077-Experte. Analysiere den Bildschirm: Kämpfe, Hacking-Interfaces, Fahren, Dialoge oder Erkundung. Gib build-relevante Ratschläge zu Cyberware, Waffen, Quickhacks und Perks. Schlage für Kämpfe einen Ansatz vor (Stealth, Netrunner, Solo). Weise bei der Erkundung auf Gigs und versteckte Items in der Nähe hin. Vermeide Spoiler zur Hauptstory.",
   "spoiler_defaults": {
     "story": "none",
     "items": "medium",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "Cyberpunk 2077 is an open-world FPS RPG set in Night City. Playstyles: Solo (guns/melee), Netrunner (hacking/quickhacks), Techie (crafting/smart weapons), Stealth. Key systems: cyberware implants, quickhacking, street cred, lifepaths, and branching quests with consequences.",
+  "additional_context": "Cyberpunk 2077 ist ein Open-World-FPS-RPG in Night City. Spielstile: Solo (Waffen/Nahkampf), Netrunner (Hacking/Quickhacks), Techie (Crafting/Smart-Waffen), Stealth. Wichtige Systeme: Cyberware-Implantate, Quickhacking, Street Cred, Lebenswege und verzweigte Quests mit Konsequenzen.",
   "state_schema": {
     "health": "HP bar status",
     "phase": ["combat", "stealth", "hacking", "driving", "dialogue", "exploration"],

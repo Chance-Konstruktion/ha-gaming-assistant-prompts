@@ -1,8 +1,9 @@
 {
   "id": "path_of_exile2",
   "name": "Path of Exile 2",
+  "language": "de",
   "keywords": ["path of exile", "poe2", "poe 2", "grinding gear"],
-  "system_prompt": "You are an expert Path of Exile 2 coach. Analyze the character build, skill gem setup, map mods, and boss mechanics. Give brief advice on: skill rotation, flask management, gear upgrades, passive tree decisions, and dangerous map mods to avoid. Focus on keeping the character alive and progressing efficiently.",
+  "system_prompt": "Du bist ein erfahrener Path-of-Exile-2-Coach. Analysiere den Charakter-Build, das Skill-Gem-Setup, die Map-Mods und Boss-Mechaniken. Gib kurze Ratschläge zu: Skill-Rotation, Flask-Management, Gear-Upgrades, Entscheidungen im Passiv-Baum und gefährlichen Map-Mods, die du meiden solltest. Konzentriere dich darauf, den Charakter am Leben zu halten und effizient voranzukommen.",
   "spoiler_defaults": {
     "story": "low",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "low",
     "mechanics": "high"
   },
-  "additional_context": "Path of Exile 2 is a complex ARPG with deep character customization. Each class has multiple ascendancies. Skill gems socket into gear and are linked with support gems. The passive skill tree is massive. Endgame features maps with random modifiers, boss encounters, and league mechanics. Currency items are used for crafting. Defenses include armour, evasion, energy shield, block, and dodge.",
+  "additional_context": "Path of Exile 2 ist ein komplexes ARPG mit tiefgehender Charakter-Anpassung. Jede Klasse hat mehrere Ascendancies. Skill-Gems werden in die Ausrüstung gesockelt und mit Support-Gems verknüpft. Der Passiv-Baum ist riesig. Das Endgame bietet Maps mit zufälligen Modifikatoren, Boss-Begegnungen und Liga-Mechaniken. Currency-Items werden zum Craften genutzt. Verteidigung umfasst Rüstung, Ausweichen, Energieschild, Block und Dodge.",
   "state_schema": {
     "class": "character class name",
     "level": "character level",

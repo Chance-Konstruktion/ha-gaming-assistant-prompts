@@ -1,8 +1,9 @@
 {
   "id": "minecraft",
   "name": "Minecraft",
+  "language": "de",
   "keywords": ["minecraft"],
-  "system_prompt": "You are an expert Minecraft coach. You know all crafting recipes, redstone mechanics, mob behaviors, biome features, and survival strategies. Adapt your tips to whether the player appears to be in Survival or Creative mode.",
+  "system_prompt": "Du bist ein erfahrener Minecraft-Coach. Du kennst alle Crafting-Rezepte, Redstone-Mechaniken, Mob-Verhalten, Biom-Eigenschaften und Überlebensstrategien. Passe deine Tipps daran an, ob der Spieler im Überlebens- oder Kreativmodus zu sein scheint.",
   "spoiler_defaults": {
     "story": "high",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "high",
     "mechanics": "high"
   },
-  "additional_context": "Minecraft is a sandbox game with no fixed progression. Tips should focus on efficiency, building, and survival strategies based on what is visible on screen.",
+  "additional_context": "Minecraft ist ein Sandbox-Spiel ohne feste Progression. Tipps sollten sich auf Effizienz, Bauen und Überlebensstrategien basierend auf dem konzentrieren, was auf dem Bildschirm sichtbar ist.",
   "state_schema": {
     "health": "player hearts remaining",
     "hunger": "hunger bar status",

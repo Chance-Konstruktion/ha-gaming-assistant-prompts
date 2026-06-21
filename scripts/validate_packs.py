@@ -16,6 +16,11 @@ PACKS_DIR = Path("packs")
 JSON_EXT = ".json"
 NAME_RE = re.compile(r"^[a-z0-9_]+(?:\.[a-z0-9_]+)?\.json$")
 
+# Every pack must declare the language of its prompt text. The library is
+# unified on German; the field stays a general declaration so other languages
+# can be added later without code changes.
+ALLOWED_LANGUAGES = {"de", "en"}
+
 
 def iter_json_files(root: Path):
     for path in sorted(root.rglob(f"*{JSON_EXT}")):
@@ -35,6 +40,7 @@ def main() -> int:
     naming_errors: list[str] = []
     encoding_errors: list[str] = []
     json_errors: list[str] = []
+    language_errors: list[str] = []
 
     files = list(iter_json_files(PACKS_DIR))
     for path in files:
@@ -52,9 +58,19 @@ def main() -> int:
             continue
 
         try:
-            json.loads(text)
+            data = json.loads(text)
         except json.JSONDecodeError as exc:
             json_errors.append(f"{rel}: line {exc.lineno}, col {exc.colno} ({exc.msg})")
+            continue
+
+        if isinstance(data, dict):
+            lang = data.get("language")
+            if lang is None:
+                language_errors.append(f"{rel}: missing 'language' field")
+            elif lang not in ALLOWED_LANGUAGES:
+                language_errors.append(
+                    f"{rel}: 'language' must be one of {sorted(ALLOWED_LANGUAGES)}, got {lang!r}"
+                )
 
     print(f"Scanned {len(files)} JSON files under packs/.")
 
@@ -75,10 +91,17 @@ def main() -> int:
         for err in json_errors:
             print(f"  - {err}")
 
+    if language_errors:
+        print("\n⚠️ Language declaration issues:")
+        for err in language_errors:
+            print(f"  - {err}")
+    else:
+        print("✅ Language declaration check passed.")
+
     if naming_errors:
         return 1
 
-    if args.strict and (encoding_errors or json_errors):
+    if args.strict and (encoding_errors or json_errors or language_errors):
         return 1
 
     return 0

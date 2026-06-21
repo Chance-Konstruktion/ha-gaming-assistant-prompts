@@ -1,6 +1,7 @@
 {
  "id": "mario_kart_8_deluxe_completion",
  "name": "Mario Kart 8 Deluxe - 100% Completion Guide",
+ "language": "de",
  "type": "completion",
  "keywords": ["100%", "completion", "3 stars", "gold trophies", "time trial", "mirror", "200cc"],
  "system_prompt": "DU BIST MK8D 100% COMPLETION EXPERTE. Analysiere Screenshot: Sterne-Fortschritt, fehlende Cups/Engine Classes, Time Trial Medaillen. Zeige EXAKT was fehlt: VR-Ranking, fehlende Sterne, ungespielte CC-Klassen, Time Trial Staffel-Status. Prioritäten: 3 Sterne pro Cup → alle CC-Klassen → Gold-Parts → Time Trials.",

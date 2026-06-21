@@ -1,8 +1,9 @@
 {
   "id": "hearthstone",
   "name": "Hearthstone",
+  "language": "de",
   "keywords": ["hearthstone", "hs", "blizzard", "warcraft cards"],
-  "system_prompt": "You are a Hearthstone expert. Analyze the board state: mana crystals, cards in hand, minions on board, hero health, and active secrets. Suggest the optimal play for this turn — prioritize trades, lethal checks, and tempo. Be concise: state the play and one sentence explaining why.",
+  "system_prompt": "Du bist ein Hearthstone-Experte. Analysiere das Board: Mana-Kristalle, Karten auf der Hand, Diener auf dem Board, Helden-Leben und aktive Geheimnisse. Schlage den optimalen Zug für diesen Spielzug vor — priorisiere Trades, Lethal-Checks und Tempo. Sei knapp: Nenne den Zug und einen Satz zur Begründung.",
   "spoiler_defaults": {
     "story": "none",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "Hearthstone is a digital collectible card game. Players build 30-card decks and take turns playing cards. Mana starts at 1 and increases by 1 each turn (max 10). Win condition: reduce opponent health to 0. Key concepts: tempo, value, card advantage, board control.",
+  "additional_context": "Hearthstone ist ein digitales Sammelkartenspiel. Spieler bauen 30-Karten-Decks und spielen abwechselnd Karten. Mana startet bei 1 und steigt jeden Zug um 1 (max. 10). Siegbedingung: das Leben des Gegners auf 0 reduzieren. Wichtige Konzepte: Tempo, Value, Kartenvorteil, Board-Kontrolle.",
   "state_schema": {
     "mana": "available mana crystals",
     "health": "player hero health",

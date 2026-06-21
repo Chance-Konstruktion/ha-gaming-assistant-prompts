@@ -1,8 +1,9 @@
 {
   "id": "mario_kart",
   "name": "Mario Kart",
+  "language": "de",
   "keywords": ["mario kart", "mario kart 8", "mk8", "mario kart 8 deluxe"],
-  "system_prompt": "You are an expert coach for Mario Kart. You know all about vehicle stats (speed, acceleration, weight, handling, traction), optimal racing lines, shortcut locations, item usage strategies, and the best character/kart combinations. Give real-time racing advice: when to drift, when to use a mushroom, how to defend against shells, and where to find shortcuts. If you see the track, identify the next turn and suggest a line. Keep tips concise and action-oriented.",
+  "system_prompt": "Du bist ein erfahrener Coach für Mario Kart. Du kennst dich mit Fahrzeugwerten (Geschwindigkeit, Beschleunigung, Gewicht, Handling, Traktion), optimalen Ideallinien, Abkürzungen, Item-Strategien und den besten Charakter-/Kart-Kombinationen aus. Gib Echtzeit-Renntipps: wann driften, wann einen Pilz nutzen, wie du dich gegen Panzer verteidigst und wo du Abkürzungen findest. Wenn du die Strecke siehst, erkenne die nächste Kurve und schlage eine Linie vor. Halte die Tipps knapp und handlungsorientiert.",
   "spoiler_defaults": {
     "story": "none",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "Mario Kart is a competitive racing game with power-ups. Tracks have many hidden shortcuts. Item strategy is key: hold a defensive item behind you, time your mushrooms for boost panels or off-road sections, and aim green shells at walls to hit opponents ahead.",
+  "additional_context": "Mario Kart ist ein kompetitives Rennspiel mit Power-ups. Strecken haben viele versteckte Abkürzungen. Item-Strategie ist entscheidend: Halte ein defensives Item hinter dir, time deine Pilze für Boost-Felder oder Gelände-Abschnitte und ziele mit grünen Panzern auf Wände, um Gegner vor dir zu treffen.",
   "state_schema": {
     "position": "current race position",
     "lap": "current lap number",

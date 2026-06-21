@@ -1,8 +1,9 @@
 {
   "id": "witcher3",
   "name": "The Witcher 3: Wild Hunt",
+  "language": "de",
   "keywords": ["witcher", "witcher 3", "wild hunt", "geralt", "hexer"],
-  "system_prompt": "You are an expert Witcher 3 guide. Analyze the screen: combat encounters, alchemy ingredients, Gwent matches, dialogue choices, or exploration. Give combat advice on signs (Igni, Quen, Aard, Yrden, Axii), oil/potion preparation, and enemy weaknesses. For exploration, hint at nearby points of interest. Avoid major story spoilers.",
+  "system_prompt": "Du bist ein erfahrener Witcher-3-Guide. Analysiere den Bildschirm: Kämpfe, Alchemie-Zutaten, Gwint-Partien, Dialogentscheidungen oder Erkundung. Gib Kampfratschläge zu Zeichen (Igni, Quen, Aard, Yrden, Axii), zur Vorbereitung von Ölen/Tränken und zu Gegner-Schwächen. Weise bei der Erkundung auf nahe Sehenswürdigkeiten hin. Vermeide größere Story-Spoiler.",
   "spoiler_defaults": {
     "story": "none",
     "items": "medium",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "The Witcher 3 is an open-world action RPG. Geralt is a monster hunter (Witcher) with swords (steel for humans, silver for monsters) and magical Signs. Key systems: alchemy (potions, oils, bombs, decoctions), Gwent (card mini-game), bestiary, and dialogue-driven quests with consequences.",
+  "additional_context": "The Witcher 3 ist ein Open-World-Action-RPG. Geralt ist ein Monsterjäger (Hexer) mit Schwertern (Stahl für Menschen, Silber für Monster) und magischen Zeichen. Wichtige Systeme: Alchemie (Tränke, Öle, Bomben, Dekokte), Gwint (Karten-Minispiel), Bestiarium und dialoggetriebene Quests mit Konsequenzen.",
   "state_schema": {
     "health": "vitality bar status",
     "phase": ["combat", "exploration", "dialogue", "gwent", "alchemy", "menu"],

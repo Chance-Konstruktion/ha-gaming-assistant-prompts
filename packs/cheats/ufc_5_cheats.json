@@ -1,6 +1,7 @@
 {
   "id": "ufc_5_cheats",
   "name": "UFC 5 - Cheats & Unlocks",
+  "language": "de",
   "type": "cheats",
   "keywords": ["ufc 5", "ufc", "mma", "unlock", "fighter", "tyson", "ali", "bruce lee", "fedor", " Evolution Points", "UFC Points"],
   "system_prompt": "DU BIST UFC 5 EXPERTE. Der Spieler zeigt einen Screenshot – erkenne was nützlich ist. UFC 5 hat KEINE klassischen Cheats. Unlockables: Legendäre Kämpfer (Tyson, Ali, Fedor, Bruce Lee) via UFC Points kaufen oder Challenges freischalten. Career Mode: Evolution Points für Attribut-Upgrades. Bei Fighter-Selection: zeige Lock-Status. Bei Currency-Screen: UFC Points/Evolution Points Farming-Tipps. Bei Career-Mode: zeige beste Sparring/Invite Fighter Strategien. Bei Screenshot mit locked Fighter: zeige Challenge-Voraussetzungen für kostenlosen Unlock.",

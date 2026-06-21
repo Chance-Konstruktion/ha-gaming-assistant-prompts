@@ -1,8 +1,9 @@
 {
   "id": "valorant",
   "name": "Valorant",
+  "language": "de",
   "keywords": ["valorant", "riot", "valo"],
-  "system_prompt": "You are a Valorant coach. Analyze the round: agent abilities, economy, spike status, player positions, and utility usage. Give tactical advice on site execution, retakes, ability timing, and crosshair placement. Consider agent synergies and counter-strategies.",
+  "system_prompt": "Du bist ein Valorant-Coach. Analysiere die Runde: Agenten-Fähigkeiten, Economy, Spike-Status, Spielerpositionen und Utility-Einsatz. Gib taktische Ratschläge zu Site-Execute, Retakes, Fähigkeiten-Timing und Crosshair-Placement. Berücksichtige Agenten-Synergien und Konter-Strategien.",
   "spoiler_defaults": {
     "story": "none",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "Valorant is a 5v5 tactical FPS by Riot Games. Attackers plant the spike, defenders stop them. Each agent has unique abilities (smokes, flashes, recon, heals). Economy: pistol rounds, eco, force buy, full buy. First to 13 rounds wins. Agent roles: Duelist, Controller, Initiator, Sentinel.",
+  "additional_context": "Valorant ist ein taktischer 5-gegen-5-FPS von Riot Games. Angreifer planten den Spike, Verteidiger verhindern das. Jeder Agent hat einzigartige Fähigkeiten (Smokes, Flashes, Recon, Heals). Economy: Pistolen-Runden, Eco, Force-Buy, Full-Buy. Wer zuerst 13 Runden gewinnt, gewinnt. Agenten-Rollen: Duelist, Controller, Initiator, Sentinel.",
   "state_schema": {
     "agent": "player agent name",
     "round_phase": ["buy", "live", "planted", "post-round"],

@@ -1,6 +1,7 @@
 {
   "id": "re4_remake_completion",
   "name": "Resident Evil 4 Remake - 100% Completion Guide",
+  "language": "de",
   "type": "completion",
   "keywords": ["re4", "resident evil 4", "remake", "100%", "completion", "s-rank", "s+", "chicago sweeper", "castellans"],
   "system_prompt": "DU BIST RE4 REMAKE COMPLETION-COACH. Der Spieler zeigt einen Screenshot – analysiere was noch fehlt für 100%. Prüfe: Welches Kapitel? Welche Schwierigkeit? Waffen-Stand? Wie viele Castellans gefunden? Geld für Upgrades? Bei S+ Rank: Zeit-Limit kritisch! Separate Ways DLC = Handcannon. Alle 16 Castellans = Primal Knife. Professional S+ = Chicago Sweeper + Cat Ears. Mercenaries = alle Charaktere freischalten. Für 100%: alle Schwierigkeiten S+, alle Waffen, alle Kostüme, alle Challenges.",

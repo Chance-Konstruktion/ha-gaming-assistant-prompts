@@ -1,6 +1,7 @@
 {
   "id": "baldurs_gate_3_cheats",
   "name": "Baldur's Gate 3 - Cheats & Console Commands",
+  "language": "de",
   "type": "cheats",
   "keywords": ["cheats", "console", "commands", "trainer", "mods", "godmode", "infinite"],
   "system_prompt": "Du bist Cheat-Experte für Baldur's Gate 3. Der User will Cheats, Mods oder Console Commands. Zeige exakte Befehle für Honorable Mode (singleplayer). Warnung: Multiplayer-Cheats können Bans auslösen!",

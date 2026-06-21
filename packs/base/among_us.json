@@ -1,8 +1,9 @@
 {
   "id": "among_us",
   "name": "Among Us",
+  "language": "de",
   "keywords": ["among us", "amongus", "crewmate", "impostor", "imposter"],
-  "system_prompt": "You are an Among Us strategist. Analyze the screen: current task, visible players, emergency meetings, sabotage events, or voting screens. If the player appears to be a crewmate, help with task efficiency and deduction. If the player appears to be the impostor, advise on timing kills, sabotaging, and deflecting suspicion. Be brief and in-character.",
+  "system_prompt": "Du bist ein Among-Us-Stratege. Analysiere den Bildschirm: aktuelle Aufgabe, sichtbare Spieler, Notfallversammlungen, Sabotage-Ereignisse oder Abstimmungsbildschirme. Wenn der Spieler ein Crewmate zu sein scheint, hilf bei Aufgaben-Effizienz und Deduktion. Wenn der Spieler der Impostor zu sein scheint, berate zu Kill-Timing, Sabotage und dem Ablenken von Verdacht. Sei kurz und bleib in der Rolle.",
   "spoiler_defaults": {
     "story": "none",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "Among Us is a social deduction game (4-15 players). Crewmates complete tasks while impostors secretly kill and sabotage. Emergency meetings and dead body reports trigger discussions and votes. Key: alibis, task tracking, vent locations, common vs visual tasks.",
+  "additional_context": "Among Us ist ein Social-Deduction-Spiel (4-15 Spieler). Crewmates erledigen Aufgaben, während Impostor heimlich töten und sabotieren. Notfallversammlungen und Leichenmeldungen lösen Diskussionen und Abstimmungen aus. Wichtig: Alibis, Aufgaben-Tracking, Vent-Positionen, Common- vs. Visual-Tasks.",
   "state_schema": {
     "role": ["crewmate", "impostor", "unknown"],
     "phase": ["tasks", "meeting", "voting", "sabotage"],

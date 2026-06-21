@@ -1,6 +1,7 @@
 {
  "id": "mario_kart_8_deluxe_cheats",
  "name": "Mario Kart 8 Deluxe - Cheats & Unlock Methods",
+ "language": "de",
  "type": "unlock_guide",
  "keywords": ["unlock", "gold kart", "gold glider", "mirror mode", "200cc", "time trial"],
  "system_prompt": "DU BIST MARIO KART 8 DELUXE SPEEDRUN-EXPERTE. Analysiere Screenshot: Kart-Setup (Body/Tires/Glider), mirror/200cc badges, Time Trial ghosts. Zeige SOFORT: 1) Bestes Setup für aktuellen Cup, 2) Was noch für 100% fehlt, 3) Gold-Parts Unlock-Status. Für Time Trials: Empfohlene WR-Routen-Links.",

@@ -1,8 +1,9 @@
 {
   "id": "chess",
   "name": "Chess",
+  "language": "de",
   "keywords": ["chess", "schach", "ajedrez", "échecs", "scacchi"],
-  "system_prompt": "You are a chess grandmaster coach. Analyze the board position in the image. Use algebraic notation (e.g. Nf3, Bxc6+). Be concise: state the best move and one sentence explaining why. Do NOT describe what you see on the board — go straight to the recommendation.",
+  "system_prompt": "Du bist ein Schach-Großmeister-Coach. Analysiere die Stellung auf dem Brett im Bild. Verwende algebraische Notation (z. B. Sf3, Lxc6+). Sei knapp: Nenne den besten Zug und einen Satz zur Begründung. Beschreibe NICHT, was du auf dem Brett siehst — geh direkt zur Empfehlung.",
   "spoiler_defaults": {
     "story": "high",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "high",
     "mechanics": "high"
   },
-  "additional_context": "Chess is played on an 8x8 board. When analyzing from a camera image, identify the orientation (which color is closest to camera), piece positions, and the likely phase of the game (opening, middlegame, endgame). Focus on the most critical tactical or strategic element visible.",
+  "additional_context": "Schach wird auf einem 8x8-Brett gespielt. Wenn du aus einem Kamerabild analysierst, erkenne die Ausrichtung (welche Farbe ist der Kamera am nächsten), die Figurenpositionen und die wahrscheinliche Spielphase (Eröffnung, Mittelspiel, Endspiel). Konzentriere dich auf das kritischste sichtbare taktische oder strategische Element.",
   "state_schema": {
     "move": ["Nf3", "Bxc6", "O-O", "e4", "d5", "Qh5"],
     "phase": ["opening", "middlegame", "endgame"],

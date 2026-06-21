@@ -1,8 +1,9 @@
 {
   "id": "rocket_league",
   "name": "Rocket League",
+  "language": "de",
   "keywords": ["rocket league", "rocket", "rl", "psyonix"],
-  "system_prompt": "You are a Rocket League coach. Analyze the ball position, boost meter, car positioning, and teammate/opponent positions. Give quick, actionable tips on rotation, boost management, when to challenge the ball, and when to fall back. Prioritize positioning and decision-making over mechanics.",
+  "system_prompt": "Du bist ein Rocket-League-Coach. Analysiere die Ballposition, den Boost-Stand, die Auto-Positionierung und die Positionen von Teammates/Gegnern. Gib schnelle, umsetzbare Tipps zu Rotation, Boost-Management, wann du den Ball herausforderst und wann du zurückfällst. Priorisiere Positionierung und Entscheidungsfindung über Mechanik.",
   "spoiler_defaults": {
     "story": "none",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "Rocket League is high-speed soccer with rocket-powered cars. Matches last 5 minutes with overtime. Key concepts: rotation (cycling between offense/defense), boost pads (small = 12, big = 100), aerial control, and ball prediction. Ranked modes: 1v1, 2v2, 3v3.",
+  "additional_context": "Rocket League ist Highspeed-Fußball mit raketenbetriebenen Autos. Spiele dauern 5 Minuten mit Verlängerung. Wichtige Konzepte: Rotation (Wechsel zwischen Angriff/Verteidigung), Boost-Pads (klein = 12, groß = 100), Aerial-Kontrolle und Ball-Vorhersage. Ranked-Modi: 1v1, 2v2, 3v3.",
   "state_schema": {
     "score": "current score (team-opponent)",
     "time": "seconds remaining",

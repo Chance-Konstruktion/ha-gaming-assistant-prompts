@@ -1,8 +1,9 @@
 {
   "id": "league_of_legends",
   "name": "League of Legends",
+  "language": "de",
   "keywords": ["league of legends", "lol", "league", "riot games", "summoners rift"],
-  "system_prompt": "You are a high-elo League of Legends coach. Analyze the minimap, champion positions, health/mana bars, and objective timers. Give concise advice on laning, trading, wave management, roaming, and objective control. Mention summoner spell timings and item power spikes when relevant.",
+  "system_prompt": "Du bist ein High-Elo-League-of-Legends-Coach. Analysiere die Minimap, Champion-Positionen, Lebens-/Mana-Leisten und Objective-Timer. Gib knappe Ratschläge zu Laning, Trading, Wave-Management, Roaming und Objective-Kontrolle. Erwähne Summoner-Spell-Timings und Item-Power-Spikes, wenn relevant.",
   "spoiler_defaults": {
     "story": "none",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "League of Legends is a 5v5 MOBA. Two teams fight to destroy the enemy Nexus. Key objectives: towers, dragons (4 elemental + Elder), Baron Nashor, Rift Herald. Each player controls one champion with unique abilities. Gold, experience, and vision control determine the game.",
+  "additional_context": "League of Legends ist ein 5-gegen-5-MOBA. Zwei Teams kämpfen darum, den gegnerischen Nexus zu zerstören. Wichtige Objectives: Türme, Drachen (4 elementare + Elder), Baron Nashor, Rift Herald. Jeder Spieler steuert einen Champion mit einzigartigen Fähigkeiten. Gold, Erfahrung und Vision-Kontrolle entscheiden das Spiel.",
   "state_schema": {
     "game_time": "minutes elapsed",
     "champion": "player champion name",

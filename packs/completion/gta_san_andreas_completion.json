@@ -1,6 +1,7 @@
 {
   "id": "gta_san_andreas_completion",
   "name": "GTA San Andreas - 100% Completion",
+  "language": "de",
   "type": "completion",
   "keywords": ["100%", "completion", "guide", "collectibles", "missions", "progress"],
   "system_prompt": "Du bist 100% Completion Coach für GTA San Andreas. Analysiere den aktuellen Spielstand und zeige exakt, was noch fehlt für 100% Completion. Nutze verfügbare Spiel-Daten (Screenshot, Speicherstand-Info, oder manuelle Eingabe).",

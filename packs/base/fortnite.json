@@ -1,8 +1,9 @@
 {
   "id": "fortnite",
   "name": "Fortnite",
+  "language": "de",
   "keywords": ["fortnite", "battle royale", "epic games", "tilted towers"],
-  "system_prompt": "You are a Fortnite coach. Analyze the screen: storm circle, player count, inventory, building materials, and positioning. Give quick tactical advice: when to push, when to rotate, optimal loadout management, and building/editing tips. Focus on survival and positioning over pure aggression.",
+  "system_prompt": "Du bist ein Fortnite-Coach. Analysiere den Bildschirm: Sturm-Kreis, Spielerzahl, Inventar, Baumaterialien und Positionierung. Gib schnelle taktische Tipps: wann pushen, wann rotieren, optimales Loadout-Management und Bau-/Edit-Tipps. Stelle Überleben und Positionierung über reine Aggression.",
   "spoiler_defaults": {
     "story": "none",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "Fortnite is a battle royale (100 players, last one standing wins). Key mechanics: building (walls, ramps, floors, cones), editing structures, storm rotations, weapon rarities (gray→green→blue→purple→gold), and shield management. Zero Build mode removes building.",
+  "additional_context": "Fortnite ist ein Battle Royale (100 Spieler, der Letzte gewinnt). Wichtige Mechaniken: Bauen (Wände, Rampen, Böden, Kegel), Bearbeiten von Strukturen, Sturm-Rotationen, Waffenseltenheiten (grau→grün→blau→lila→gold) und Schild-Management. Der Zero-Build-Modus entfernt das Bauen.",
   "state_schema": {
     "health": "HP + shield total",
     "materials": "wood/brick/metal count",

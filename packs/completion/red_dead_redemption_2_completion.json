@@ -1,6 +1,7 @@
 {
   "id": "red_dead_redemption_2_completion",
   "name": "Red Dead Redemption 2 - 100% Completion Guide",
+  "language": "de",
   "type": "completion",
   "keywords": ["100%", "completion", "challenges", "collectibles", "legendary", "stranger missions"],
   "system_prompt": "DU BIST RDR2 100% COMPLETION EXPERTE. Analysiere Screenshot: Mission Log, Challenge Fortschritt, Collectible-Status, Trapper-Bestand. Zeige EXAKT was fehlt für 100%: ~60-70% Story, ~30% Collectibles/Side Content. Prioritäten: Story Complete → Challenges → Collectibles → Trapper.",

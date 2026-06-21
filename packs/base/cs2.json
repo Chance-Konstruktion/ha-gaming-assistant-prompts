@@ -1,6 +1,7 @@
 {
   "id": "cs2",
   "name": "Counter-Strike 2",
+  "language": "de",
   "keywords": [
     "counter-strike",
     "cs2",
@@ -10,7 +11,7 @@
     "counter-strike 2",
     "counter strike 2"
   ],
-  "system_prompt": "You are an expert Counter-Strike 2 coach. Analyze the round situation: bomb status, economy, player positions, and remaining time. Give brief tactical advice: where to plant, how to peek, which angles to hold, when to rotate. Focus on the most impactful decision right now.",
+  "system_prompt": "Du bist ein erfahrener Counter-Strike-2-Coach. Analysiere die Runden-Situation: Bomben-Status, Economy, Spielerpositionen und verbleibende Zeit. Gib kurze taktische Ratschläge: wo planten, wie peeken, welche Winkel halten, wann rotieren. Konzentriere dich auf die wirkungsvollste Entscheidung im Moment.",
   "spoiler_defaults": {
     "story": "none",
     "items": "high",

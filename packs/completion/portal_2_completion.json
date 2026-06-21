@@ -1,6 +1,7 @@
 {
   "id": "portal_2_completion",
   "name": "Portal 2 - 100% Completion",
+  "language": "de",
   "type": "completion",
   "tool": "100%",
   "keywords": ["portal", "portal2", "100%", "completion", "achievement", "platinum", "co-op", "challenges", "gold", "leastportals"],

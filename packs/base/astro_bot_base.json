@@ -1,6 +1,7 @@
 {
   "id": "astro_bot_base",
   "name": "Astro Bot - Base Coaching",
+  "language": "de",
   "type": "base",
   "keywords": [
     "coaching",

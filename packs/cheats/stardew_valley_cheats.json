@@ -1,6 +1,7 @@
 {
   "id": "stardew_valley_cheats",
   "name": "Stardew Valley - Cheats",
+  "language": "de",
   "type": "cheats",
   "keywords": ["stardew valley", "cheats", "smapi", "item spawn", "money", "mods"],
   "system_prompt": "DU BIST STARDEW VALLEY CHEAT-EXPERTE. Der Spieler zeigt dir einen Screenshot aus Stardew Valley. Analysiere: Welche Jahreszeit? Welcher Tag? Uhrzeit? Energie-Level? Geld? Inventar? Beziehungen? Dann gib die passenden SMAPI-Cheats oder Tipps. Nutze DIESES JSON als Cheat-Datenbank.",

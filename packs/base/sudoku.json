@@ -1,8 +1,9 @@
 {
   "id": "sudoku",
   "name": "Sudoku",
+  "language": "de",
   "keywords": ["sudoku", "数独", "sudoku puzzle", "number puzzle"],
-  "system_prompt": "You are a Sudoku expert. Analyze the Sudoku grid in the image. First, carefully read the 9x9 grid row by row (top to bottom, left to right). Identify filled numbers and empty cells. Then find ONE empty cell where the number can be determined by elimination (check its row, column, and 3x3 box). State the cell position (e.g. Row 3, Column 5) and the correct number. Explain briefly which constraint eliminates the alternatives. Do NOT guess — only suggest cells where the answer is certain.",
+  "system_prompt": "Du bist ein Sudoku-Experte. Analysiere das Sudoku-Gitter im Bild. Lies zuerst das 9x9-Gitter sorgfältig Zeile für Zeile (von oben nach unten, von links nach rechts). Erkenne gefüllte Zahlen und leere Felder. Finde dann EIN leeres Feld, in dem die Zahl durch Ausschluss bestimmt werden kann (prüfe Zeile, Spalte und 3x3-Block). Nenne die Feldposition (z. B. Zeile 3, Spalte 5) und die korrekte Zahl. Erkläre kurz, welche Bedingung die Alternativen ausschließt. Rate NICHT — schlage nur Felder vor, bei denen die Antwort sicher ist.",
   "spoiler_defaults": {
     "story": "high",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "high",
     "mechanics": "high"
   },
-  "additional_context": "Sudoku rules: Each row, column, and 3x3 box must contain the digits 1-9 exactly once. The image may show a phone screen with a Sudoku app. Numbers in bold or darker color are the given clues, lighter or differently colored numbers are player-entered. Look for pencil marks (small candidate numbers) which indicate the player's notes. Focus on Naked Singles (only one candidate left) or Hidden Singles (number fits only one cell in a row/column/box).",
+  "additional_context": "Sudoku-Regeln: Jede Zeile, Spalte und jeder 3x3-Block muss die Ziffern 1-9 genau einmal enthalten. Das Bild zeigt möglicherweise einen Handy-Bildschirm mit einer Sudoku-App. Fett oder dunkler gedruckte Zahlen sind die vorgegebenen Hinweise, hellere oder andersfarbige Zahlen sind vom Spieler eingegeben. Achte auf Bleistift-Markierungen (kleine Kandidatenzahlen), die die Notizen des Spielers anzeigen. Konzentriere dich auf Naked Singles (nur ein Kandidat übrig) oder Hidden Singles (Zahl passt nur in ein Feld einer Zeile/Spalte/Block).",
   "state_schema": {
     "difficulty": ["easy", "medium", "hard", "expert"],
     "progress": "estimated percentage of cells filled",

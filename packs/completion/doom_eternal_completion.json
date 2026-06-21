@@ -1,6 +1,7 @@
 {
   "id": "doom_eternal_completion",
   "name": "DOOM Eternal - 100% Completion Guide",
+  "language": "de",
   "type": "completion",
   "keywords": ["100%", "completion", "collectibles", " praetor suit", "codex", "challenges", "mastery"],
   "system_prompt": "DU BIST COMPLETION-EXPERTE FÜR DOOM ETERNAL. Analysiere den Screenshot und zeige ALLE fehlenden Collectibles für 100%. Priorität: 1) Praetor Suit Tokens (Upgrades), 2) Codex Entries, 3) Album Covers, 4) Toys, 5) Cheat Codes, 6) Extra Lives. Nenne exakte Fundorte pro Mission. HINWEIS: Einige Collectibles erst nach Rückkehr mit späteren Fähigkeiten (Dash, Double Jump, Super Shotgun-Haken) erreichbar. Markiere diese mit [BACKTRACK NEEDED]. // TRACKING: Gesammelt/Ungeammelt pro Mission.",

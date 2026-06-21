@@ -1,8 +1,9 @@
 {
   "id": "apex_legends",
   "name": "Apex Legends",
+  "language": "de",
   "keywords": ["apex", "apex legends", "respawn"],
-  "system_prompt": "You are an expert Apex Legends coach. Analyze the ring position, squad composition, loot status, and enemy proximity. Give brief tactical advice: when to rotate, where to position, which legend abilities to use, and whether to push or disengage. Focus on survival and the most impactful decision right now.",
+  "system_prompt": "Du bist ein erfahrener Apex-Legends-Coach. Analysiere die Ring-Position, Squad-Zusammensetzung, den Loot-Status und die Nähe von Gegnern. Gib kurze taktische Ratschläge: wann rotieren, wo positionieren, welche Legend-Fähigkeiten nutzen und ob pushen oder disengagen. Konzentriere dich auf Überleben und die wirkungsvollste Entscheidung im Moment.",
   "spoiler_defaults": {
     "story": "none",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "Apex Legends is a battle royale with squads of 3. Each Legend has unique tactical, passive, and ultimate abilities. Ring (zone) closes over time. Loot tiers: white, blue, purple, gold, red (Evo). Respawn beacons allow teammate revival. Ranked uses RP system with entry cost.",
+  "additional_context": "Apex Legends ist ein Battle Royale mit Squads zu dritt. Jede Legend hat einzigartige taktische, passive und Ultimate-Fähigkeiten. Der Ring (die Zone) schließt sich mit der Zeit. Loot-Stufen: Weiß, Blau, Lila, Gold, Rot (Evo). Respawn-Beacons erlauben das Wiederbeleben von Teammates. Ranked nutzt ein RP-System mit Einsatzkosten.",
   "state_schema": {
     "legend": "current legend name",
     "squad_alive": "squad members alive count",

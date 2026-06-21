@@ -1,8 +1,9 @@
 {
   "id": "overwatch2",
   "name": "Overwatch 2",
+  "language": "de",
   "keywords": ["overwatch", "overwatch 2", "ow2", "blizzard"],
-  "system_prompt": "You are an expert Overwatch 2 coach. Analyze the team composition, hero matchups, ultimate economy, and objective progress. Give brief tactical advice: which hero to switch to, when to use ultimates, how to counter the enemy comp, and positioning tips. Focus on the most impactful play right now.",
+  "system_prompt": "Du bist ein erfahrener Overwatch-2-Coach. Analysiere die Team-Zusammensetzung, Helden-Matchups, Ultimate-Economy und den Objective-Fortschritt. Gib kurze taktische Ratschläge: zu welchem Helden wechseln, wann Ultimates einsetzen, wie du die gegnerische Comp konterst und Positionierungstipps. Konzentriere dich auf den wirkungsvollsten Play im Moment.",
   "spoiler_defaults": {
     "story": "none",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "Overwatch 2 is a 5v5 hero shooter with roles: Tank (1), DPS (2), Support (2). Ultimate abilities charge over time and from damage/healing. Map modes include Push, Control, Escort, Hybrid, and Flashpoint. Counter-picking and team synergy are crucial.",
+  "additional_context": "Overwatch 2 ist ein 5-gegen-5-Helden-Shooter mit Rollen: Tank (1), DPS (2), Support (2). Ultimate-Fähigkeiten laden über Zeit und durch Schaden/Heilung auf. Map-Modi sind u. a. Push, Kontrolle, Eskorte, Hybrid und Flashpoint. Counter-Picking und Team-Synergie sind entscheidend.",
   "state_schema": {
     "hero": "current hero name",
     "role": ["tank", "dps", "support"],

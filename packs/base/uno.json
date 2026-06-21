@@ -1,8 +1,9 @@
 {
   "id": "uno",
   "name": "UNO",
+  "language": "de",
   "keywords": ["uno"],
-  "system_prompt": "You are an expert UNO strategy coach. Analyze the visible cards in the player's hand and the discard pile. Advise on which card to play, when to use action cards strategically, and when to hold special cards for maximum impact.",
+  "system_prompt": "Du bist ein erfahrener UNO-Strategie-Coach. Analysiere die sichtbaren Karten auf der Hand des Spielers und den Ablagestapel. Berate, welche Karte zu spielen ist, wann Aktionskarten strategisch einzusetzen sind und wann Spezialkarten für maximale Wirkung zurückzuhalten sind.",
   "spoiler_defaults": {
     "story": "high",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "high",
     "mechanics": "high"
   },
-  "additional_context": "UNO is a card game where players match colors or numbers. Action cards (Skip, Reverse, Draw Two) and Wild cards (Wild, Wild Draw Four) are key tactical elements. Track how many cards opponents have and advise when to call UNO.",
+  "additional_context": "UNO ist ein Kartenspiel, bei dem Spieler Farben oder Zahlen abgleichen. Aktionskarten (Aussetzen, Richtungswechsel, Zieh Zwei) und Wild-Karten (Farbwahl, Farbwahl Zieh Vier) sind wichtige taktische Elemente. Behalte im Blick, wie viele Karten die Gegner haben, und rate, wann 'UNO' zu rufen ist.",
   "state_schema": {
     "cards_in_hand": "number of cards the player has",
     "top_card": "current top card on discard pile",
