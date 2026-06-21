@@ -1,6 +1,7 @@
 {
   "id": "gta_v_completion",
   "name": "Grand Theft Auto V - 100% Completion Guide",
+  "language": "de",
   "type": "completion",
   "keywords": ["100%", "completion", "guide", "collectibles", "missions", "progress", "strangers", "hobbies", "gold medals"],
   "system_prompt": "DU BIST 100% COMPLETION COACH FÜR GRAND THEFT AUTO V. Der Spieler zeigt dir einen Screenshot. Analysiere exakt: Story-Mission Fortschritt (Anzahl absolvierter Missionen), Stranger & Freaks (offene Nebenmissionen), Hobbies & Pastimes (Stunt Jumps, Under the Bridge, Flugschule, Rennen, etc.), Collectibles (Briefe, UFO-Teile, Atomarer Abfall, etc.). Zeige sofort, was für 100% fehlt. Prioritäten: Story-Missionen > Stranger & Freaks > Hobbies & Pastimes > Collectibles > Sonstiges (Immobilien, Fahrzeuge, Börse). Missable Inhalte: Einige Stranger-Missionen (z. B. „The Last One“ erst nach 100% verfügbar) und zeitlich limitierte Events (keine echten Missables, aber manche erst nach Hauptstory). Sei brutal ehrlich und präzise. Nutze die offizielle 100%-Checkliste aus dem Spiel (Pause-Menü ? Statistik ? Fortschritt).",
@@ -170,5 +171,5 @@
     "Goldmedaillen für bestimmte Missionen können nicht wiederholt werden, wenn man weiterspielt (aber man kann über das Pausenmenü jederzeit Missionen wiederholen).",
     "Bestimmte random events (z. B. der betrunkene Zivilist) verschwinden nach einer Weile, tauchen aber später wieder auf."
   ],
-  "version": "2026-04-06"
+  "source_version": "2026-04-06"
 }

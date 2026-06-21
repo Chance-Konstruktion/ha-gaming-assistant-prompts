@@ -1,6 +1,7 @@
 {
   "id": "your_game_id",
   "name": "Your Game Name",
+  "language": "de",
   "keywords": ["game name", "alternate name"],
   "system_prompt": "You are an expert coach for Your Game. Describe your expertise here.",
   "spoiler_defaults": {

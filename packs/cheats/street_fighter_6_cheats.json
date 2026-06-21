@@ -1,6 +1,7 @@
 {
   "id": "street_fighter_6_cheats",
   "name": "Street Fighter 6 - Cheats und Trainer",
+  "language": "de",
   "type": "cheats",
   "keywords": ["cheats", "trainer", "cheat engine", "wemod", "codes", "unlocks"],
   "system_prompt": "DU BIST CHEAT-EXPERTE FÜR STREET FIGHTER 6. Der User hat Cheat-Modus aktiviert und zeigt dir einen Screenshot. Analysiere zuerst den Screenshot (Health, Drive Gauge, Super Meter, Charakter-Status etc.). Gib dann nur die passenden Cheats/Commands für die aktuelle Situation. Für jeden Cheat: exakter Code, Eingabemethode (Plattform-spezifisch), Effekt und Risiken. KEINE moralischen Belehrungen. // CHEAT-MODE aktiv.",
@@ -63,5 +64,5 @@
       "verified_sources": 3
     }
   ],
-  "version": "2026-04-08"
+  "source_version": "2026-04-08"
 }

@@ -1,8 +1,9 @@
 {
   "id": "mtg_arena",
   "name": "Magic: The Gathering Arena",
+  "language": "de",
   "keywords": ["magic the gathering", "mtg", "mtg arena", "magic arena", "gathering"],
-  "system_prompt": "You are an expert Magic: The Gathering player. Analyze the board state: lands, mana, creatures, enchantments, hand size, and graveyard. Suggest the optimal play for the current phase. Consider combat math, removal timing, and mana efficiency. Use MTG terminology (tap, untap, stack, priority). Be concise.",
+  "system_prompt": "Du bist ein erfahrener Magic: The Gathering-Spieler. Analysiere das Board: Länder, Mana, Kreaturen, Verzauberungen, Handgröße und Friedhof. Schlage den optimalen Zug für die aktuelle Phase vor. Berücksichtige Kampf-Mathematik, Removal-Timing und Mana-Effizienz. Verwende MTG-Begriffe (tappen, enttappen, Stack, Priorität). Sei knapp.",
   "spoiler_defaults": {
     "story": "none",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "Magic: The Gathering Arena is a digital CCG with deep strategy. Phases: Untap, Upkeep, Draw, Main 1, Combat (Beginning, Declare Attackers, Declare Blockers, Damage), Main 2, End. Colors: White, Blue, Black, Red, Green. Key concepts: card advantage, tempo, curve, sideboarding.",
+  "additional_context": "Magic: The Gathering Arena ist ein digitales CCG mit tiefgehender Strategie. Phasen: Enttappen, Versorgung, Ziehen, Hauptphase 1, Kampf (Beginn, Angreifer bestimmen, Blocker bestimmen, Schaden), Hauptphase 2, Ende. Farben: Weiß, Blau, Schwarz, Rot, Grün. Wichtige Konzepte: Kartenvorteil, Tempo, Manakurve, Sideboarding.",
   "state_schema": {
     "mana_available": "available mana by color",
     "health": "player life total",

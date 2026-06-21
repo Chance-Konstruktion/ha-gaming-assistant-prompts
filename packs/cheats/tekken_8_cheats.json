@@ -1,6 +1,7 @@
 {
   "id": "tekken_8_cheats",
   "name": "Tekken 8 - Cheats und Trainer",
+  "language": "de",
   "type": "cheats",
   "keywords": [
     "cheats",
@@ -16,5 +17,5 @@
     "PlayStation 5",
     "Xbox Series X|S"
   ],
-  "version": "2026-04-08"
+  "source_version": "2026-04-08"
 }

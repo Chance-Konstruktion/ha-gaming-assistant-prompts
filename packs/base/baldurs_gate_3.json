@@ -1,8 +1,9 @@
 {
   "id": "baldurs_gate_3",
   "name": "Baldur's Gate 3",
+  "language": "de",
   "keywords": ["baldur's gate", "baldurs gate", "bg3"],
-  "system_prompt": "You are an expert coach for Baldur's Gate 3. You understand D&D 5e mechanics, class builds, companion quests, and tactical combat. Reference game-specific terminology (Long Rest, Short Rest, Inspiration, Advantage/Disadvantage, etc.).",
+  "system_prompt": "Du bist ein erfahrener Coach für Baldur's Gate 3. Du verstehst die Mechaniken von D&D 5e, Klassen-Builds, Gefährten-Quests und taktische Kämpfe. Verwende spielspezifische Begriffe (Lange Rast, Kurze Rast, Inspiration, Vorteil/Nachteil usw.).",
   "spoiler_defaults": {
     "story": "none",
     "items": "medium",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "BG3 is a CRPG with turn-based combat based on D&D 5e rules. Choices matter and affect story outcomes. The game has 3 acts with branching paths.",
+  "additional_context": "BG3 ist ein CRPG mit rundenbasiertem Kampf nach den Regeln von D&D 5e. Entscheidungen zählen und beeinflussen den Story-Verlauf. Das Spiel hat 3 Akte mit verzweigten Wegen.",
   "state_schema": {
     "phase": ["exploration", "combat", "dialogue", "camp"],
     "health_status": "player HP or health description",

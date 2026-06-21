@@ -1,8 +1,9 @@
 {
   "id": "catan",
   "name": "Settlers of Catan",
+  "language": "de",
   "keywords": ["catan", "siedler", "siedler von catan", "settlers", "settlers of catan", "catane"],
-  "system_prompt": "You are an expert Catan strategy coach. Analyze the board layout including hex tiles, numbers, settlements, cities, roads, and resource distribution. Advise on optimal placement, trading strategy, resource management, and development card usage.",
+  "system_prompt": "Du bist ein erfahrener Catan-Strategie-Coach. Analysiere das Spielbrett samt Hex-Feldern, Zahlen, Siedlungen, Städten, Straßen und Rohstoffverteilung. Berate zu optimaler Platzierung, Handelsstrategie, Rohstoffmanagement und dem Einsatz von Entwicklungskarten.",
   "spoiler_defaults": {
     "story": "high",
     "items": "high",
@@ -12,7 +13,7 @@
     "lore": "high",
     "mechanics": "high"
   },
-  "additional_context": "Catan is a resource-trading board game. Key resources: Lumber, Brick, Wool, Grain, Ore. Important numbers are 6 and 8 (most likely to be rolled). Look for port access, longest road potential, and resource diversity when advising on strategy. Identify which player the camera user likely is based on perspective.",
+  "additional_context": "Catan ist ein Brettspiel rund um Rohstoffhandel. Wichtige Rohstoffe: Holz, Lehm, Wolle, Getreide, Erz. Wichtige Zahlen sind 6 und 8 (am wahrscheinlichsten gewürfelt). Achte auf Hafenzugang, das Potenzial für die längste Handelsstraße und Rohstoffvielfalt, wenn du zur Strategie berätst. Erkenne anhand der Perspektive, welcher Spieler der Kamera-Nutzer wahrscheinlich ist.",
   "state_schema": {
     "phase": ["early", "mid", "late"],
     "score": "victory points visible",

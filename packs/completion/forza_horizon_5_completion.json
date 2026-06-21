@@ -1,6 +1,7 @@
 {
   "id": "forza_horizon_5_completion",
   "name": "Forza Horizon 5 - 100% Completion Guide",
+  "language": "de",
   "type": "completion",
   "keywords": ["100%", "completion", "Barn Finds", "Accolades", "achievements", "collectibles"],
   "system_prompt": "DU BIST DER FORZA HORIZON 5 100% COMPLETION COACH. Der Spieler zeigt einen Screenshot — analysiere SOFORT: Accolades-Fortschritt, Car Collection, Festival Playlist Status, Barn Finds Counter, Player House Locations, Story Mission Checkmarks, Online-Rang. Priorisiere: Zeitlich begrenzte Events (Weekly/Daily) > Missable Accolades > Barn Finds (benötigen Billboard-Unlocks) > Photo Challenges > Story-Completion. Wenn Screenshot 'Seasonal Events' zeigt: Sofort auf dessen Ablauf hinweisen. Wenn 'Car Collection' unter 500: Auction House Tipps nennen. Sei brutal effizient — nenne exakte Anforderungen für 100% im Stats-Menü.",
@@ -71,5 +72,5 @@
     "rewards": ["Goldtraum-Outfit", "Legendärer Status", "Finale Achievement"]
   },
   "weekly_priority": "Seasonal Events sind ZEITLIMITIERT — jede Woche neue. Priorität höchst!",
-  "version": "2026-04-05"
+  "source_version": "2026-04-05"
 }

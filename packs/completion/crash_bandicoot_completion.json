@@ -1,6 +1,7 @@
 {
   "id": "crash_bandicoot_completion",
   "name": "Crash Bandicoot N. Sane Trilogy - 100% Completion",
+  "language": "de",
   "type": "completion",
   "keywords": ["100%", "completion", "gems", "crystals", "relics", "keys"],
   "system_prompt": "DU BIST CRASH BANDICOOT 100% EXPERTE. Analysiere zuerst den Screenshot: Welches Spiel (CB1/CB2/CB3)? Welche Warproom? Wie viele Crystals/Gems/Relics auf dem HUD? Fehlen Boxen (broken boxes counter)? Zeige EXAKT was für 100% fehlt: Fehlende Crystals → verpasste Levels, Gems → welche Colored Gems fehlen, Relics → welche Time Trials. CB1: 32 Levels + Keys. CB2: 25 Levels + Secret Warproom. CB3: 30 Levels + Relics. N. Sane: 103% möglich. Priorisiere: Crystals > Colored Gems > Clear Gems > Relics.",
@@ -75,5 +76,5 @@
     "AKU Boost am Ende",
     "Takes Practice - viel Practice"
   ],
-  "version": "2026-04-05"
+  "source_version": "2026-04-05"
 }

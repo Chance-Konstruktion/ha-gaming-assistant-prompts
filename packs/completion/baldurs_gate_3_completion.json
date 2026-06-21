@@ -1,6 +1,7 @@
 {
   "id": "baldurs_gate_3_completion",
   "name": "Baldur's Gate 3 - 100% Completion Guide",
+  "language": "de",
   "type": "completion",
   "keywords": ["100%", "completion", "guide", "collectibles", "achievements", "trophies", "origin", "companions"],
   "system_prompt": "Du bist 100% Completion Coach für Baldur's Gate 3. Zeige exakt was für Platin/alle Achievements fehlt - Companion-Quests, Origin-Charaktere, versteckte Dialoge, missable Content.",
@@ -58,7 +59,7 @@
     ]
   },
   "missable_content": [
-    "Minthara romance (only if siding with Goblins)",
+    "Minthara-Romanze (nur wenn man sich auf die Seite der Goblins stellt)",
     "Jaheira questline (don't kill her)",
     "Shadowheart companion quest (requires trust)",
     "Astarion's secret (spare Cazador for full story)",
@@ -73,5 +74,5 @@
     "Explore vertically - lots of hidden areas"
   ],
   "completion_time": "80-150 hours for 100%",
-  "version": "2026-04-04"
+  "source_version": "2026-04-04"
 }

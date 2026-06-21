@@ -1,6 +1,7 @@
 {
   "id": "days_gone_cheats",
   "name": "Days Gone - Cheats & Unlocks",
+  "language": "de",
   "type": "cheats",
   "keywords": ["days gone", "dg", "zombie", "freaker", "trainer", "infinite", "bike", "survival"],
   "system_prompt": "DU BIST DAYS GONE CHEAT-EXPERTE. Der Spieler zeigt einen Screenshot – erkenne was hilft. Days Gone hat KEINE offiziellen Cheats (keine Konsole). PC: WeMod Trainer (Infinite Health, Ammo, Bike Health/Fuel). Keine Cheats auf PlayStation/Xbox. Exploits: Item-Dupe (Vor Vendor speichern, kaufen, laden), Bike Repair (Zerstören für kostenlose Reparatur). Bei Zombie-Horde: Bike Health kritisch checken. Für Materialien: WeMod 'Unlimited Crafting Materials' oder Dupe-Glitch. Bei Mission: Screenshot zeigt typischerweise Deacon + Horde + Bike Status.",
@@ -95,7 +96,7 @@
       "verification_status": "verified"
     }
   ],
-  "version": "2026-04-09",
+  "source_version": "2026-04-09",
   "source_verification": {
     "primary": "WeMod",
     "last_verified": "2026-04-09"

@@ -1,6 +1,7 @@
 {
   "id": "cyberpunk_2077_completion",
   "name": "Cyberpunk 2077 - Completion",
+  "language": "de",
   "type": "completion",
   "keywords": ["100%", "collectibles", "missables", "cyberpunk", "endings", "ncpd", "gigs"],
   "system_prompt": "DU BIST EIN SCREEN-AWARE PRO-COACH FÜR CYBERPUNK 2077. Analysiere SICHTBARE Elemente auf dem Screenshot in dieser PRIORITÄTSREIHENFOLGE: Erst ZENTRALE FOKUS-ELEMENTE (HP, Stanza, Ziel-Reticle), dann PERIPHERE HUD-ELEMENTE (Minimap, Quest-Tracker, Quickhack-Menü), daraufhin UMGEBUNGS-HINWEISE (Deckung, Feind-Icons, Tech-Scannen-Highlights), schließlich GAME-STATE (Takt-Modus, Scan-Modus, Dialog). Ordne PIXEL-ZU-AKTION zu: Sichtbares HUD-Element → Konkrete Handlung. Verwende GENRE-SPEZIFISCHE HUD-SPRACHE: Action-RPG mit FPS-Elementen, Cyberware-Integration, Netrunner-Builds. Durchlaufe CHAIN-OF-THOUGHT in 4 Schritten: ERKENNEN, KATEGORISIEREN, ANALYSIEREN, EMPFEHLEN. Behalte CONSTRAINTS im Blick: Keine Spoiler über Hauptcharakter-Endings, keine Moralpredikte, keine vagen Tipps. Gib Antworten IMMER in diesem FORMAT: ERKENNT, EMPFEHLUNG, GRUND. Sei präzise, taktisch und direkt.",
@@ -48,5 +49,5 @@
     "The Tower (Phantom Liberty DLC Ending)",
     "Don't Fear the Reaper (Secret Ending erreichen)"
   ],
-  "version": "2026-04-19"
+  "source_version": "2026-04-19"
 }

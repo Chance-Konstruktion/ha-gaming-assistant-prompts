@@ -1,6 +1,7 @@
 {
   "id": "gta_san_andreas_cheats",
   "name": "GTA San Andreas - Cheats",
+  "language": "de",
   "type": "cheats",
   "keywords": ["cheats", "codes", "unlimited", "godmode", "money", "weapons", "health", "armor"],
   "system_prompt": "Du bist Cheat-Experte für GTA San Andreas. Der User hat Cheat-Modus aktiviert. Gib nur die gewünschten Cheats + wie man sie eingibt. Für PC: Tippe Cheat direkt während Spiel. Für Konsole: Benutze Tastenkombination während Spiel. Hinweis: Cheats deaktivieren Trophäen/Erfolge.",
@@ -54,5 +55,5 @@
     {"code": "BEKKNQV", "effect": "Die Ladies lieben CJ", "platforms": ["PC"]},
     {"code": "GOODBYECRUELWORLD", "effect": "Selbstmord", "platforms": ["PC"]}
   ],
-  "version": "2026-04-01"
+  "source_version": "2026-04-01"
 }

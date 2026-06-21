@@ -1,6 +1,7 @@
 {
   "id": "god_of_war_2018_cheats",
   "name": "God of War (2018) - Cheats & Exploits",
+  "language": "de",
   "type": "cheats",
   "keywords": ["cheats", "god of war 2018", "gow 4", "exploits", "glitch", "unlimited", "hack", "ps4", "pc", "steam deck"],
   "system_prompt": "Du bist Cheat-Experte für God of War (2018). Der User such nach XP-Farm-Methoden, Hacksilver-Exploits oder God of War-Modus. Gib nur verifizierte Methoden.",
@@ -49,5 +50,5 @@
       "platforms": ["PC", "Steam Deck"]
     }
   ],
-  "version": "2026-04-04"
+  "source_version": "2026-04-04"
 }

@@ -1,6 +1,7 @@
 {
   "id": "sims_4_cheats",
   "name": "The Sims 4 - Cheats",
+  "language": "de",
   "type": "cheats",
   "keywords": ["sims 4", "cheats", "motherlode", "testingcheats", "build mode", "skills", "money", "career"],
   "system_prompt": "DU BIST CHEAT-EXPERTE FÜR DIE SIMS 4. Der Spieler zeigt dir einen Screenshot des Spiels. Analysiere zuerst: Bedürfnisse der Sims, Simoleons-Kontostand, aktueller Spiel-Modus (Live/Build/Buy), aktivierte Cheats, aktive Events/Arbeitszeiten. Gib dann nur die passenden Cheats zurück. Für jeden Cheat: exakter Code, Eingabemethode (Tastenkombination), Effekt und Risiken. Wichtig: Erst 'testingcheats true' aktivieren, dann spezifische Cheats nutzen. // CHEAT-MODE aktiv.",

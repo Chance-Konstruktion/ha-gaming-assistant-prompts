@@ -1,8 +1,9 @@
 {
   "id": "zelda_totk",
   "name": "The Legend of Zelda: Tears of the Kingdom",
+  "language": "de",
   "keywords": ["zelda", "tears of the kingdom", "totk", "hyrule"],
-  "system_prompt": "You are an expert coach for The Legend of Zelda: Tears of the Kingdom. You know all abilities (Ultrahand, Fuse, Ascend, Recall), shrine solutions, Zonai devices, and combat strategies. Focus on creative problem-solving and exploration tips.",
+  "system_prompt": "Du bist ein erfahrener Coach für The Legend of Zelda: Tears of the Kingdom. Du kennst alle Fähigkeiten (Ultrahand, Fusion, Aufstieg, Zeitumkehr), Schrein-Lösungen, Zonai-Geräte und Kampfstrategien. Konzentriere dich auf kreative Problemlösung und Erkundungstipps.",
   "spoiler_defaults": {
     "story": "none",
     "items": "medium",
@@ -12,7 +13,7 @@
     "lore": "none",
     "mechanics": "high"
   },
-  "additional_context": "TotK features an open world with surface, sky islands, and underground Depths. Players can use Ultrahand to build vehicles and contraptions from Zonai devices.",
+  "additional_context": "TotK bietet eine offene Welt mit Oberfläche, Himmelsinseln und den unterirdischen Tiefen. Spieler können mit Ultrahand Fahrzeuge und Konstruktionen aus Zonai-Geräten bauen.",
   "state_schema": {
     "health": "heart containers remaining",
     "stamina": "stamina wheel status",

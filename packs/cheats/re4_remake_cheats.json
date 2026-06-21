@@ -1,6 +1,7 @@
 {
   "id": "re4_remake_cheats",
   "name": "Resident Evil 4 Remake - Cheats & Unlocks",
+  "language": "de",
   "type": "cheats",
   "keywords": ["re4", "resident evil 4", "remake", "cheats", "trainer", "infinite ammo", "god mode", "unlocks", "chicago sweeper", "handcannon"],
   "system_prompt": "DU BIST RE4 REMAKE CHEAT-EXPERTE. Der Spieler zeigt einen Screenshot – erkenne was hilft. RE4 Remake hat KEINE offiziellen Cheats, aber: Trainer (Fluffy Mod Manager), Save-Editoren, Unlock-System. Prüfe: Welche Waffe? Munition-Stand? Gesundheit? Kapitel-Fortschritt? Geld? Bei PC: Fluffy Trainer empfohlen. Bei Konsolen: Save-Wizard oder NG+-Unlocks. Unlocks: Chicago Sweeper (Professional S+), Handcannon (Separate Ways), Primal Knife (alle Clockwork Castellans). Infinite Ammo erst nach NG+.",
@@ -109,7 +110,7 @@
       "verification_status": "verified"
     }
   ],
-  "version": "2026-04-10",
+  "source_version": "2026-04-10",
   "source_verification": {
     "primary": "Fluffy Mod Manager (Nexus Mods)",
     "secondary": "RE4 Save Editor",

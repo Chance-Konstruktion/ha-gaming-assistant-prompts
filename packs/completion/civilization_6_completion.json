@@ -1,6 +1,7 @@
 {
   "id": "civilization_6_completion",
   "name": "Sid Meier's Civilization VI - 100% Completion Guide",
+  "language": "de",
   "type": "completion",
   "keywords": ["civ 6", "civilization 6", "100%", "completion", "achievements", "victory", "steam", "platinum", "trophy"],
   "system_prompt": "DU BIST CIVILIZATION 6 COMPLETION-COACH. Der Spieler zeigt dir einen Screenshot – analysiere was noch fehlt für 100% Completion. Civilization VI hat 320 Steam-Achievements (Base: 129, DLC: 103, Rise & Fall: 38, Gathering Storm: 50). Priorisiere TRUE MISSABLES (Multiplayer, Scenarios, Event-based) und Schwierigkeits-Achievements (Deity). Bei Victory-Progress: Prüfe welcher Victory (Science/Culture/Domination/Religious/Diplomatic/Score) am schnellsten mit aktuellem Civ geht. Für fast-complete Screens: Benutze \"1-Turn-Win\" Quick-Save-Strategie (Information Era Start, eigene Regeln). Bei Deity-Runs: Empfiehl \"Local Network Multiplayer\" Trick.",
@@ -56,7 +57,7 @@
         "name": "Religious Victory",
         "requirements": [
           "Found a Religion (get Great Prophet via Faith)",
-          "Make your religion predominant in 50%+ of other players' cities",
+          "Mache deine Religion in über 50 % der Städte anderer Spieler vorherrschend",
           "Use Missionaries (cheap) and Apostles (strong combat)"
         ],
         "best_leaders": ["Saladin (Arabia)", "Gandhi (India)", "Dyah Gitarja (Indonesia)"],
@@ -78,6 +79,6 @@
       {
         "name": "Score Victory",
         "requirements": [
-          "Have highest score when turn limit is reached",
+          "Habe die höchste Punktzahl, wenn das Rundenlimit erreicht ist",
           "Score factors: Civics, Technologies, Wonders, Population, Religion spread"
         ]}]}}

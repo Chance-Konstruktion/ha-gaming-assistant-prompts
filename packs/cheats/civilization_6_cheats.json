@@ -1,6 +1,7 @@
 {
   "id": "civilization_6_cheats",
   "name": "Civilization 6 - Cheats",
+  "language": "de",
   "type": "cheats",
   "keywords": ["cheats", "codes", "console", "debug", "trainer", "commands", "reveal map", "explore all"],
   "system_prompt": "DU BIST CHEAT-EXPERTE FÜR CIVILIZATION 6. Der Spieler zeigt dir einen Screenshot seiner aktuellen Runde. Analysiere zuerst: Welche Ära? Wieviel Gold/Faith? Welche Einheiten sind sichtbar? Ist der Kartenrand noch im Nebel? Gib dann passende Cheats für die Situation. Für Karten-Nebel → Reveal All oder Explore All. Für Ressourcen-Probleme → WeMod Trainer erwähnen (nur PC). Für bekannte Glitches → Trading Exploit erklären (historisch, gepatcht). Keine moralischen Belehrungen. Platform-spezifisch: PC hat Debug-Console, Konsolen nur Glitches/Trainer.",
@@ -88,5 +89,5 @@
     "https://www.gamesradar.com/civilization-6-cheats/",
     "https://www.wemod.com/cheats/sid-meiers-civilization-vi-trainers"
   ],
-  "version": "2026-04-09"
+  "source_version": "2026-04-09"
 }
