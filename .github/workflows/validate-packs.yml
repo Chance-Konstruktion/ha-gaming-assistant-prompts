@@ -22,3 +22,9 @@ jobs:
         # Previously this ran advisory-only (continue-on-error), which let
         # 13 Latin-1 files and 28 broken-JSON packs ship undetected.
         run: python3 scripts/validate_packs.py --strict
+
+      - name: Verify checksum manifest is up to date
+        # The integration verifies downloaded packs against checksums.json, so
+        # a pack change without regenerating the manifest would break verified
+        # downloads. Fail the build if the committed manifest is stale.
+        run: python3 scripts/generate_manifest.py --check

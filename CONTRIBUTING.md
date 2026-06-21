@@ -22,6 +22,17 @@ python3 scripts/validate_packs.py
 python3 scripts/validate_packs.py --strict
 ```
 
+## Checksum Manifest
+
+The integration verifies every downloaded pack against `checksums.json` before
+using it. Whenever you add or change a pack, regenerate the manifest and commit
+it — CI fails if it is stale:
+
+```bash
+python3 scripts/generate_manifest.py          # regenerate
+python3 scripts/generate_manifest.py --check   # what CI runs
+```
+
 ## Prompt Quality
 
 Recommended checks for each generated file:
