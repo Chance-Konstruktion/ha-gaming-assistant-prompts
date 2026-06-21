@@ -66,6 +66,6 @@
       "Tournament Mode nur bei Events verfügbar - warten oder aktiv suchen"
     ]
   },
-  "version": "2026-04-09",
+  "source_version": "2026-04-09",
   "sources": ["TrueAchievements", "GameRant SF6 Trophy Guide", "official Capcom patch notes"]
 }

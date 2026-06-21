@@ -96,7 +96,7 @@
       "verification_status": "verified"
     }
   ],
-  "version": "2026-04-09",
+  "source_version": "2026-04-09",
   "source_verification": {
     "primary": "WeMod",
     "last_verified": "2026-04-09"

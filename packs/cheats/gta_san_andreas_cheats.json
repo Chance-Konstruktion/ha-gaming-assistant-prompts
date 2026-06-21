@@ -55,5 +55,5 @@
     {"code": "BEKKNQV", "effect": "Die Ladies lieben CJ", "platforms": ["PC"]},
     {"code": "GOODBYECRUELWORLD", "effect": "Selbstmord", "platforms": ["PC"]}
   ],
-  "version": "2026-04-01"
+  "source_version": "2026-04-01"
 }

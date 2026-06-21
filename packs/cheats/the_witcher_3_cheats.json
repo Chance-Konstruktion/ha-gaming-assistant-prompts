@@ -16,5 +16,5 @@
     { "name": "Gwent All Cards", "code": "addgwintcards", "platform": "PC", "effect": "Alle Gwent-Karten", "risks": "Trophäe blockiert", "input_method": "Tilde-Taste" },
     { "name": "Switch to Ciri", "code": "Ciri", "platform": "PC", "effect": "Char-Wechsel", "risks": "Story-Impact", "input_method": "Tilde-Taste" }
   ],
-  "version": "2026-04-20"
+  "source_version": "2026-04-20"
 }

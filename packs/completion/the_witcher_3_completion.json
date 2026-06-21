@@ -25,5 +25,5 @@
     { "name": "Dendrologist", "type": "collectible", "description": "Acquire all gwent cards from Skellige deck", "missable": false },
     { "name": "I Have the Power!", "type": "combat", "description": "Have all possible Place of Power bonuses active at the same time", "missable": false }
   ],
-  "version": "2026-04-20"
+  "source_version": "2026-04-20"
 }

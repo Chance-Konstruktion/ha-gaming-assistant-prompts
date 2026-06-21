@@ -72,5 +72,5 @@
   ],
   "online_warning": "ACHTUNG: Cheats im Online-Modus = softban (unkommunizierbare Server). Cheats NUR im Offline-Modus verwenden!",
   "backup_reminder": "VOR jedem Cheat: Save-Backup erstellen! Saves sind in AppData\\Roaming\\EldenRing\\",
-  "version": "2026-04-04"
+  "source_version": "2026-04-04"
 }

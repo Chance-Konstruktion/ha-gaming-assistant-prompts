@@ -49,5 +49,5 @@
     {"name": "Light my fire", "type": "silver", "description": "10 Zombies mit einem Molotov", "difficulty": "medium"},
     {"name": "Steam Punk", "type": "silver", "description": "Erstelle eine elektrische oder Feuer-Waffe", "difficulty": "easy"}
   ],
-  "version": "2026-04-12"
+  "source_version": "2026-04-12"
 }

@@ -24,5 +24,5 @@
     {"name": "Lost & Found", "type": "gold", "description": "Rette alle 300 verlorenen Bots"},
     {"name": "Puzzle Pro", "type": "gold", "description": "Sammle alle 120 Puzzle Pieces"}
   ],
-  "version": "2026-04-14"
+  "source_version": "2026-04-14"
 }

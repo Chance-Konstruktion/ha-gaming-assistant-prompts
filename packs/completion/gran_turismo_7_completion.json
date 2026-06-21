@@ -115,7 +115,7 @@
   "hardest_requirement": "S License Gold + alle Missionen Gold",
   "missable_content": "Used Car Dealer Inventory (täglich rotierend)",
   "daily_check": "Used Cars + Legend Dealer für rare Autos",
-  "version": "2026-04-10",
+  "source_version": "2026-04-10",
   "source_verification": {
     "primary": "GTPlanet",
     "last_verified": "2026-04-10"
