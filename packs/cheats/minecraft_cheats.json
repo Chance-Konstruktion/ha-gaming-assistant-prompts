@@ -88,7 +88,7 @@
       "name": "Permanent Strength V",
       "code": "/effect give @p minecraft:strength 99999 5",
       "method": "Command",
-      "effect": "One-shot kill most mobs with bare hands",
+      "effect": "Tötet die meisten Mobs mit einem Schlag der bloßen Hand",
       "risk": "Combat becomes trivial",
       "verification_status": "verified"
     },

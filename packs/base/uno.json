@@ -15,7 +15,7 @@
   },
   "additional_context": "UNO ist ein Kartenspiel, bei dem Spieler Farben oder Zahlen abgleichen. Aktionskarten (Aussetzen, Richtungswechsel, Zieh Zwei) und Wild-Karten (Farbwahl, Farbwahl Zieh Vier) sind wichtige taktische Elemente. Behalte im Blick, wie viele Karten die Gegner haben, und rate, wann 'UNO' zu rufen ist.",
   "state_schema": {
-    "cards_in_hand": "number of cards the player has",
+    "cards_in_hand": "Anzahl der Karten in der Hand des Spielers",
     "top_card": "current top card on discard pile",
     "color": ["red", "blue", "green", "yellow"],
     "opponent_cards": "number of cards opponents have",

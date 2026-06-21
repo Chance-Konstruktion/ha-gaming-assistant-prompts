@@ -41,7 +41,7 @@
       "description": "Alle Kämpfer freischalten",
       "total_fighters": 250,
       "categories": [
-        {"type": "Base Roster", "count": 200, " unlocked": "Start"},
+        {"type": "Base Roster", "count": 200, "unlocked": "Start"},
         {"type": "Legendary", "count": 12, "unlock": "UFC Points oder Challenges"},
         {"type": "PRIDE Alter Egos", "count": 10, "unlock": "Challenges"},
         {"type": "DLC/Updates", "count": 28, "unlock": "Saisonal"}

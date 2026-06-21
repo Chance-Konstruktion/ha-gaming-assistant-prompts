@@ -23,6 +23,12 @@ jobs:
         # 13 Latin-1 files and 28 broken-JSON packs ship undetected.
         run: python3 scripts/validate_packs.py --strict
 
+      - name: Content QA — catch untranslated/stub prose and template leftovers
+        # Fails only on high-confidence ERRORs (empty/stub system_prompt, leftover
+        # template or English scaffolding, whitespace-corrupted keys). Suspected
+        # untranslated prose is reported as advisory WARN and does not fail the build.
+        run: python3 scripts/qa_packs.py
+
       - name: Verify checksum manifest is up to date
         # The integration verifies downloaded packs against checksums.json, so
         # a pack change without regenerating the manifest would break verified

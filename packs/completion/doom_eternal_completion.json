@@ -56,7 +56,7 @@
       "description": "Pro Mission 3 optionale Herausforderungen für Extra LP.",
       "examples": {
         "Hell_on_Earth": ["Eliminate 5 trembling enemies", "Find Codex: Slayer Undergarb", "Find 1 Secret"],
-        "Cultist_Base": ["Equip Chainsaw", "Kill 5 Cacodemons while they charge", "Find Secret Room"]
+        "Cultist_Base": ["Equip Chainsaw", "Töte 5 Cacodemons, während sie aufladen", "Find Secret Room"]
       }
     },
     {

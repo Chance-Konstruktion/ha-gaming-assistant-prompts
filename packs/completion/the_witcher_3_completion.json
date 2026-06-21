@@ -23,7 +23,7 @@
   "trophies": [
     { "name": "Card Collector", "type": "collectible", "description": "Collect all Gwent cards", "missable": true },
     { "name": "Dendrologist", "type": "collectible", "description": "Acquire all gwent cards from Skellige deck", "missable": false },
-    { "name": "I Have the Power!", "type": "combat", "description": "Have all possible Place of Power bonuses active at the same time", "missable": false }
+    { "name": "I Have the Power!", "type": "combat", "description": "Habe alle möglichen Ort-der-Macht-Boni gleichzeitig aktiv", "missable": false }
   ],
   "source_version": "2026-04-20"
 }

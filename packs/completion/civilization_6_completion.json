@@ -57,7 +57,7 @@
         "name": "Religious Victory",
         "requirements": [
           "Found a Religion (get Great Prophet via Faith)",
-          "Make your religion predominant in 50%+ of other players' cities",
+          "Mache deine Religion in über 50 % der Städte anderer Spieler vorherrschend",
           "Use Missionaries (cheap) and Apostles (strong combat)"
         ],
         "best_leaders": ["Saladin (Arabia)", "Gandhi (India)", "Dyah Gitarja (Indonesia)"],
@@ -79,6 +79,6 @@
       {
         "name": "Score Victory",
         "requirements": [
-          "Have highest score when turn limit is reached",
+          "Habe die höchste Punktzahl, wenn das Rundenlimit erreicht ist",
           "Score factors: Civics, Technologies, Wonders, Population, Religion spread"
         ]}]}}
