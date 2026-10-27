@@ -70,6 +70,18 @@ class ValidatePacksTests(unittest.TestCase):
             self.assertEqual(result.returncode, 1, result.stdout + result.stderr)
             self.assertIn("missing 'language' field", result.stdout)
 
+    def test_strict_mode_fails_on_non_object_json(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            cwd = Path(tmp)
+            (cwd / "packs").mkdir()
+            (cwd / "packs" / "array_root.json").write_text("[]\\n", encoding="utf-8")
+
+            result = run_script("scripts/validate_packs.py", "--strict", cwd=cwd)
+
+            self.assertEqual(result.returncode, 1, result.stdout + result.stderr)
+            self.assertIn("JSON structure issues", result.stdout)
+            self.assertIn("top-level JSON value must be an object, got list", result.stdout)
+
     def test_default_mode_allows_json_warnings_but_fails_naming_violations(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             cwd = Path(tmp)
