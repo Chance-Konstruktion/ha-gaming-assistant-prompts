@@ -74,7 +74,7 @@ class ValidatePacksTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             cwd = Path(tmp)
             (cwd / "packs").mkdir()
-            (cwd / "packs" / "array_root.json").write_text("[]\\n", encoding="utf-8")
+            (cwd / "packs" / "array_root.json").write_text("[]\n", encoding="utf-8")
 
             result = run_script("scripts/validate_packs.py", "--strict", cwd=cwd)
 
