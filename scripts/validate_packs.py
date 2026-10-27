@@ -14,7 +14,7 @@ from pathlib import Path
 
 PACKS_DIR = Path("packs")
 JSON_EXT = ".json"
-NAME_RE = re.compile(r"^[a-z0-9_]+(?:\.[a-z0-9_]+)?\.json$")
+NAME_RE = re.compile(r"^[a-z0-9_]+\.json$")
 
 # Every pack must declare the language of its prompt text. The library is
 # unified on German; the field stays a general declaration so other languages
