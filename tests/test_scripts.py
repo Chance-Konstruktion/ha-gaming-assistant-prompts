@@ -87,6 +87,7 @@ class ValidatePacksTests(unittest.TestCase):
             cwd = Path(tmp)
             (cwd / "packs").mkdir()
             (cwd / "packs" / "Bad-Name.json").write_text('{"language":"de"}\n', encoding="utf-8")
+            (cwd / "packs" / "bad.dot.json").write_text('{"language":"de"}\n', encoding="utf-8")
             (cwd / "packs" / "broken_json.json").write_text('{"language":', encoding="utf-8")
 
             result = run_script("scripts/validate_packs.py", cwd=cwd)
@@ -94,6 +95,7 @@ class ValidatePacksTests(unittest.TestCase):
             self.assertEqual(result.returncode, 1, result.stdout + result.stderr)
             self.assertIn("Naming violations", result.stdout)
             self.assertIn("Bad-Name.json", result.stdout)
+            self.assertIn("bad.dot.json", result.stdout)
             self.assertIn("JSON parse issues", result.stdout)
 
 
