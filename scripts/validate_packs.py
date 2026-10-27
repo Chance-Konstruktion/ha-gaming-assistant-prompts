@@ -40,6 +40,7 @@ def main() -> int:
     naming_errors: list[str] = []
     encoding_errors: list[str] = []
     json_errors: list[str] = []
+    structure_errors: list[str] = []
     language_errors: list[str] = []
 
     files = list(iter_json_files(PACKS_DIR))
@@ -63,14 +64,19 @@ def main() -> int:
             json_errors.append(f"{rel}: line {exc.lineno}, col {exc.colno} ({exc.msg})")
             continue
 
-        if isinstance(data, dict):
-            lang = data.get("language")
-            if lang is None:
-                language_errors.append(f"{rel}: missing 'language' field")
-            elif lang not in ALLOWED_LANGUAGES:
-                language_errors.append(
-                    f"{rel}: 'language' must be one of {sorted(ALLOWED_LANGUAGES)}, got {lang!r}"
-                )
+        if not isinstance(data, dict):
+            structure_errors.append(
+                f"{rel}: top-level JSON value must be an object, got {type(data).__name__}"
+            )
+            continue
+
+        lang = data.get("language")
+        if lang is None:
+            language_errors.append(f"{rel}: missing 'language' field")
+        elif lang not in ALLOWED_LANGUAGES:
+            language_errors.append(
+                f"{rel}: 'language' must be one of {sorted(ALLOWED_LANGUAGES)}, got {lang!r}"
+            )
 
     print(f"Scanned {len(files)} JSON files under packs/.")
 
@@ -91,6 +97,11 @@ def main() -> int:
         for err in json_errors:
             print(f"  - {err}")
 
+    if structure_errors:
+        print("\n⚠️ JSON structure issues:")
+        for err in structure_errors:
+            print(f"  - {err}")
+
     if language_errors:
         print("\n⚠️ Language declaration issues:")
         for err in language_errors:
@@ -101,7 +112,7 @@ def main() -> int:
     if naming_errors:
         return 1
 
-    if args.strict and (encoding_errors or json_errors or language_errors):
+    if args.strict and (encoding_errors or json_errors or structure_errors or language_errors):
         return 1
 
     return 0
