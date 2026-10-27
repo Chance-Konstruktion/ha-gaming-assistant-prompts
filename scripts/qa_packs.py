@@ -73,11 +73,13 @@ GERMAN_TOKENS = {
     "beim", "zum", "zur", "vom", "spielst", "achte", "nutze", "verwende",
 }
 
-_TOKEN_RE = re.compile(r"[A-Za-z']+")
+# Unicode-aware words: German umlauts/ß must stay in a token. Keep English
+# contractions together, then normalize apostrophes so "you're" matches "youre".
+_TOKEN_RE = re.compile(r"[^\\W\\d_]+(?:['’][^\\W\\d_]+)*", re.UNICODE)
 
 
 def _tokens(text: str) -> list[str]:
-    return [t.lower() for t in _TOKEN_RE.findall(text)]
+    return [re.sub(r"['’]", "", token.lower()) for token in _TOKEN_RE.findall(text)]
 
 
 def classify_language(text: str) -> tuple[str, set[str], set[str]]:
