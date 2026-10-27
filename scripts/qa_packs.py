@@ -75,7 +75,7 @@ GERMAN_TOKENS = {
 
 # Unicode-aware words: German umlauts/ß must stay in a token. Keep English
 # contractions together, then normalize apostrophes so "you're" matches "youre".
-_TOKEN_RE = re.compile(r"[^\\W\\d_]+(?:['’][^\\W\\d_]+)*", re.UNICODE)
+_TOKEN_RE = re.compile(r"[^\W\d_]+(?:['’][^\W\d_]+)*", re.UNICODE)
 
 
 def _tokens(text: str) -> list[str]:
